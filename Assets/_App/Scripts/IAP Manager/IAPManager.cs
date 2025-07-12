@@ -7,14 +7,14 @@ using UnityEngine.Purchasing;
 
 public class IAPKey
 {
-	public const string PACK1="tycoon_submarine_game_pack_1";
-	public const string PACK2="tycoon_submarine_game_pack_2";
-	public const string PACK3="tycoon_submarine_game_pack_3";
-	public const string PACK4="tycoon_submarine_game_pack_4";
-	public const string PACK5="tycoon_submarine_game_pack_5";
-	public const string PACK6="tycoon_submarine_game_pack_6";
-	public const string PACK7="tycoon_submarine_game_pack_7";
-	public const string PACK8="tycoon_submarine_game_pack_8";
+	public const string PACK1="airline_game_pack_1";
+	public const string PACK2="airline_game_pack_2";
+	public const string PACK3="airline_game_pack_3";
+	public const string PACK4="airline_game_pack_4";
+	public const string PACK5="airline_game_pack_5";
+	public const string PACK6="airline_game_pack_6";
+	public const string PACK7="airline_game_pack_7";
+	public const string PACK8="airline_game_pack_8";
 }
 
 public class IAPManager : PersistentSingleton<IAPManager>,IStoreListener
