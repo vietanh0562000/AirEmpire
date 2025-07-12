@@ -560,27 +560,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8315927305276807360, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listCaptainPos.Array.data[0]
+      propertyPath: 'listCaptainPos.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603688985283685}
     - target: {fileID: 8315927305276807360, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listCaptainPos.Array.data[1]
+      propertyPath: 'listCaptainPos.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603690157045661}
     - target: {fileID: 8315927305276807360, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listCaptainPos.Array.data[2]
+      propertyPath: 'listCaptainPos.Array.data[2]'
       value: 
       objectReference: {fileID: 2807603690768959414}
     - target: {fileID: 8315927305276807360, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listCaptainPos.Array.data[3]
+      propertyPath: 'listCaptainPos.Array.data[3]'
       value: 
       objectReference: {fileID: 2807603690730572630}
     - target: {fileID: 8315927305276807360, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listParentCaptain.Array.data[3]
+      propertyPath: 'listParentCaptain.Array.data[3]'
       value: 
       objectReference: {fileID: 2807603690730572630}
     - target: {fileID: 8315927305597366033, guid: 9de9afaa948e19a4fba4debe6de82621,
@@ -735,32 +735,32 @@ PrefabInstance:
       objectReference: {fileID: 2807603689605160387}
     - target: {fileID: 8315927305597366035, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listTextZone.Array.data[0]
+      propertyPath: 'listTextZone.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603690338975609}
     - target: {fileID: 8315927305597366035, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listTextZone.Array.data[1]
+      propertyPath: 'listTextZone.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603690213678676}
     - target: {fileID: 8315927305597366035, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listTextZone.Array.data[2]
+      propertyPath: 'listTextZone.Array.data[2]'
       value: 
       objectReference: {fileID: 2807603690787639210}
     - target: {fileID: 8315927305597366035, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listUpgradePanel.Array.data[0]
+      propertyPath: 'listUpgradePanel.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603689810479944}
     - target: {fileID: 8315927305597366035, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listUpgradePanel.Array.data[1]
+      propertyPath: 'listUpgradePanel.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603689489483246}
     - target: {fileID: 8315927305597366035, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listUpgradePanel.Array.data[2]
+      propertyPath: 'listUpgradePanel.Array.data[2]'
       value: 
       objectReference: {fileID: 2807603690545293041}
     - target: {fileID: 8315927305597366044, guid: 9de9afaa948e19a4fba4debe6de82621,
@@ -1076,87 +1076,87 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8315927305872394383, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listCameraZonePos.Array.data[0]
+      propertyPath: 'listCameraZonePos.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603690437928194}
     - target: {fileID: 8315927305872394383, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listCameraZonePos.Array.data[1]
+      propertyPath: 'listCameraZonePos.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603689097376557}
     - target: {fileID: 8315927305872394383, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listCameraZonePos.Array.data[2]
+      propertyPath: 'listCameraZonePos.Array.data[2]'
       value: 
       objectReference: {fileID: 2807603690742251397}
     - target: {fileID: 8315927305872394383, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listCameraZonePos.Array.data[3]
+      propertyPath: 'listCameraZonePos.Array.data[3]'
       value: 
       objectReference: {fileID: 3222252853959596311}
     - target: {fileID: 8315927305872394383, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listMenuIconChosen.Array.data[0]
+      propertyPath: 'listMenuIconChosen.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603690208875386}
     - target: {fileID: 8315927305872394383, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listMenuIconChosen.Array.data[1]
+      propertyPath: 'listMenuIconChosen.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603690748325695}
     - target: {fileID: 8315927305872394383, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listMenuIconChosen.Array.data[2]
+      propertyPath: 'listMenuIconChosen.Array.data[2]'
       value: 
       objectReference: {fileID: 2807603689266085179}
     - target: {fileID: 8315927305872394383, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listMenuIconChosen.Array.data[3]
+      propertyPath: 'listMenuIconChosen.Array.data[3]'
       value: 
       objectReference: {fileID: 2807603690527006310}
     - target: {fileID: 8315927305872394383, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listMenuIconChosen.Array.data[4]
+      propertyPath: 'listMenuIconChosen.Array.data[4]'
       value: 
       objectReference: {fileID: 2807603690296301156}
     - target: {fileID: 8315927305872394383, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listUpgradeEffects.Array.data[0]
+      propertyPath: 'listUpgradeEffects.Array.data[0]'
       value: 
       objectReference: {fileID: 2041800040696734943}
     - target: {fileID: 8315927305872394383, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listUpgradeEffects.Array.data[1]
+      propertyPath: 'listUpgradeEffects.Array.data[1]'
       value: 
       objectReference: {fileID: 292119561386478090}
     - target: {fileID: 8315927305872394383, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listUpgradeEffects.Array.data[2]
+      propertyPath: 'listUpgradeEffects.Array.data[2]'
       value: 
       objectReference: {fileID: 292119561616093353}
     - target: {fileID: 8315927305872394383, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listMenuChosenObject.Array.data[0]
+      propertyPath: 'listMenuChosenObject.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603689398094998}
     - target: {fileID: 8315927305872394383, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listMenuChosenObject.Array.data[1]
+      propertyPath: 'listMenuChosenObject.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603690755347583}
     - target: {fileID: 8315927305872394383, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listMenuChosenObject.Array.data[2]
+      propertyPath: 'listMenuChosenObject.Array.data[2]'
       value: 
       objectReference: {fileID: 2807603689050385738}
     - target: {fileID: 8315927305872394383, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listMenuChosenObject.Array.data[3]
+      propertyPath: 'listMenuChosenObject.Array.data[3]'
       value: 
       objectReference: {fileID: 2807603689312580408}
     - target: {fileID: 8315927305872394383, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listMenuChosenObject.Array.data[4]
+      propertyPath: 'listMenuChosenObject.Array.data[4]'
       value: 
       objectReference: {fileID: 2807603690227635663}
     - target: {fileID: 8315927305913941311, guid: 9de9afaa948e19a4fba4debe6de82621,
@@ -1196,72 +1196,72 @@ PrefabInstance:
       objectReference: {fileID: 8349339024431536108}
     - target: {fileID: 8315927305913941311, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPanelTutorial.Array.data[0]
+      propertyPath: 'listPanelTutorial.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603689134409098}
     - target: {fileID: 8315927305913941311, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPanelTutorial.Array.data[1]
+      propertyPath: 'listPanelTutorial.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603690475342292}
     - target: {fileID: 8315927305913941311, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPanelTutorial.Array.data[2]
+      propertyPath: 'listPanelTutorial.Array.data[2]'
       value: 
       objectReference: {fileID: 2807603690464357756}
     - target: {fileID: 8315927305913941311, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPanelTutorial.Array.data[3]
+      propertyPath: 'listPanelTutorial.Array.data[3]'
       value: 
       objectReference: {fileID: 2807603689198656441}
     - target: {fileID: 8315927305913941311, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listTutorialCameraPos.Array.data[0]
+      propertyPath: 'listTutorialCameraPos.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603690576912234}
     - target: {fileID: 8315927305913941311, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listTutorialCameraPos.Array.data[1]
+      propertyPath: 'listTutorialCameraPos.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603690861595846}
     - target: {fileID: 8315927305913941311, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listTutorialCameraPos.Array.data[2]
+      propertyPath: 'listTutorialCameraPos.Array.data[2]'
       value: 
       objectReference: {fileID: 2807603690726312620}
     - target: {fileID: 8315927305913941311, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPanelTutorialCaptain.Array.data[0]
+      propertyPath: 'listPanelTutorialCaptain.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603688935424352}
     - target: {fileID: 8315927305913941311, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPanelTutorialCaptain.Array.data[1]
+      propertyPath: 'listPanelTutorialCaptain.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603689575374254}
     - target: {fileID: 8315927305913941311, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPanelTutorialCaptain.Array.data[2]
+      propertyPath: 'listPanelTutorialCaptain.Array.data[2]'
       value: 
       objectReference: {fileID: 2807603688933948965}
     - target: {fileID: 8315927305913941311, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPanelTutorialUpgrade.Array.data[0]
+      propertyPath: 'listPanelTutorialUpgrade.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603689944521875}
     - target: {fileID: 8315927305913941311, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPanelTutorialUpgrade.Array.data[1]
+      propertyPath: 'listPanelTutorialUpgrade.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603690540442851}
     - target: {fileID: 8315927305913941311, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPanelTutorialUpgrade.Array.data[2]
+      propertyPath: 'listPanelTutorialUpgrade.Array.data[2]'
       value: 
       objectReference: {fileID: 2807603689809503506}
     - target: {fileID: 8315927305913941311, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPanelTutorialUpgrade.Array.data[3]
+      propertyPath: 'listPanelTutorialUpgrade.Array.data[3]'
       value: 
       objectReference: {fileID: 2807603690516418339}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
@@ -1291,112 +1291,112 @@ PrefabInstance:
       objectReference: {fileID: 4805316629420499895}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPosSail.Array.data[0]
+      propertyPath: 'listPosSail.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603689892409907}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPosSail.Array.data[1]
+      propertyPath: 'listPosSail.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603690193204533}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPosTester.Array.data[0]
+      propertyPath: 'listPosTester.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603689838067311}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPosTester.Array.data[1]
+      propertyPath: 'listPosTester.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603690045067015}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPosTester.Array.data[2]
+      propertyPath: 'listPosTester.Array.data[2]'
       value: 
       objectReference: {fileID: 2807603689501214449}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPosParking.Array.data[0]
+      propertyPath: 'listPosParking.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603689750568291}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPosParking.Array.data[1]
+      propertyPath: 'listPosParking.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603690536109740}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPosParking.Array.data[2]
+      propertyPath: 'listPosParking.Array.data[2]'
       value: 
       objectReference: {fileID: 2807603690987810287}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPosParking.Array.data[3]
+      propertyPath: 'listPosParking.Array.data[3]'
       value: 
       objectReference: {fileID: 2807603689164357625}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPosFirstZone.Array.data[0]
+      propertyPath: 'listPosFirstZone.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603690612276538}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPosFirstZone.Array.data[1]
+      propertyPath: 'listPosFirstZone.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603689096848890}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPosFirstZone.Array.data[2]
+      propertyPath: 'listPosFirstZone.Array.data[2]'
       value: 
       objectReference: {fileID: 2807603689645639322}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listTestShipEffect.Array.data[0]
+      propertyPath: 'listTestShipEffect.Array.data[0]'
       value: 
       objectReference: {fileID: 7544350154506180493}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listTestShipEffect.Array.data[1]
+      propertyPath: 'listTestShipEffect.Array.data[1]'
       value: 
       objectReference: {fileID: 3066126439772091967}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listTestShipEffect.Array.data[2]
+      propertyPath: 'listTestShipEffect.Array.data[2]'
       value: 
       objectReference: {fileID: 7072792405730015732}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listBarrierProgress.Array.data[0]
+      propertyPath: 'listBarrierProgress.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603689629872453}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listBarrierProgress.Array.data[1]
+      propertyPath: 'listBarrierProgress.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603690228279807}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listBarrierProgress.Array.data[2]
+      propertyPath: 'listBarrierProgress.Array.data[2]'
       value: 
       objectReference: {fileID: 2807603688903091007}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listCustomerPathPos.Array.data[0]
+      propertyPath: 'listCustomerPathPos.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603690373945038}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listCustomerPathPos.Array.data[1]
+      propertyPath: 'listCustomerPathPos.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603690753635408}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listCustomerPathPos.Array.data[2]
+      propertyPath: 'listCustomerPathPos.Array.data[2]'
       value: 
       objectReference: {fileID: 2807603689566853063}
     - target: {fileID: 8315927306018193088, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listCustomerPathPos.Array.data[3]
+      propertyPath: 'listCustomerPathPos.Array.data[3]'
       value: 
       objectReference: {fileID: 2807603690112116068}
     - target: {fileID: 8315927306186210988, guid: 9de9afaa948e19a4fba4debe6de82621,
@@ -1416,22 +1416,22 @@ PrefabInstance:
       objectReference: {fileID: 2807603690664519252}
     - target: {fileID: 8315927306855601036, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listTruck3Pos.Array.data[0]
+      propertyPath: 'listTruck3Pos.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603689916229019}
     - target: {fileID: 8315927306855601036, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listTruck3Pos.Array.data[1]
+      propertyPath: 'listTruck3Pos.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603689160123604}
     - target: {fileID: 8315927306855601036, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listTruck4Pos.Array.data[0]
+      propertyPath: 'listTruck4Pos.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603690466238613}
     - target: {fileID: 8315927306855601036, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listTruck4Pos.Array.data[1]
+      propertyPath: 'listTruck4Pos.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603689849799207}
     - target: {fileID: 8315927307043724199, guid: 9de9afaa948e19a4fba4debe6de82621,
@@ -1466,47 +1466,47 @@ PrefabInstance:
       objectReference: {fileID: 2807603689531609058}
     - target: {fileID: 8315927307043724199, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPos.Array.data[0]
+      propertyPath: 'listPos.Array.data[0]'
       value: 
       objectReference: {fileID: 2807603689827456503}
     - target: {fileID: 8315927307043724199, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPos.Array.data[1]
+      propertyPath: 'listPos.Array.data[1]'
       value: 
       objectReference: {fileID: 2807603690607636794}
     - target: {fileID: 8315927307043724199, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPos.Array.data[2]
+      propertyPath: 'listPos.Array.data[2]'
       value: 
       objectReference: {fileID: 2807603689466020340}
     - target: {fileID: 8315927307043724199, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPos.Array.data[3]
+      propertyPath: 'listPos.Array.data[3]'
       value: 
       objectReference: {fileID: 2807603690984439736}
     - target: {fileID: 8315927307043724199, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPos.Array.data[4]
+      propertyPath: 'listPos.Array.data[4]'
       value: 
       objectReference: {fileID: 2807603690688507834}
     - target: {fileID: 8315927307043724199, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPos.Array.data[5]
+      propertyPath: 'listPos.Array.data[5]'
       value: 
       objectReference: {fileID: 2807603690560810862}
     - target: {fileID: 8315927307043724199, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPos.Array.data[6]
+      propertyPath: 'listPos.Array.data[6]'
       value: 
       objectReference: {fileID: 2807603689112354801}
     - target: {fileID: 8315927307043724199, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPos.Array.data[7]
+      propertyPath: 'listPos.Array.data[7]'
       value: 
       objectReference: {fileID: 2807603690668102478}
     - target: {fileID: 8315927307043724199, guid: 9de9afaa948e19a4fba4debe6de82621,
         type: 3}
-      propertyPath: listPos.Array.data[8]
+      propertyPath: 'listPos.Array.data[8]'
       value: 
       objectReference: {fileID: 2807603690702054776}
     - target: {fileID: 8315927307043724199, guid: 9de9afaa948e19a4fba4debe6de82621,
@@ -2087,6 +2087,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2807603689223651109}
+    - target: {fileID: 6694296022070659690, guid: 29bb4d5ecb78036459db733b1c76ffc5,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6694296022093335955, guid: 29bb4d5ecb78036459db733b1c76ffc5,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2515,7 +2520,7 @@ PrefabInstance:
     - target: {fileID: 6694296023464851452, guid: 29bb4d5ecb78036459db733b1c76ffc5,
         type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
-      value: 0
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 6694296023492178418, guid: 29bb4d5ecb78036459db733b1c76ffc5,
         type: 3}
@@ -3040,7 +3045,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 8795660285236364450}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
