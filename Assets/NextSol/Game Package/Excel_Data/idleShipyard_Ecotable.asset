@@ -1,0 +1,6986 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e000eebc0ac5ca049a075e5d8a933cbc, type: 3}
+  m_Name: idleShipyard_Ecotable
+  m_EditorClassIdentifier: 
+  Upgrade_Speed:
+  - level: 0
+    speed: 1
+    cost1: 0
+    cost2: 0
+    cost3: 0
+    cost4: 0
+    cost5: 0
+    cost6: 0
+  - level: 1
+    speed: 1
+    cost1: 0
+    cost2: 1000
+    cost3: 12000
+    cost4: 96000
+    cost5: 1536000
+    cost6: 24576000
+  - level: 2
+    speed: 1.015
+    cost1: 107
+    cost2: 1070
+    cost3: 12840
+    cost4: 102720
+    cost5: 1643520
+    cost6: 26296320
+  - level: 3
+    speed: 1.03
+    cost1: 114.49
+    cost2: 1144.9
+    cost3: 13738.8
+    cost4: 109910.4
+    cost5: 1758566.4
+    cost6: 28137062
+  - level: 4
+    speed: 1.045
+    cost1: 122.5043
+    cost2: 1225.043
+    cost3: 14700.516
+    cost4: 117604.125
+    cost5: 1881666
+    cost6: 30106656
+  - level: 5
+    speed: 1.06
+    cost1: 131.0796
+    cost2: 1310.796
+    cost3: 15729.552
+    cost4: 125836.414
+    cost5: 2013382.6
+    cost6: 32214122
+  - level: 6
+    speed: 1.075
+    cost1: 140.25517
+    cost2: 1402.5518
+    cost3: 16830.621
+    cost4: 134644.97
+    cost5: 2154319.5
+    cost6: 34469110
+  - level: 7
+    speed: 1.09
+    cost1: 150.07303
+    cost2: 1500.7303
+    cost3: 18008.764
+    cost4: 144070.11
+    cost5: 2305121.8
+    cost6: 36881948
+  - level: 8
+    speed: 1.105
+    cost1: 160.57814
+    cost2: 1605.7815
+    cost3: 19269.377
+    cost4: 154155.02
+    cost5: 2466480.2
+    cost6: 39463684
+  - level: 9
+    speed: 1.12
+    cost1: 171.81862
+    cost2: 1718.1862
+    cost3: 20618.234
+    cost4: 164945.88
+    cost5: 2639134
+    cost6: 42226144
+  - level: 10
+    speed: 1.135
+    cost1: 183.84592
+    cost2: 1838.4592
+    cost3: 22061.51
+    cost4: 176492.08
+    cost5: 2823873.2
+    cost6: 45181972
+  - level: 11
+    speed: 1.15
+    cost1: 196.71513
+    cost2: 1967.1514
+    cost3: 23605.816
+    cost4: 188846.53
+    cost5: 3021544.5
+    cost6: 48344710
+  - level: 12
+    speed: 1.165
+    cost1: 210.4852
+    cost2: 2104.852
+    cost3: 25258.223
+    cost4: 202065.78
+    cost5: 3233052.5
+    cost6: 51728840
+  - level: 13
+    speed: 1.18
+    cost1: 225.21916
+    cost2: 2252.1917
+    cost3: 27026.299
+    cost4: 216210.39
+    cost5: 3459366.2
+    cost6: 55349860
+  - level: 14
+    speed: 1.195
+    cost1: 240.9845
+    cost2: 2409.845
+    cost3: 28918.14
+    cost4: 231345.12
+    cost5: 3701522
+    cost6: 59224350
+  - level: 15
+    speed: 1.21
+    cost1: 257.85342
+    cost2: 2578.5342
+    cost3: 30942.41
+    cost4: 247539.28
+    cost5: 3960628.5
+    cost6: 63370056
+  - level: 16
+    speed: 1.225
+    cost1: 275.90317
+    cost2: 2759.0315
+    cost3: 33108.38
+    cost4: 264867.03
+    cost5: 4237872.5
+    cost6: 67805960
+  - level: 17
+    speed: 1.24
+    cost1: 295.21637
+    cost2: 2952.1638
+    cost3: 35425.965
+    cost4: 283407.72
+    cost5: 4534523.5
+    cost6: 72552376
+  - level: 18
+    speed: 1.255
+    cost1: 315.88153
+    cost2: 3158.8152
+    cost3: 37905.78
+    cost4: 303246.25
+    cost5: 4851940
+    cost6: 77631040
+  - level: 19
+    speed: 1.27
+    cost1: 337.99323
+    cost2: 3379.9324
+    cost3: 40559.188
+    cost4: 324473.5
+    cost5: 5191576
+    cost6: 83065220
+  - level: 20
+    speed: 1.285
+    cost1: 361.65274
+    cost2: 3616.5276
+    cost3: 43398.332
+    cost4: 347186.66
+    cost5: 5554986.5
+    cost6: 88879784
+  - level: 21
+    speed: 1.3
+    cost1: 386.96844
+    cost2: 3869.6846
+    cost3: 46436.215
+    cost4: 371489.72
+    cost5: 5943835.5
+    cost6: 95101370
+  - level: 22
+    speed: 1.315
+    cost1: 414.05624
+    cost2: 4140.5625
+    cost3: 49686.75
+    cost4: 397494
+    cost5: 6359904
+    cost6: 101758460
+  - level: 23
+    speed: 1.33
+    cost1: 443.04016
+    cost2: 4430.402
+    cost3: 53164.82
+    cost4: 425318.56
+    cost5: 6805097
+    cost6: 108881550
+  - level: 24
+    speed: 1.345
+    cost1: 474.05298
+    cost2: 4740.53
+    cost3: 56886.36
+    cost4: 455090.88
+    cost5: 7281454
+    cost6: 116503260
+  - level: 25
+    speed: 1.36
+    cost1: 507.2367
+    cost2: 5072.367
+    cost3: 60868.402
+    cost4: 486947.22
+    cost5: 7791155.5
+    cost6: 124658490
+  - level: 26
+    speed: 1.375
+    cost1: 542.7433
+    cost2: 5427.4326
+    cost3: 65129.19
+    cost4: 521033.53
+    cost5: 8336536.5
+    cost6: 133384584
+  - level: 27
+    speed: 1.39
+    cost1: 580.7353
+    cost2: 5807.353
+    cost3: 69688.234
+    cost4: 557505.9
+    cost5: 8920094
+    cost6: 142721500
+  - level: 28
+    speed: 1.405
+    cost1: 621.3868
+    cost2: 6213.8677
+    cost3: 74566.414
+    cost4: 596531.3
+    cost5: 9544501
+    cost6: 152712020
+  - level: 29
+    speed: 1.42
+    cost1: 664.88385
+    cost2: 6648.8384
+    cost3: 79786.06
+    cost4: 638288.5
+    cost5: 10212616
+    cost6: 163401860
+  - level: 30
+    speed: 1.435
+    cost1: 711.4257
+    cost2: 7114.257
+    cost3: 85371.086
+    cost4: 682968.7
+    cost5: 10927499
+    cost6: 174839980
+  - level: 31
+    speed: 1.45
+    cost1: 761.2255
+    cost2: 7612.255
+    cost3: 91347.06
+    cost4: 730776.5
+    cost5: 11692424
+    cost6: 187078780
+  - level: 32
+    speed: 1.465
+    cost1: 814.5113
+    cost2: 8145.113
+    cost3: 97741.35
+    cost4: 781930.8
+    cost5: 12510893
+    cost6: 200174290
+  - level: 33
+    speed: 1.48
+    cost1: 871.5271
+    cost2: 8715.2705
+    cost3: 104583.25
+    cost4: 836666
+    cost5: 13386656
+    cost6: 214186500
+  - level: 34
+    speed: 1.495
+    cost1: 932.534
+    cost2: 9325.34
+    cost3: 111904.08
+    cost4: 895232.6
+    cost5: 14323722
+    cost6: 229179550
+  - level: 35
+    speed: 1.51
+    cost1: 997.81134
+    cost2: 9978.113
+    cost3: 119737.36
+    cost4: 957898.9
+    cost5: 15326382
+    cost6: 245222110
+  - level: 36
+    speed: 1.525
+    cost1: 1067.6582
+    cost2: 10676.581
+    cost3: 128118.98
+    cost4: 1024951.8
+    cost5: 16399229
+    cost6: 262387660
+  - level: 37
+    speed: 1.54
+    cost1: 1142.3942
+    cost2: 11423.942
+    cost3: 137087.31
+    cost4: 1096698.5
+    cost5: 17547176
+    cost6: 280754800
+  - level: 38
+    speed: 1.555
+    cost1: 1222.3618
+    cost2: 12223.618
+    cost3: 146683.42
+    cost4: 1173467.4
+    cost5: 18775478
+    cost6: 300407650
+  - level: 39
+    speed: 1.57
+    cost1: 1307.9271
+    cost2: 13079.271
+    cost3: 156951.25
+    cost4: 1255610
+    cost5: 20089760
+    cost6: 321436160
+  - level: 40
+    speed: 1.585
+    cost1: 1399.482
+    cost2: 13994.82
+    cost3: 167937.84
+    cost4: 1343502.8
+    cost5: 21496044
+    cost6: 343936700
+  - level: 41
+    speed: 1.6
+    cost1: 1497.4458
+    cost2: 14974.458
+    cost3: 179693.5
+    cost4: 1437548
+    cost5: 23000768
+    cost6: 368012300
+  - level: 42
+    speed: 1.615
+    cost1: 1602.267
+    cost2: 16022.67
+    cost3: 192272.03
+    cost4: 1538176.2
+    cost5: 24610820
+    cost6: 393773120
+  - level: 43
+    speed: 1.63
+    cost1: 1714.4257
+    cost2: 17144.256
+    cost3: 205731.08
+    cost4: 1645848.6
+    cost5: 26333578
+    cost6: 421337250
+  - level: 44
+    speed: 1.645
+    cost1: 1834.4354
+    cost2: 18344.355
+    cost3: 220132.25
+    cost4: 1761058
+    cost5: 28176928
+    cost6: 450830850
+  - level: 45
+    speed: 1.66
+    cost1: 1962.846
+    cost2: 19628.459
+    cost3: 235541.52
+    cost4: 1884332.1
+    cost5: 30149314
+    cost6: 482389020
+  - level: 46
+    speed: 1.675
+    cost1: 2100.245
+    cost2: 21002.451
+    cost3: 252029.42
+    cost4: 2016235.4
+    cost5: 32259766
+    cost6: 516156260
+  - level: 47
+    speed: 1.69
+    cost1: 2247.2625
+    cost2: 22472.623
+    cost3: 269671.47
+    cost4: 2157371.8
+    cost5: 34517948
+    cost6: 552287170
+  - level: 48
+    speed: 1.705
+    cost1: 2404.5708
+    cost2: 24045.707
+    cost3: 288548.47
+    cost4: 2308387.8
+    cost5: 36934204
+    cost6: 590947260
+  - level: 49
+    speed: 1.72
+    cost1: 2572.8906
+    cost2: 25728.906
+    cost3: 308746.88
+    cost4: 2469975
+    cost5: 39519600
+    cost6: 632313600
+  - level: 50
+    speed: 1.735
+    cost1: 2752.993
+    cost2: 27529.93
+    cost3: 330359.16
+    cost4: 2642873.2
+    cost5: 42285972
+    cost6: 676575550
+  - level: 51
+    speed: 1.75
+    cost1: 2945.7024
+    cost2: 29457.025
+    cost3: 353484.3
+    cost4: 2827874.5
+    cost5: 45245990
+    cost6: 723935900
+  - level: 52
+    speed: 1.765
+    cost1: 3151.9016
+    cost2: 31519.018
+    cost3: 378228.2
+    cost4: 3025825.5
+    cost5: 48413210
+    cost6: 774611300
+  - level: 53
+    speed: 1.78
+    cost1: 3372.535
+    cost2: 33725.348
+    cost3: 404704.2
+    cost4: 3237633.5
+    cost5: 51802136
+    cost6: 828834200
+  - level: 54
+    speed: 1.795
+    cost1: 3608.6123
+    cost2: 36086.12
+    cost3: 433033.47
+    cost4: 3464267.8
+    cost5: 55428284
+    cost6: 886852540
+  - level: 55
+    speed: 1.81
+    cost1: 3861.215
+    cost2: 38612.152
+    cost3: 463345.8
+    cost4: 3706766.5
+    cost5: 59308264
+    cost6: 948932200
+  - level: 56
+    speed: 1.825
+    cost1: 4131.5
+    cost2: 41315
+    cost3: 495780.03
+    cost4: 3966240.2
+    cost5: 63459844
+    cost6: 1.0153575e+9
+  - level: 57
+    speed: 1.84
+    cost1: 4420.705
+    cost2: 44207.05
+    cost3: 530484.6
+    cost4: 4243877
+    cost5: 67902030
+    cost6: 1.0864325e+9
+  - level: 58
+    speed: 1.855
+    cost1: 4730.1543
+    cost2: 47301.547
+    cost3: 567618.56
+    cost4: 4540948.5
+    cost5: 72655176
+    cost6: 1.1624828e+9
+  - level: 59
+    speed: 1.87
+    cost1: 5061.265
+    cost2: 50612.652
+    cost3: 607351.8
+    cost4: 4858814.5
+    cost5: 77741030
+    cost6: 1.2438565e+9
+  - level: 60
+    speed: 1.885
+    cost1: 5415.5537
+    cost2: 54155.54
+    cost3: 649866.5
+    cost4: 5198932
+    cost5: 83182910
+    cost6: 1.3309266e+9
+  - level: 61
+    speed: 1.9
+    cost1: 5794.6426
+    cost2: 57946.426
+    cost3: 695357.1
+    cost4: 5562857
+    cost5: 89005710
+    cost6: 1.4240914e+9
+  - level: 62
+    speed: 1.915
+    cost1: 6200.2676
+    cost2: 62002.676
+    cost3: 744032.1
+    cost4: 5952257
+    cost5: 95236110
+    cost6: 1.5237778e+9
+  - level: 63
+    speed: 1.93
+    cost1: 6634.2866
+    cost2: 66342.87
+    cost3: 796114.4
+    cost4: 6368915
+    cost5: 101902640
+    cost6: 1.6304422e+9
+  - level: 64
+    speed: 1.945
+    cost1: 7098.6865
+    cost2: 70986.87
+    cost3: 851842.4
+    cost4: 6814739
+    cost5: 109035820
+    cost6: 1.7445732e+9
+  - level: 65
+    speed: 1.96
+    cost1: 7595.5947
+    cost2: 75955.945
+    cost3: 911471.3
+    cost4: 7291770.5
+    cost5: 116668330
+    cost6: 1.8666932e+9
+  - level: 66
+    speed: 1.975
+    cost1: 8127.286
+    cost2: 81272.86
+    cost3: 975274.3
+    cost4: 7802194.5
+    cost5: 124835110
+    cost6: 1.9973618e+9
+  - level: 67
+    speed: 1.99
+    cost1: 8696.196
+    cost2: 86961.96
+    cost3: 1043543.56
+    cost4: 8348348.5
+    cost5: 133573576
+    cost6: 2.1371772e+9
+  - level: 68
+    speed: 2.005
+    cost1: 9304.93
+    cost2: 93049.3
+    cost3: 1116591.6
+    cost4: 8932733
+    cost5: 142923730
+    cost6: 2.2867796e+9
+  - level: 69
+    speed: 2.02
+    cost1: 9956.275
+    cost2: 99562.75
+    cost3: 1194753
+    cost4: 9558024
+    cost5: 152928380
+    cost6: 2.4468541e+9
+  - level: 70
+    speed: 2.035
+    cost1: 10653.214
+    cost2: 106532.14
+    cost3: 1278385.8
+    cost4: 10227086
+    cost5: 163633380
+    cost6: 2.618134e+9
+  - level: 71
+    speed: 2.05
+    cost1: 11398.939
+    cost2: 113989.39
+    cost3: 1367872.8
+    cost4: 10942982
+    cost5: 175087710
+    cost6: 2.8014034e+9
+  - level: 72
+    speed: 2.065
+    cost1: 12196.865
+    cost2: 121968.65
+    cost3: 1463623.8
+    cost4: 11708990
+    cost5: 187343840
+    cost6: 2.9975014e+9
+  - level: 73
+    speed: 2.08
+    cost1: 13050.6455
+    cost2: 130506.45
+    cost3: 1566077.5
+    cost4: 12528620
+    cost5: 200457920
+    cost6: 3.2073267e+9
+  - level: 74
+    speed: 2.095
+    cost1: 13964.19
+    cost2: 139641.9
+    cost3: 1675702.9
+    cost4: 13405623
+    cost5: 214489970
+    cost6: 3.4318395e+9
+  - level: 75
+    speed: 2.11
+    cost1: 14941.684
+    cost2: 149416.84
+    cost3: 1793002.1
+    cost4: 14344017
+    cost5: 229504270
+    cost6: 3.6720684e+9
+  - level: 76
+    speed: 2.125
+    cost1: 15987.602
+    cost2: 159876.02
+    cost3: 1918512.2
+    cost4: 15348098
+    cost5: 245569570
+    cost6: 3.929113e+9
+  - level: 77
+    speed: 2.14
+    cost1: 17106.734
+    cost2: 171067.34
+    cost3: 2052808.1
+    cost4: 16422465
+    cost5: 262759440
+    cost6: 4.204151e+9
+  - level: 78
+    speed: 2.155
+    cost1: 18304.205
+    cost2: 183042.05
+    cost3: 2196504.8
+    cost4: 17572038
+    cost5: 281152600
+    cost6: 4.4984417e+9
+  - level: 79
+    speed: 2.17
+    cost1: 19585.5
+    cost2: 195855
+    cost3: 2350260
+    cost4: 18802080
+    cost5: 300833280
+    cost6: 4.8133325e+9
+  - level: 80
+    speed: 2.185
+    cost1: 20956.484
+    cost2: 209564.84
+    cost3: 2514778.2
+    cost4: 20118226
+    cost5: 321891620
+    cost6: 5.150266e+9
+  - level: 81
+    speed: 2.2
+    cost1: 22423.44
+    cost2: 224234.39
+    cost3: 2690812.8
+    cost4: 21526502
+    cost5: 344424030
+    cost6: 5.5107845e+9
+  - level: 82
+    speed: 2.215
+    cost1: 23993.08
+    cost2: 239930.8
+    cost3: 2879169.5
+    cost4: 23033356
+    cost5: 368533700
+    cost6: 5.896539e+9
+  - level: 83
+    speed: 2.23
+    cost1: 25672.596
+    cost2: 256725.95
+    cost3: 3080711.5
+    cost4: 24645692
+    cost5: 394331070
+    cost6: 6.309297e+9
+  - level: 84
+    speed: 2.245
+    cost1: 27469.676
+    cost2: 274696.78
+    cost3: 3296361.2
+    cost4: 26370890
+    cost5: 421934240
+    cost6: 6.750948e+9
+  - level: 85
+    speed: 2.26
+    cost1: 29392.555
+    cost2: 293925.53
+    cost3: 3527106.5
+    cost4: 28216852
+    cost5: 451469630
+    cost6: 7.223514e+9
+  - level: 86
+    speed: 2.275
+    cost1: 31450.033
+    cost2: 314500.34
+    cost3: 3774004
+    cost4: 30192032
+    cost5: 483072500
+    cost6: 7.72916e+9
+  - level: 87
+    speed: 2.29
+    cost1: 33651.535
+    cost2: 336515.34
+    cost3: 4038184.2
+    cost4: 32305474
+    cost5: 516887580
+    cost6: 8.2702013e+9
+  - level: 88
+    speed: 2.305
+    cost1: 36007.145
+    cost2: 360071.44
+    cost3: 4320857
+    cost4: 34566856
+    cost5: 553069700
+    cost6: 8.849115e+9
+  - level: 89
+    speed: 2.32
+    cost1: 38527.64
+    cost2: 385276.44
+    cost3: 4623317
+    cost4: 36986536
+    cost5: 591784600
+    cost6: 9.468553e+9
+  - level: 90
+    speed: 2.335
+    cost1: 41224.58
+    cost2: 412245.78
+    cost3: 4946949.5
+    cost4: 39575596
+    cost5: 633209540
+    cost6: 1.0131353e+10
+  - level: 91
+    speed: 2.35
+    cost1: 44110.297
+    cost2: 441102.97
+    cost3: 5293236
+    cost4: 42345890
+    cost5: 677534200
+    cost6: 1.0840547e+10
+  - level: 92
+    speed: 2.365
+    cost1: 47198.02
+    cost2: 471980.2
+    cost3: 5663762.5
+    cost4: 45310100
+    cost5: 724961600
+    cost6: 1.1599386e+10
+  - level: 93
+    speed: 2.38
+    cost1: 50501.88
+    cost2: 505018.8
+    cost3: 6060225.5
+    cost4: 48481804
+    cost5: 775708860
+    cost6: 1.2411342e+10
+  - level: 94
+    speed: 2.395
+    cost1: 54037.01
+    cost2: 540370.1
+    cost3: 6484441.5
+    cost4: 51875532
+    cost5: 830008500
+    cost6: 1.3280136e+10
+  - level: 95
+    speed: 2.41
+    cost1: 57819.6
+    cost2: 578196
+    cost3: 6938352.5
+    cost4: 55506820
+    cost5: 888109100
+    cost6: 1.4209746e+10
+  - level: 96
+    speed: 2.425
+    cost1: 61866.977
+    cost2: 618669.75
+    cost3: 7424037
+    cost4: 59392296
+    cost5: 950276740
+    cost6: 1.5204428e+10
+  - level: 97
+    speed: 2.44
+    cost1: 66197.664
+    cost2: 661976.6
+    cost3: 7943719.5
+    cost4: 63549756
+    cost5: 1.0167961e+9
+    cost6: 1.6268738e+10
+  - level: 98
+    speed: 2.455
+    cost1: 70831.5
+    cost2: 708315
+    cost3: 8499780
+    cost4: 67998240
+    cost5: 1.0879718e+9
+    cost6: 1.740755e+10
+  - level: 99
+    speed: 2.47
+    cost1: 75789.7
+    cost2: 757897.06
+    cost3: 9094765
+    cost4: 72758120
+    cost5: 1.1641299e+9
+    cost6: 1.8626079e+10
+  - level: 100
+    speed: 2.485
+    cost1: 81094.984
+    cost2: 810949.8
+    cost3: 9731398
+    cost4: 77851180
+    cost5: 1.245619e+9
+    cost6: 1.9929903e+10
+  - level: 101
+    speed: 2.5
+    cost1: 86771.63
+    cost2: 867716.3
+    cost3: 10412596
+    cost4: 83300770
+    cost5: 1.3328123e+9
+    cost6: 2.1324997e+10
+  - level: 102
+    speed: 2.515
+    cost1: 92845.65
+    cost2: 928456.44
+    cost3: 11141478
+    cost4: 89131820
+    cost5: 1.4261092e+9
+    cost6: 2.2817747e+10
+  - level: 103
+    speed: 2.53
+    cost1: 99344.84
+    cost2: 993448.44
+    cost3: 11921381
+    cost4: 95371050
+    cost5: 1.5259368e+9
+    cost6: 2.4414988e+10
+  - level: 104
+    speed: 2.545
+    cost1: 106298.984
+    cost2: 1062989.8
+    cost3: 12755878
+    cost4: 102047020
+    cost5: 1.6327524e+9
+    cost6: 2.6124038e+10
+  - level: 105
+    speed: 2.56
+    cost1: 113739.91
+    cost2: 1137399.1
+    cost3: 13648789
+    cost4: 109190310
+    cost5: 1.747045e+9
+    cost6: 2.795272e+10
+  - level: 106
+    speed: 2.575
+    cost1: 121701.7
+    cost2: 1217017
+    cost3: 14604204
+    cost4: 116833630
+    cost5: 1.8693381e+9
+    cost6: 2.990941e+10
+  - level: 107
+    speed: 2.59
+    cost1: 130220.82
+    cost2: 1302208.2
+    cost3: 15626499
+    cost4: 125011990
+    cost5: 2.0001919e+9
+    cost6: 3.200307e+10
+  - level: 108
+    speed: 2.605
+    cost1: 139336.28
+    cost2: 1393362.8
+    cost3: 16720354
+    cost4: 133762830
+    cost5: 2.1402053e+9
+    cost6: 3.4243285e+10
+  - level: 109
+    speed: 2.62
+    cost1: 149089.81
+    cost2: 1490898.2
+    cost3: 17890778
+    cost4: 143126220
+    cost5: 2.2900196e+9
+    cost6: 3.6640313e+10
+  - level: 110
+    speed: 2.635
+    cost1: 159526.11
+    cost2: 1595261.1
+    cost3: 19143132
+    cost4: 153145060
+    cost5: 2.450321e+9
+    cost6: 3.9205134e+10
+  - level: 111
+    speed: 2.65
+    cost1: 170692.94
+    cost2: 1706929.4
+    cost3: 20483152
+    cost4: 163865220
+    cost5: 2.6218435e+9
+    cost6: 4.1949495e+10
+  - level: 112
+    speed: 2.665
+    cost1: 182641.44
+    cost2: 1826414.4
+    cost3: 21916972
+    cost4: 175335780
+    cost5: 2.8053724e+9
+    cost6: 4.488596e+10
+  - level: 113
+    speed: 2.68
+    cost1: 195426.34
+    cost2: 1954263.4
+    cost3: 23451160
+    cost4: 187609280
+    cost5: 3.0017485e+9
+    cost6: 4.8027976e+10
+  - level: 114
+    speed: 2.695
+    cost1: 209106.19
+    cost2: 2091061.9
+    cost3: 25092742
+    cost4: 200741940
+    cost5: 3.211871e+9
+    cost6: 5.1389936e+10
+  - level: 115
+    speed: 2.71
+    cost1: 223743.62
+    cost2: 2237436.2
+    cost3: 26849234
+    cost4: 214793870
+    cost5: 3.436702e+9
+    cost6: 5.498723e+10
+  - level: 116
+    speed: 2.725
+    cost1: 239405.67
+    cost2: 2394056.8
+    cost3: 28728680
+    cost4: 229829440
+    cost5: 3.677271e+9
+    cost6: 5.8836337e+10
+  - level: 117
+    speed: 2.74
+    cost1: 256164.06
+    cost2: 2561640.8
+    cost3: 30739688
+    cost4: 245917500
+    cost5: 3.93468e+9
+    cost6: 6.295488e+10
+  - level: 118
+    speed: 2.755
+    cost1: 274095.56
+    cost2: 2740955.5
+    cost3: 32891466
+    cost4: 263131730
+    cost5: 4.2101076e+9
+    cost6: 6.7361722e+10
+  - level: 119
+    speed: 2.77
+    cost1: 293282.25
+    cost2: 2932822.5
+    cost3: 35193868
+    cost4: 281550940
+    cost5: 4.504815e+9
+    cost6: 7.207704e+10
+  - level: 120
+    speed: 2.785
+    cost1: 313812
+    cost2: 3138120
+    cost3: 37657440
+    cost4: 301259520
+    cost5: 4.8201523e+9
+    cost6: 7.712244e+10
+  - level: 121
+    speed: 2.8
+    cost1: 335778.84
+    cost2: 3357788.5
+    cost3: 40293460
+    cost4: 322347680
+    cost5: 5.157563e+9
+    cost6: 8.252101e+10
+  - level: 122
+    speed: 2.815
+    cost1: 359283.34
+    cost2: 3592833.5
+    cost3: 43114004
+    cost4: 344912030
+    cost5: 5.5185925e+9
+    cost6: 8.829748e+10
+  - level: 123
+    speed: 2.83
+    cost1: 384433.2
+    cost2: 3844332
+    cost3: 46131984
+    cost4: 369055870
+    cost5: 5.904894e+9
+    cost6: 9.44783e+10
+  - level: 124
+    speed: 2.845
+    cost1: 411343.5
+    cost2: 4113435.2
+    cost3: 49361220
+    cost4: 394889760
+    cost5: 6.318236e+9
+    cost6: 1.0109178e+11
+  - level: 125
+    speed: 2.86
+    cost1: 440137.56
+    cost2: 4401375.5
+    cost3: 52816508
+    cost4: 422532060
+    cost5: 6.760513e+9
+    cost6: 1.0816821e+11
+  - level: 126
+    speed: 2.875
+    cost1: 470947.2
+    cost2: 4709472
+    cost3: 56513664
+    cost4: 452109300
+    cost5: 7.233749e+9
+    cost6: 1.1573998e+11
+  - level: 127
+    speed: 2.89
+    cost1: 503913.5
+    cost2: 5039135
+    cost3: 60469620
+    cost4: 483756960
+    cost5: 7.7401114e+9
+    cost6: 1.2384178e+11
+  - level: 128
+    speed: 2.905
+    cost1: 539187.44
+    cost2: 5391874.5
+    cost3: 64702492
+    cost4: 517619940
+    cost5: 8.281919e+9
+    cost6: 1.325107e+11
+  - level: 129
+    speed: 2.92
+    cost1: 576930.56
+    cost2: 5769305.5
+    cost3: 69231660
+    cost4: 553853300
+    cost5: 8.861653e+9
+    cost6: 1.4178645e+11
+  - level: 130
+    speed: 2.935
+    cost1: 617315.7
+    cost2: 6173157
+    cost3: 74077880
+    cost4: 592623040
+    cost5: 9.481969e+9
+    cost6: 1.517115e+11
+  - level: 131
+    speed: 2.95
+    cost1: 660527.8
+    cost2: 6605278
+    cost3: 79263336
+    cost4: 634106700
+    cost5: 1.0145707e+10
+    cost6: 1.6233131e+11
+  - level: 132
+    speed: 2.965
+    cost1: 706764.75
+    cost2: 7067647.5
+    cost3: 84811770
+    cost4: 678494140
+    cost5: 1.0855906e+10
+    cost6: 1.736945e+11
+  - level: 133
+    speed: 2.98
+    cost1: 756238.25
+    cost2: 7562383
+    cost3: 90748590
+    cost4: 725988740
+    cost5: 1.161582e+10
+    cost6: 1.8585312e+11
+  - level: 134
+    speed: 2.995
+    cost1: 809174.94
+    cost2: 8091749.5
+    cost3: 97100990
+    cost4: 776807940
+    cost5: 1.2428927e+10
+    cost6: 1.9886283e+11
+  - level: 135
+    speed: 3.01
+    cost1: 865817.2
+    cost2: 8658172
+    cost3: 103898060
+    cost4: 831184500
+    cost5: 1.3298952e+10
+    cost6: 2.1278324e+11
+  - level: 136
+    speed: 3.025
+    cost1: 926424.4
+    cost2: 9264244
+    cost3: 111170930
+    cost4: 889367400
+    cost5: 1.4229879e+10
+    cost6: 2.2767806e+11
+  - level: 137
+    speed: 3.04
+    cost1: 991274.1
+    cost2: 9912741
+    cost3: 118952900
+    cost4: 951623200
+    cost5: 1.5225971e+10
+    cost6: 2.4361553e+11
+  - level: 138
+    speed: 3.055
+    cost1: 1060663.2
+    cost2: 10606633
+    cost3: 127279600
+    cost4: 1.0182368e+9
+    cost5: 1.6291789e+10
+    cost6: 2.6066862e+11
+  - level: 139
+    speed: 3.07
+    cost1: 1134909.8
+    cost2: 11349097
+    cost3: 136189170
+    cost4: 1.0895133e+9
+    cost5: 1.7432214e+10
+    cost6: 2.789154e+11
+  - level: 140
+    speed: 3.085
+    cost1: 1214353.4
+    cost2: 12143534
+    cost3: 145722420
+    cost4: 1.1657793e+9
+    cost5: 1.865247e+10
+    cost6: 2.984395e+11
+  - level: 141
+    speed: 3.1
+    cost1: 1299358.1
+    cost2: 12993582
+    cost3: 155922980
+    cost4: 1.2473838e+9
+    cost5: 1.995814e+10
+    cost6: 3.1933025e+11
+  - level: 142
+    speed: 3.115
+    cost1: 1390313.2
+    cost2: 13903132
+    cost3: 166837580
+    cost4: 1.3347007e+9
+    cost5: 2.135521e+10
+    cost6: 3.4168337e+11
+  - level: 143
+    speed: 3.13
+    cost1: 1487635.1
+    cost2: 14876351
+    cost3: 178516220
+    cost4: 1.4281298e+9
+    cost5: 2.2850077e+10
+    cost6: 3.6560123e+11
+  - level: 144
+    speed: 3.145
+    cost1: 1591769.6
+    cost2: 15917696
+    cost3: 191012350
+    cost4: 1.5280988e+9
+    cost5: 2.4449581e+10
+    cost6: 3.911933e+11
+  - level: 145
+    speed: 3.16
+    cost1: 1703193.5
+    cost2: 17031934
+    cost3: 204383220
+    cost4: 1.6350657e+9
+    cost5: 2.6161052e+10
+    cost6: 4.1857683e+11
+  - level: 146
+    speed: 3.175
+    cost1: 1822417
+    cost2: 18224170
+    cost3: 218690050
+    cost4: 1.7495204e+9
+    cost5: 2.7992326e+10
+    cost6: 4.4787722e+11
+  - level: 147
+    speed: 3.19
+    cost1: 1949986.2
+    cost2: 19499862
+    cost3: 233998350
+    cost4: 1.8719868e+9
+    cost5: 2.995179e+10
+    cost6: 4.7922862e+11
+  - level: 148
+    speed: 3.205
+    cost1: 2086485.2
+    cost2: 20864852
+    cost3: 250378220
+    cost4: 2.0030258e+9
+    cost5: 3.2048413e+10
+    cost6: 5.127746e+11
+  - level: 149
+    speed: 3.22
+    cost1: 2232539.2
+    cost2: 22325392
+    cost3: 267904700
+    cost4: 2.1432376e+9
+    cost5: 3.4291802e+10
+    cost6: 5.4866883e+11
+  - level: 150
+    speed: 3.235
+    cost1: 2388817
+    cost2: 23888170
+    cost3: 286658050
+    cost4: 2.2932644e+9
+    cost5: 3.669223e+10
+    cost6: 5.870757e+11
+  - level: 151
+    speed: 3.25
+    cost1: 2556034.2
+    cost2: 25560342
+    cost3: 306724100
+    cost4: 2.4537928e+9
+    cost5: 3.9260684e+10
+    cost6: 6.2817095e+11
+  - level: 152
+    speed: 3.265
+    cost1: 2734956.5
+    cost2: 27349566
+    cost3: 328194780
+    cost4: 2.6255583e+9
+    cost5: 4.2008932e+10
+    cost6: 6.721429e+11
+  - level: 153
+    speed: 3.28
+    cost1: 2926403.5
+    cost2: 29264036
+    cost3: 351168420
+    cost4: 2.8093473e+9
+    cost5: 4.4949557e+10
+    cost6: 7.191929e+11
+  - level: 154
+    speed: 3.295
+    cost1: 3131251.8
+    cost2: 31312518
+    cost3: 375750200
+    cost4: 3.0060017e+9
+    cost5: 4.8096027e+10
+    cost6: 7.695364e+11
+  - level: 155
+    speed: 3.31
+    cost1: 3350439.2
+    cost2: 33504394
+    cost3: 402052740
+    cost4: 3.216422e+9
+    cost5: 5.146275e+10
+    cost6: 8.23404e+11
+  - level: 156
+    speed: 3.325
+    cost1: 3584970.2
+    cost2: 35849700
+    cost3: 430196400
+    cost4: 3.4415713e+9
+    cost5: 5.506514e+10
+    cost6: 8.8104226e+11
+  - level: 157
+    speed: 3.34
+    cost1: 3835918
+    cost2: 38359180
+    cost3: 460310180
+    cost4: 3.6824814e+9
+    cost5: 5.8919703e+10
+    cost6: 9.4271524e+11
+  - level: 158
+    speed: 3.355
+    cost1: 4104432.2
+    cost2: 41044324
+    cost3: 492531870
+    cost4: 3.940255e+9
+    cost5: 6.304408e+10
+    cost6: 1.0087053e+12
+  - level: 159
+    speed: 3.37
+    cost1: 4391742.5
+    cost2: 43917424
+    cost3: 527009120
+    cost4: 4.216073e+9
+    cost5: 6.7457167e+10
+    cost6: 1.0793147e+12
+  - level: 160
+    speed: 3.385
+    cost1: 4699164.5
+    cost2: 46991644
+    cost3: 563899800
+    cost4: 4.511198e+9
+    cost5: 7.217917e+10
+    cost6: 1.1548667e+12
+  - level: 161
+    speed: 3.4
+    cost1: 5028106
+    cost2: 50281060
+    cost3: 603372740
+    cost4: 4.826982e+9
+    cost5: 7.723171e+10
+    cost6: 1.2357074e+12
+  - level: 162
+    speed: 3.415
+    cost1: 5380073.5
+    cost2: 53800736
+    cost3: 645608800
+    cost4: 5.1648707e+9
+    cost5: 8.263793e+10
+    cost6: 1.3222069e+12
+  - level: 163
+    speed: 3.43
+    cost1: 5756678.5
+    cost2: 57566788
+    cost3: 690801400
+    cost4: 5.5264113e+9
+    cost5: 8.842258e+10
+    cost6: 1.4147613e+12
+  - level: 164
+    speed: 3.445
+    cost1: 6159646
+    cost2: 61596460
+    cost3: 739157500
+    cost4: 5.91326e+9
+    cost5: 9.461216e+10
+    cost6: 1.5137946e+12
+  - level: 165
+    speed: 3.46
+    cost1: 6590821.5
+    cost2: 65908212
+    cost3: 790898560
+    cost4: 6.3271885e+9
+    cost5: 1.01235016e+11
+    cost6: 1.6197603e+12
+  - level: 166
+    speed: 3.475
+    cost1: 7052179
+    cost2: 70521790
+    cost3: 846261440
+    cost4: 6.7700915e+9
+    cost5: 1.08321464e+11
+    cost6: 1.7331434e+12
+  - level: 167
+    speed: 3.49
+    cost1: 7545831.5
+    cost2: 75458310
+    cost3: 905499800
+    cost4: 7.243998e+9
+    cost5: 1.1590397e+11
+    cost6: 1.8544635e+12
+  - level: 168
+    speed: 3.505
+    cost1: 8074039.5
+    cost2: 80740390
+    cost3: 968884740
+    cost4: 7.751078e+9
+    cost5: 1.2401725e+11
+    cost6: 1.984276e+12
+  - level: 169
+    speed: 3.52
+    cost1: 8639222
+    cost2: 86392220
+    cost3: 1.0367067e+9
+    cost4: 8.2936535e+9
+    cost5: 1.3269846e+11
+    cost6: 2.1231753e+12
+  - level: 170
+    speed: 3.535
+    cost1: 9243968
+    cost2: 92439680
+    cost3: 1.1092762e+9
+    cost4: 8.874209e+9
+    cost5: 1.4198735e+11
+    cost6: 2.2717976e+12
+  - level: 171
+    speed: 3.55
+    cost1: 9891046
+    cost2: 98910456
+    cost3: 1.1869254e+9
+    cost4: 9.495404e+9
+    cost5: 1.5192646e+11
+    cost6: 2.4308233e+12
+  - level: 172
+    speed: 3.565
+    cost1: 10583419
+    cost2: 105834190
+    cost3: 1.2700102e+9
+    cost4: 1.0160082e+10
+    cost5: 1.6256131e+11
+    cost6: 2.600981e+12
+  - level: 173
+    speed: 3.58
+    cost1: 11324258
+    cost2: 113242584
+    cost3: 1.358911e+9
+    cost4: 1.0871288e+10
+    cost5: 1.739406e+11
+    cost6: 2.7830497e+12
+  - level: 174
+    speed: 3.595
+    cost1: 12116956
+    cost2: 121169560
+    cost3: 1.4540347e+9
+    cost4: 1.1632278e+10
+    cost5: 1.8611644e+11
+    cost6: 2.977863e+12
+  - level: 175
+    speed: 3.61
+    cost1: 12965143
+    cost2: 129651430
+    cost3: 1.5558172e+9
+    cost4: 1.2446538e+10
+    cost5: 1.991446e+11
+    cost6: 3.1863137e+12
+  - level: 176
+    speed: 3.625
+    cost1: 13872703
+    cost2: 138727040
+    cost3: 1.6647244e+9
+    cost4: 1.3317795e+10
+    cost5: 2.1308472e+11
+    cost6: 3.4093555e+12
+  - level: 177
+    speed: 3.64
+    cost1: 14843792
+    cost2: 148437920
+    cost3: 1.781255e+9
+    cost4: 1.425004e+10
+    cost5: 2.2800065e+11
+    cost6: 3.6480103e+12
+  - level: 178
+    speed: 3.655
+    cost1: 15882858
+    cost2: 158828580
+    cost3: 1.9059429e+9
+    cost4: 1.5247543e+10
+    cost5: 2.439607e+11
+    cost6: 3.903371e+12
+  - level: 179
+    speed: 3.67
+    cost1: 16994658
+    cost2: 169946580
+    cost3: 2.039359e+9
+    cost4: 1.6314872e+10
+    cost5: 2.6103795e+11
+    cost6: 4.1766072e+12
+  - level: 180
+    speed: 3.685
+    cost1: 18184284
+    cost2: 181842850
+    cost3: 2.182114e+9
+    cost4: 1.7456912e+10
+    cost5: 2.793106e+11
+    cost6: 4.4689696e+12
+  - level: 181
+    speed: 3.7
+    cost1: 19457184
+    cost2: 194571840
+    cost3: 2.334862e+9
+    cost4: 1.8678897e+10
+    cost5: 2.9886235e+11
+    cost6: 4.7817975e+12
+  - level: 182
+    speed: 3.715
+    cost1: 20819186
+    cost2: 208191870
+    cost3: 2.4983025e+9
+    cost4: 1.998642e+10
+    cost5: 3.197827e+11
+    cost6: 5.1165234e+12
+  - level: 183
+    speed: 3.73
+    cost1: 22276530
+    cost2: 222765300
+    cost3: 2.6731835e+9
+    cost4: 2.1385468e+10
+    cost5: 3.421675e+11
+    cost6: 5.47468e+12
+  - level: 184
+    speed: 3.745
+    cost1: 23835886
+    cost2: 238358860
+    cost3: 2.8603064e+9
+    cost4: 2.2882451e+10
+    cost5: 3.6611922e+11
+    cost6: 5.8579076e+12
+  - level: 185
+    speed: 3.76
+    cost1: 25504400
+    cost2: 255043980
+    cost3: 3.0605279e+9
+    cost4: 2.4484223e+10
+    cost5: 3.9174757e+11
+    cost6: 6.267961e+12
+  - level: 186
+    speed: 3.775
+    cost1: 27289706
+    cost2: 272897060
+    cost3: 3.2747648e+9
+    cost4: 2.6198118e+10
+    cost5: 4.191699e+11
+    cost6: 6.7067183e+12
+  - level: 187
+    speed: 3.79
+    cost1: 29199986
+    cost2: 291999870
+    cost3: 3.5039985e+9
+    cost4: 2.8031988e+10
+    cost5: 4.485118e+11
+    cost6: 7.176189e+12
+  - level: 188
+    speed: 3.805
+    cost1: 31243986
+    cost2: 312439840
+    cost3: 3.7492782e+9
+    cost4: 2.9994226e+10
+    cost5: 4.799076e+11
+    cost6: 7.678522e+12
+  - level: 189
+    speed: 3.82
+    cost1: 33431064
+    cost2: 334310660
+    cost3: 4.0117276e+9
+    cost4: 3.209382e+10
+    cost5: 5.1350113e+11
+    cost6: 8.216018e+12
+  - level: 190
+    speed: 3.835
+    cost1: 35771240
+    cost2: 357712400
+    cost3: 4.2925486e+9
+    cost4: 3.4340389e+10
+    cost5: 5.4944622e+11
+    cost6: 8.7911395e+12
+  - level: 191
+    speed: 3.85
+    cost1: 38275224
+    cost2: 382752260
+    cost3: 4.593027e+9
+    cost4: 3.6744217e+10
+    cost5: 5.8790747e+11
+    cost6: 9.406519e+12
+  - level: 192
+    speed: 3.865
+    cost1: 40954492
+    cost2: 409544930
+    cost3: 4.914539e+9
+    cost4: 3.9316312e+10
+    cost5: 6.29061e+11
+    cost6: 1.0064976e+13
+  - level: 193
+    speed: 3.88
+    cost1: 43821304
+    cost2: 438213060
+    cost3: 5.258557e+9
+    cost4: 4.2068455e+10
+    cost5: 6.730953e+11
+    cost6: 1.0769525e+13
+  - level: 194
+    speed: 3.895
+    cost1: 46888796
+    cost2: 468887970
+    cost3: 5.626656e+9
+    cost4: 4.5013246e+10
+    cost5: 7.2021194e+11
+    cost6: 1.1523391e+13
+  - level: 195
+    speed: 3.91
+    cost1: 50171012
+    cost2: 501710140
+    cost3: 6.0205215e+9
+    cost4: 4.816417e+10
+    cost5: 7.7062675e+11
+    cost6: 1.2330028e+13
+  - level: 196
+    speed: 3.925
+    cost1: 53682984
+    cost2: 536829860
+    cost3: 6.441958e+9
+    cost4: 5.1535663e+10
+    cost5: 8.245706e+11
+    cost6: 1.319313e+13
+  - level: 197
+    speed: 3.94
+    cost1: 57440790
+    cost2: 574407940
+    cost3: 6.892895e+9
+    cost4: 5.514316e+10
+    cost5: 8.822906e+11
+    cost6: 1.4116649e+13
+  - level: 198
+    speed: 3.955
+    cost1: 61461650
+    cost2: 614616500
+    cost3: 7.375398e+9
+    cost4: 5.9003183e+10
+    cost5: 9.440509e+11
+    cost6: 1.5104815e+13
+  - level: 199
+    speed: 3.97
+    cost1: 65763964
+    cost2: 657639600
+    cost3: 7.8916756e+9
+    cost4: 6.3133405e+10
+    cost5: 1.0101345e+12
+    cost6: 1.6162152e+13
+  - level: 200
+    speed: 3.985
+    cost1: 70367440
+    cost2: 703674430
+    cost3: 8.444093e+9
+    cost4: 6.7552743e+10
+    cost5: 1.0808439e+12
+    cost6: 1.7293502e+13
+  - level: 201
+    speed: 4
+    cost1: 75293160
+    cost2: 752931650
+    cost3: 9.035179e+9
+    cost4: 7.228143e+10
+    cost5: 1.1565029e+12
+    cost6: 1.8504047e+13
+  Upgrade_Income:
+  - level: 0
+    income1: 400
+    income2: 400
+    income3: 400
+    income4: 400
+    income5: 400
+    income6: 400
+    cost1: 0
+    cost2: 0
+    cost3: 0
+    cost4: 0
+    cost5: 0
+    cost6: 0
+  - level: 1
+    income1: 180
+    income2: 900
+    income3: 4500
+    income4: 9000
+    income5: 45000
+    income6: 225000
+    cost1: 0
+    cost2: 1500
+    cost3: 22500
+    cost4: 180000
+    cost5: 4800000
+    cost6: 72000000
+  - level: 2
+    income1: 195
+    income2: 975
+    income3: 4875
+    income4: 9750
+    income5: 48750
+    income6: 243750
+    cost1: 106
+    cost2: 1605
+    cost3: 23985
+    cost4: 191880
+    cost5: 5136000
+    cost6: 76752000
+  - level: 3
+    income1: 210
+    income2: 1050
+    income3: 5250
+    income4: 10500
+    income5: 52500
+    income6: 262500
+    cost1: 112.36
+    cost2: 1717.35
+    cost3: 25568.01
+    cost4: 204544.08
+    cost5: 5495520
+    cost6: 81817630
+  - level: 4
+    income1: 225
+    income2: 1125
+    income3: 5625
+    income4: 11250
+    income5: 56250
+    income6: 281250
+    cost1: 119.1016
+    cost2: 1837.5645
+    cost3: 27255.498
+    cost4: 218043.98
+    cost5: 5880206.5
+    cost6: 87217590
+  - level: 5
+    income1: 240
+    income2: 1200
+    income3: 6000
+    income4: 12000
+    income5: 60000
+    income6: 300000
+    cost1: 126.247696
+    cost2: 1966.194
+    cost3: 29054.361
+    cost4: 232434.89
+    cost5: 6291821
+    cost6: 92973960
+  - level: 6
+    income1: 255
+    income2: 1275
+    income3: 6375
+    income4: 12750
+    income5: 63750
+    income6: 318750
+    cost1: 133.82256
+    cost2: 2103.8276
+    cost3: 30971.95
+    cost4: 247775.6
+    cost5: 6732248.5
+    cost6: 99110240
+  - level: 7
+    income1: 270
+    income2: 1350
+    income3: 6750
+    income4: 13500
+    income5: 67500
+    income6: 337500
+    cost1: 141.85191
+    cost2: 2251.0955
+    cost3: 33016.098
+    cost4: 264128.78
+    cost5: 7203505.5
+    cost6: 105651510
+  - level: 8
+    income1: 285
+    income2: 1425
+    income3: 7125
+    income4: 14250
+    income5: 71250
+    income6: 356250
+    cost1: 150.36302
+    cost2: 2408.672
+    cost3: 35195.16
+    cost4: 281561.28
+    cost5: 7707751
+    cost6: 112624510
+  - level: 9
+    income1: 300
+    income2: 1500
+    income3: 7500
+    income4: 15000
+    income5: 75000
+    income6: 375000
+    cost1: 159.38481
+    cost2: 2577.2793
+    cost3: 37518.043
+    cost4: 300144.34
+    cost5: 8247293.5
+    cost6: 120057730
+  - level: 10
+    income1: 315
+    income2: 1575
+    income3: 7875
+    income4: 15750
+    income5: 78750
+    income6: 393750
+    cost1: 168.94789
+    cost2: 2757.6887
+    cost3: 39994.23
+    cost4: 319953.84
+    cost5: 8824604
+    cost6: 127981544
+  - level: 11
+    income1: 330
+    income2: 1650
+    income3: 8250
+    income4: 16500
+    income5: 82500
+    income6: 412500
+    cost1: 179.08476
+    cost2: 2950.727
+    cost3: 42633.85
+    cost4: 341070.8
+    cost5: 9442327
+    cost6: 136428320
+  - level: 12
+    income1: 345
+    income2: 1725
+    income3: 8625
+    income4: 17250
+    income5: 86250
+    income6: 431250
+    cost1: 189.82985
+    cost2: 3157.2778
+    cost3: 45447.684
+    cost4: 363581.47
+    cost5: 10103289
+    cost6: 145432590
+  - level: 13
+    income1: 360
+    income2: 1800
+    income3: 9000
+    income4: 18000
+    income5: 90000
+    income6: 450000
+    cost1: 201.21965
+    cost2: 3378.2874
+    cost3: 48447.234
+    cost4: 387577.88
+    cost5: 10810520
+    cost6: 155031150
+  - level: 14
+    income1: 375
+    income2: 1875
+    income3: 9375
+    income4: 18750
+    income5: 93750
+    income6: 468750
+    cost1: 213.29283
+    cost2: 3614.7676
+    cost3: 51644.75
+    cost4: 413158
+    cost5: 11567256
+    cost6: 165263200
+  - level: 15
+    income1: 390
+    income2: 1950
+    income3: 9750
+    income4: 19500
+    income5: 97500
+    income6: 487500
+    cost1: 226.0904
+    cost2: 3867.8013
+    cost3: 55053.305
+    cost4: 440426.44
+    cost5: 12376964
+    cost6: 176170580
+  - level: 16
+    income1: 405
+    income2: 2025
+    income3: 10125
+    income4: 20250
+    income5: 101250
+    income6: 506250
+    cost1: 239.65582
+    cost2: 4138.5474
+    cost3: 58686.82
+    cost4: 469494.56
+    cost5: 13243351
+    cost6: 187797820
+  - level: 17
+    income1: 420
+    income2: 2100
+    income3: 10500
+    income4: 21000
+    income5: 105000
+    income6: 525000
+    cost1: 254.03517
+    cost2: 4428.2456
+    cost3: 62560.152
+    cost4: 500481.22
+    cost5: 14170386
+    cost6: 200192480
+  - level: 18
+    income1: 435
+    income2: 2175
+    income3: 10875
+    income4: 21750
+    income5: 108750
+    income6: 543750
+    cost1: 269.27728
+    cost2: 4738.2227
+    cost3: 66689.125
+    cost4: 533513
+    cost5: 15162313
+    cost6: 213405180
+  - level: 19
+    income1: 450
+    income2: 2250
+    income3: 11250
+    income4: 22500
+    income5: 112500
+    income6: 562500
+    cost1: 285.43393
+    cost2: 5069.8984
+    cost3: 71090.6
+    cost4: 568724.8
+    cost5: 16223675
+    cost6: 227489940
+  - level: 20
+    income1: 465
+    income2: 2325
+    income3: 11625
+    income4: 23250
+    income5: 116250
+    income6: 581250
+    cost1: 302.55994
+    cost2: 5424.7915
+    cost3: 75782.586
+    cost4: 606260.7
+    cost5: 17359332
+    cost6: 242504270
+  - level: 21
+    income1: 480
+    income2: 2400
+    income3: 12000
+    income4: 24000
+    income5: 120000
+    income6: 600000
+    cost1: 320.71356
+    cost2: 5804.527
+    cost3: 80784.234
+    cost4: 646273.9
+    cost5: 18574486
+    cost6: 258509550
+  - level: 22
+    income1: 495
+    income2: 2475
+    income3: 12375
+    income4: 24750
+    income5: 123750
+    income6: 618750
+    cost1: 339.95636
+    cost2: 6210.8438
+    cost3: 86115.99
+    cost4: 688927.94
+    cost5: 19874700
+    cost6: 275571170
+  - level: 23
+    income1: 510
+    income2: 2550
+    income3: 12750
+    income4: 25500
+    income5: 127500
+    income6: 637500
+    cost1: 360.35373
+    cost2: 6645.6025
+    cost3: 91799.65
+    cost4: 734397.2
+    cost5: 21265928
+    cost6: 293758880
+  - level: 24
+    income1: 525
+    income2: 2625
+    income3: 13125
+    income4: 26250
+    income5: 131250
+    income6: 656250
+    cost1: 381.97498
+    cost2: 7110.795
+    cost3: 97858.43
+    cost4: 782867.44
+    cost5: 22754544
+    cost6: 313146980
+  - level: 25
+    income1: 540
+    income2: 2700
+    income3: 13500
+    income4: 27000
+    income5: 135000
+    income6: 675000
+    cost1: 404.89346
+    cost2: 7608.5503
+    cost3: 104317.086
+    cost4: 834536.7
+    cost5: 24347362
+    cost6: 333814660
+  - level: 26
+    income1: 555
+    income2: 2775
+    income3: 13875
+    income4: 27750
+    income5: 138750
+    income6: 693750
+    cost1: 429.18707
+    cost2: 8141.149
+    cost3: 111202.01
+    cost4: 889616.06
+    cost5: 26051676
+    cost6: 355846430
+  - level: 27
+    income1: 570
+    income2: 2850
+    income3: 14250
+    income4: 28500
+    income5: 142500
+    income6: 712500
+    cost1: 454.9383
+    cost2: 8711.029
+    cost3: 118541.34
+    cost4: 948330.75
+    cost5: 27875294
+    cost6: 379332300
+  - level: 28
+    income1: 585
+    income2: 2925
+    income3: 14625
+    income4: 29250
+    income5: 146250
+    income6: 731250
+    cost1: 482.2346
+    cost2: 9320.802
+    cost3: 126365.07
+    cost4: 1010920.56
+    cost5: 29826564
+    cost6: 404368220
+  - level: 29
+    income1: 600
+    income2: 3000
+    income3: 15000
+    income4: 30000
+    income5: 150000
+    income6: 750000
+    cost1: 511.16867
+    cost2: 9973.258
+    cost3: 134705.17
+    cost4: 1077641.4
+    cost5: 31914424
+    cost6: 431056540
+  - level: 30
+    income1: 615
+    income2: 3075
+    income3: 15375
+    income4: 30750
+    income5: 153750
+    income6: 768750
+    cost1: 541.8388
+    cost2: 10671.386
+    cost3: 143595.7
+    cost4: 1148765.6
+    cost5: 34148430
+    cost6: 459506270
+  - level: 31
+    income1: 630
+    income2: 3150
+    income3: 15750
+    income4: 31500
+    income5: 157500
+    income6: 787500
+    cost1: 574.3491
+    cost2: 11418.383
+    cost3: 153073.02
+    cost4: 1224584.1
+    cost5: 36538824
+    cost6: 489833660
+  - level: 32
+    income1: 645
+    income2: 3225
+    income3: 16125
+    income4: 32250
+    income5: 161250
+    income6: 806250
+    cost1: 608.81006
+    cost2: 12217.669
+    cost3: 163175.84
+    cost4: 1305406.8
+    cost5: 39096540
+    cost6: 522162700
+  - level: 33
+    income1: 660
+    income2: 3300
+    income3: 16500
+    income4: 33000
+    income5: 165000
+    income6: 825000
+    cost1: 645.3387
+    cost2: 13072.906
+    cost3: 173945.45
+    cost4: 1391563.6
+    cost5: 41833300
+    cost6: 556625400
+  - level: 34
+    income1: 675
+    income2: 3375
+    income3: 16875
+    income4: 33750
+    income5: 168750
+    income6: 843750
+    cost1: 684.05896
+    cost2: 13988.01
+    cost3: 185425.84
+    cost4: 1483406.8
+    cost5: 44761630
+    cost6: 593362700
+  - level: 35
+    income1: 690
+    income2: 3450
+    income3: 17250
+    income4: 34500
+    income5: 172500
+    income6: 862500
+    cost1: 725.10254
+    cost2: 14967.17
+    cost3: 197663.95
+    cost4: 1581311.6
+    cost5: 47894944
+    cost6: 632524700
+  - level: 36
+    income1: 705
+    income2: 3525
+    income3: 17625
+    income4: 35250
+    income5: 176250
+    income6: 881250
+    cost1: 768.6087
+    cost2: 16014.872
+    cost3: 210709.78
+    cost4: 1685678.2
+    cost5: 51247590
+    cost6: 674271300
+  - level: 37
+    income1: 720
+    income2: 3600
+    income3: 18000
+    income4: 36000
+    income5: 180000
+    income6: 900000
+    cost1: 814.7252
+    cost2: 17135.914
+    cost3: 224616.62
+    cost4: 1796933
+    cost5: 54834924
+    cost6: 718773200
+  - level: 38
+    income1: 735
+    income2: 3675
+    income3: 18375
+    income4: 36750
+    income5: 183750
+    income6: 918750
+    cost1: 863.6087
+    cost2: 18335.428
+    cost3: 239441.31
+    cost4: 1915530.5
+    cost5: 58673370
+    cost6: 766212200
+  - level: 39
+    income1: 750
+    income2: 3750
+    income3: 18750
+    income4: 37500
+    income5: 187500
+    income6: 937500
+    cost1: 915.42523
+    cost2: 19618.906
+    cost3: 255244.44
+    cost4: 2041955.5
+    cost5: 62780504
+    cost6: 816782200
+  - level: 40
+    income1: 765
+    income2: 3825
+    income3: 19125
+    income4: 38250
+    income5: 191250
+    income6: 956250
+    cost1: 970.35077
+    cost2: 20992.23
+    cost3: 272090.56
+    cost4: 2176724.5
+    cost5: 67175140
+    cost6: 870689860
+  - level: 41
+    income1: 780
+    income2: 3900
+    income3: 19500
+    income4: 39000
+    income5: 195000
+    income6: 975000
+    cost1: 1028.5718
+    cost2: 22461.688
+    cost3: 290048.56
+    cost4: 2320388.5
+    cost5: 71877400
+    cost6: 928155400
+  - level: 42
+    income1: 795
+    income2: 3975
+    income3: 19875
+    income4: 39750
+    income5: 198750
+    income6: 993750
+    cost1: 1090.2861
+    cost2: 24034.004
+    cost3: 309191.75
+    cost4: 2473534
+    cost5: 76908820
+    cost6: 989413600
+  - level: 43
+    income1: 810
+    income2: 4050
+    income3: 20250
+    income4: 40500
+    income5: 202500
+    income6: 1012500
+    cost1: 1155.7032
+    cost2: 25716.385
+    cost3: 329598.4
+    cost4: 2636787.2
+    cost5: 82292430
+    cost6: 1.05471494e+9
+  - level: 44
+    income1: 825
+    income2: 4125
+    income3: 20625
+    income4: 41250
+    income5: 206250
+    income6: 1031250
+    cost1: 1225.0454
+    cost2: 27516.531
+    cost3: 351351.9
+    cost4: 2810815.2
+    cost5: 88052904
+    cost6: 1.1243261e+9
+  - level: 45
+    income1: 840
+    income2: 4200
+    income3: 21000
+    income4: 42000
+    income5: 210000
+    income6: 1050000
+    cost1: 1298.5482
+    cost2: 29442.69
+    cost3: 374541.12
+    cost4: 2996329
+    cost5: 94216610
+    cost6: 1.1985316e+9
+  - level: 46
+    income1: 855
+    income2: 4275
+    income3: 21375
+    income4: 42750
+    income5: 213750
+    income6: 1068750
+    cost1: 1376.461
+    cost2: 31503.678
+    cost3: 399260.84
+    cost4: 3194086.8
+    cost5: 100811770
+    cost6: 1.2776347e+9
+  - level: 47
+    income1: 870
+    income2: 4350
+    income3: 21750
+    income4: 43500
+    income5: 217500
+    income6: 1087500
+    cost1: 1459.0487
+    cost2: 33708.934
+    cost3: 425612.06
+    cost4: 3404896.5
+    cost5: 107868590
+    cost6: 1.3619587e+9
+  - level: 48
+    income1: 885
+    income2: 4425
+    income3: 22125
+    income4: 44250
+    income5: 221250
+    income6: 1106250
+    cost1: 1546.5917
+    cost2: 36068.56
+    cost3: 453702.47
+    cost4: 3629619.8
+    cost5: 115419390
+    cost6: 1.451848e+9
+  - level: 49
+    income1: 900
+    income2: 4500
+    income3: 22500
+    income4: 45000
+    income5: 225000
+    income6: 1125000
+    cost1: 1639.3872
+    cost2: 38593.36
+    cost3: 483646.8
+    cost4: 3869174.5
+    cost5: 123498750
+    cost6: 1.5476699e+9
+  - level: 50
+    income1: 3660
+    income2: 4575
+    income3: 22875
+    income4: 45750
+    income5: 228750
+    income6: 1143750
+    cost1: 1737.7504
+    cost2: 41294.895
+    cost3: 515567.53
+    cost4: 4124540.2
+    cost5: 132143660
+    cost6: 1.649816e+9
+  - level: 51
+    income1: 3720
+    income2: 4650
+    income3: 23250
+    income4: 46500
+    income5: 232500
+    income6: 1162500
+    cost1: 1842.0154
+    cost2: 44185.54
+    cost3: 549595
+    cost4: 4396760
+    cost5: 141393730
+    cost6: 1.7587039e+9
+  - level: 52
+    income1: 3780
+    income2: 4725
+    income3: 23625
+    income4: 47250
+    income5: 236250
+    income6: 1181250
+    cost1: 1952.5364
+    cost2: 47278.523
+    cost3: 585868.25
+    cost4: 4686946
+    cost5: 151291280
+    cost6: 1.8747784e+9
+  - level: 53
+    income1: 3840
+    income2: 4800
+    income3: 24000
+    income4: 48000
+    income5: 240000
+    income6: 1200000
+    cost1: 2069.6885
+    cost2: 50588.023
+    cost3: 624535.56
+    cost4: 4996284.5
+    cost5: 161881660
+    cost6: 1.9985138e+9
+  - level: 54
+    income1: 3900
+    income2: 4875
+    income3: 24375
+    income4: 48750
+    income5: 243750
+    income6: 1218750
+    cost1: 2193.8699
+    cost2: 54129.184
+    cost3: 665754.9
+    cost4: 5326039
+    cost5: 173213390
+    cost6: 2.1304156e+9
+  - level: 55
+    income1: 3960
+    income2: 4950
+    income3: 24750
+    income4: 49500
+    income5: 247500
+    income6: 1237500
+    cost1: 2325.502
+    cost2: 57918.227
+    cost3: 709694.7
+    cost4: 5677557.5
+    cost5: 185338320
+    cost6: 2.271023e+9
+  - level: 56
+    income1: 4020
+    income2: 5025
+    income3: 25125
+    income4: 50250
+    income5: 251250
+    income6: 1256250
+    cost1: 2465.0322
+    cost2: 61972.504
+    cost3: 756534.56
+    cost4: 6052276.5
+    cost5: 198312000
+    cost6: 2.4209106e+9
+  - level: 57
+    income1: 4080
+    income2: 5100
+    income3: 25500
+    income4: 51000
+    income5: 255000
+    income6: 1275000
+    cost1: 2612.934
+    cost2: 66310.58
+    cost3: 806465.9
+    cost4: 6451727
+    cost5: 212193840
+    cost6: 2.5806907e+9
+  - level: 58
+    income1: 4140
+    income2: 5175
+    income3: 25875
+    income4: 51750
+    income5: 258750
+    income6: 1293750
+    cost1: 2769.7102
+    cost2: 70952.32
+    cost3: 859692.6
+    cost4: 6877541
+    cost5: 227047420
+    cost6: 2.7510162e+9
+  - level: 59
+    income1: 4200
+    income2: 5250
+    income3: 26250
+    income4: 52500
+    income5: 262500
+    income6: 1312500
+    cost1: 2935.8928
+    cost2: 75918.98
+    cost3: 916432.3
+    cost4: 7331458.5
+    cost5: 242940740
+    cost6: 2.9325834e+9
+  - level: 60
+    income1: 4260
+    income2: 5325
+    income3: 26625
+    income4: 53250
+    income5: 266250
+    income6: 1331250
+    cost1: 3112.0464
+    cost2: 81233.31
+    cost3: 976916.8
+    cost4: 7815334.5
+    cost5: 259946600
+    cost6: 3.1261338e+9
+  - level: 61
+    income1: 4320
+    income2: 5400
+    income3: 27000
+    income4: 54000
+    income5: 270000
+    income6: 1350000
+    cost1: 3298.769
+    cost2: 86919.64
+    cost3: 1041393.4
+    cost4: 8331147
+    cost5: 278142850
+    cost6: 3.3324588e+9
+  - level: 62
+    income1: 4380
+    income2: 5475
+    income3: 27375
+    income4: 54750
+    income5: 273750
+    income6: 1368750
+    cost1: 3496.6953
+    cost2: 93004.016
+    cost3: 1110125.2
+    cost4: 8881002
+    cost5: 297612860
+    cost6: 3.552401e+9
+  - level: 63
+    income1: 4440
+    income2: 5550
+    income3: 27750
+    income4: 55500
+    income5: 277500
+    income6: 1387500
+    cost1: 3706.4968
+    cost2: 99514.3
+    cost3: 1183393.6
+    cost4: 9467149
+    cost5: 318445760
+    cost6: 3.7868595e+9
+  - level: 64
+    income1: 4500
+    income2: 5625
+    income3: 28125
+    income4: 56250
+    income5: 281250
+    income6: 1406250
+    cost1: 3928.8867
+    cost2: 106480.3
+    cost3: 1261497.5
+    cost4: 10091980
+    cost5: 340736960
+    cost6: 4.036792e+9
+  - level: 65
+    income1: 4560
+    income2: 5700
+    income3: 28500
+    income4: 57000
+    income5: 285000
+    income6: 1425000
+    cost1: 4164.62
+    cost2: 113933.914
+    cost3: 1344756.4
+    cost4: 10758051
+    cost5: 364588540
+    cost6: 4.30322e+9
+  - level: 66
+    income1: 4620
+    income2: 5775
+    income3: 28875
+    income4: 57750
+    income5: 288750
+    income6: 1443750
+    cost1: 4414.497
+    cost2: 121909.29
+    cost3: 1433510.4
+    cost4: 11468083
+    cost5: 390109730
+    cost6: 4.587233e+9
+  - level: 67
+    income1: 4680
+    income2: 5850
+    income3: 29250
+    income4: 58500
+    income5: 292500
+    income6: 1462500
+    cost1: 4679.367
+    cost2: 130442.945
+    cost3: 1528122
+    cost4: 12224976
+    cost5: 417417400
+    cost6: 4.88999e+9
+  - level: 68
+    income1: 4740
+    income2: 5925
+    income3: 29625
+    income4: 59250
+    income5: 296250
+    income6: 1481250
+    cost1: 4960.129
+    cost2: 139573.95
+    cost3: 1628978
+    cost4: 13031824
+    cost5: 446636640
+    cost6: 5.21273e+9
+  - level: 69
+    income1: 4800
+    income2: 6000
+    income3: 30000
+    income4: 60000
+    income5: 300000
+    income6: 1500000
+    cost1: 5257.737
+    cost2: 149344.12
+    cost3: 1736490.6
+    cost4: 13891925
+    cost5: 477901200
+    cost6: 5.55677e+9
+  - level: 70
+    income1: 4860
+    income2: 6075
+    income3: 30375
+    income4: 60750
+    income5: 303750
+    income6: 1518750
+    cost1: 5573.201
+    cost2: 159798.22
+    cost3: 1851099
+    cost4: 14808792
+    cost5: 511354270
+    cost6: 5.923517e+9
+  - level: 71
+    income1: 4920
+    income2: 6150
+    income3: 30750
+    income4: 61500
+    income5: 307500
+    income6: 1537500
+    cost1: 5907.5933
+    cost2: 170984.1
+    cost3: 1973271.5
+    cost4: 15786172
+    cost5: 547149060
+    cost6: 6.314469e+9
+  - level: 72
+    income1: 4980
+    income2: 6225
+    income3: 31125
+    income4: 62250
+    income5: 311250
+    income6: 1556250
+    cost1: 6262.049
+    cost2: 182952.97
+    cost3: 2103507.5
+    cost4: 16828060
+    cost5: 585449540
+    cost6: 6.7312236e+9
+  - level: 73
+    income1: 5040
+    income2: 6300
+    income3: 31500
+    income4: 63000
+    income5: 315000
+    income6: 1575000
+    cost1: 6637.7715
+    cost2: 195759.69
+    cost3: 2242339
+    cost4: 17938712
+    cost5: 626431000
+    cost6: 7.1754844e+9
+  - level: 74
+    income1: 5100
+    income2: 6375
+    income3: 31875
+    income4: 63750
+    income5: 318750
+    income6: 1593750
+    cost1: 7036.0376
+    cost2: 209462.86
+    cost3: 2390333.2
+    cost4: 19122666
+    cost5: 670281150
+    cost6: 7.6490665e+9
+  - level: 75
+    income1: 10320
+    income2: 25800
+    income3: 64500
+    income4: 129000
+    income5: 1290000
+    income6: 3225000
+    cost1: 7458.2
+    cost2: 224125.27
+    cost3: 2548095.2
+    cost4: 20384762
+    cost5: 717200830
+    cost6: 8.153905e+9
+  - level: 76
+    income1: 10440
+    income2: 26100
+    income3: 65250
+    income4: 130500
+    income5: 1305000
+    income6: 3262500
+    cost1: 7905.692
+    cost2: 239814.03
+    cost3: 2716269.5
+    cost4: 21730156
+    cost5: 767404860
+    cost6: 8.692062e+9
+  - level: 77
+    income1: 10560
+    income2: 26400
+    income3: 66000
+    income4: 132000
+    income5: 1320000
+    income6: 3300000
+    cost1: 8380.033
+    cost2: 256601.02
+    cost3: 2895543.2
+    cost4: 23164346
+    cost5: 821123260
+    cost6: 9.265739e+9
+  - level: 78
+    income1: 10680
+    income2: 26700
+    income3: 66750
+    income4: 133500
+    income5: 1335000
+    income6: 3337500
+    cost1: 8882.836
+    cost2: 274563.1
+    cost3: 3086649.2
+    cost4: 24693194
+    cost5: 878601860
+    cost6: 9.877278e+9
+  - level: 79
+    income1: 10800
+    income2: 27000
+    income3: 67500
+    income4: 135000
+    income5: 1350000
+    income6: 3375000
+    cost1: 9415.806
+    cost2: 293782.5
+    cost3: 3290368
+    cost4: 26322944
+    cost5: 940104000
+    cost6: 1.0529178e+10
+  - level: 80
+    income1: 10920
+    income2: 27300
+    income3: 68250
+    income4: 136500
+    income5: 1365000
+    income6: 3412500
+    cost1: 9980.754
+    cost2: 314347.28
+    cost3: 3507532.5
+    cost4: 28060260
+    cost5: 1.0059113e+9
+    cost6: 1.1224104e+10
+  - level: 81
+    income1: 11040
+    income2: 27600
+    income3: 69000
+    income4: 138000
+    income5: 1380000
+    income6: 3450000
+    cost1: 10579.6
+    cost2: 336351.6
+    cost3: 3739029.5
+    cost4: 29912236
+    cost5: 1.0763251e+9
+    cost6: 1.1964894e+10
+  - level: 82
+    income1: 11160
+    income2: 27900
+    income3: 69750
+    income4: 139500
+    income5: 1395000
+    income6: 3487500
+    cost1: 11214.375
+    cost2: 359896.2
+    cost3: 3985805.5
+    cost4: 31886444
+    cost5: 1.1516678e+9
+    cost6: 1.2754577e+10
+  - level: 83
+    income1: 11280
+    income2: 28200
+    income3: 70500
+    income4: 141000
+    income5: 1410000
+    income6: 3525000
+    cost1: 11887.238
+    cost2: 385088.94
+    cost3: 4248868.5
+    cost4: 33990948
+    cost5: 1.2322845e+9
+    cost6: 1.3596379e+10
+  - level: 84
+    income1: 11400
+    income2: 28500
+    income3: 71250
+    income4: 142500
+    income5: 1425000
+    income6: 3562500
+    cost1: 12600.472
+    cost2: 412045.16
+    cost3: 4529294
+    cost4: 36234350
+    cost5: 1.3185445e+9
+    cost6: 1.4493741e+10
+  - level: 85
+    income1: 11520
+    income2: 28800
+    income3: 72000
+    income4: 144000
+    income5: 1440000
+    income6: 3600000
+    cost1: 13356.5
+    cost2: 440888.3
+    cost3: 4828227.5
+    cost4: 38625820
+    cost5: 1.4108426e+9
+    cost6: 1.5450327e+10
+  - level: 86
+    income1: 11640
+    income2: 29100
+    income3: 72750
+    income4: 145500
+    income5: 1455000
+    income6: 3637500
+    cost1: 14157.891
+    cost2: 471750.5
+    cost3: 5146890.5
+    cost4: 41175124
+    cost5: 1.5096015e+9
+    cost6: 1.6470049e+10
+  - level: 87
+    income1: 11760
+    income2: 29400
+    income3: 73500
+    income4: 147000
+    income5: 1470000
+    income6: 3675000
+    cost1: 15007.364
+    cost2: 504773.03
+    cost3: 5486585
+    cost4: 43892680
+    cost5: 1.6152737e+9
+    cost6: 1.7557072e+10
+  - level: 88
+    income1: 11880
+    income2: 29700
+    income3: 74250
+    income4: 148500
+    income5: 1485000
+    income6: 3712500
+    cost1: 15907.806
+    cost2: 540107.1
+    cost3: 5848699.5
+    cost4: 46789596
+    cost5: 1.7283428e+9
+    cost6: 1.8715838e+10
+  - level: 89
+    income1: 12000
+    income2: 30000
+    income3: 75000
+    income4: 150000
+    income5: 1500000
+    income6: 3750000
+    cost1: 16862.273
+    cost2: 577914.6
+    cost3: 6234714
+    cost4: 49877710
+    cost5: 1.8493268e+9
+    cost6: 1.9951086e+10
+  - level: 90
+    income1: 12120
+    income2: 30300
+    income3: 75750
+    income4: 151500
+    income5: 1515000
+    income6: 3787500
+    cost1: 17874.01
+    cost2: 618368.7
+    cost3: 6646205
+    cost4: 53169640
+    cost5: 1.9787798e+9
+    cost6: 2.1267855e+10
+  - level: 91
+    income1: 12240
+    income2: 30600
+    income3: 76500
+    income4: 153000
+    income5: 1530000
+    income6: 3825000
+    cost1: 18946.451
+    cost2: 661654.5
+    cost3: 7084854.5
+    cost4: 56678836
+    cost5: 2.1172943e+9
+    cost6: 2.2671534e+10
+  - level: 92
+    income1: 12360
+    income2: 30900
+    income3: 77250
+    income4: 154500
+    income5: 1545000
+    income6: 3862500
+    cost1: 20083.238
+    cost2: 707970.3
+    cost3: 7552455
+    cost4: 60419640
+    cost5: 2.265505e+9
+    cost6: 2.4167856e+10
+  - level: 93
+    income1: 12480
+    income2: 31200
+    income3: 78000
+    income4: 156000
+    income5: 1560000
+    income6: 3900000
+    cost1: 21288.232
+    cost2: 757528.2
+    cost3: 8050917
+    cost4: 64407336
+    cost5: 2.4240904e+9
+    cost6: 2.5762935e+10
+  - level: 94
+    income1: 12600
+    income2: 31500
+    income3: 78750
+    income4: 157500
+    income5: 1575000
+    income6: 3937500
+    cost1: 22565.527
+    cost2: 810555.2
+    cost3: 8582278
+    cost4: 68658220
+    cost5: 2.5937766e+9
+    cost6: 2.7463289e+10
+  - level: 95
+    income1: 12720
+    income2: 31800
+    income3: 79500
+    income4: 159000
+    income5: 1590000
+    income6: 3975000
+    cost1: 23919.459
+    cost2: 867294.06
+    cost3: 9148708
+    cost4: 73189660
+    cost5: 2.7753408e+9
+    cost6: 2.9275865e+10
+  - level: 96
+    income1: 12840
+    income2: 32100
+    income3: 80250
+    income4: 160500
+    income5: 1605000
+    income6: 4012500
+    cost1: 25354.625
+    cost2: 928004.6
+    cost3: 9752523
+    cost4: 78020184
+    cost5: 2.9696148e+9
+    cost6: 3.1208073e+10
+  - level: 97
+    income1: 12960
+    income2: 32400
+    income3: 81000
+    income4: 162000
+    income5: 1620000
+    income6: 4050000
+    cost1: 26875.902
+    cost2: 992964.94
+    cost3: 10396189
+    cost4: 83169510
+    cost5: 3.177488e+9
+    cost6: 3.3267804e+10
+  - level: 98
+    income1: 13080
+    income2: 32700
+    income3: 81750
+    income4: 163500
+    income5: 1635000
+    income6: 4087500
+    cost1: 28488.457
+    cost2: 1062472.5
+    cost3: 11082338
+    cost4: 88658700
+    cost5: 3.399912e+9
+    cost6: 3.546348e+10
+  - level: 99
+    income1: 13200
+    income2: 33000
+    income3: 82500
+    income4: 165000
+    income5: 1650000
+    income6: 4125000
+    cost1: 30197.764
+    cost2: 1136845.6
+    cost3: 11813772
+    cost4: 94510180
+    cost5: 3.637906e+9
+    cost6: 3.780407e+10
+  - level: 100
+    income1: 53280
+    income2: 33300
+    income3: 83250
+    income4: 166500
+    income5: 1665000
+    income6: 4162500
+    cost1: 32009.63
+    cost2: 1216424.8
+    cost3: 12593481
+    cost4: 100747850
+    cost5: 3.892559e+9
+    cost6: 4.029914e+10
+  - level: 101
+    income1: 53760
+    income2: 33600
+    income3: 84000
+    income4: 168000
+    income5: 1680000
+    income6: 4200000
+    cost1: 33930.207
+    cost2: 1301574.5
+    cost3: 13424650
+    cost4: 107397200
+    cost5: 4.1650383e+9
+    cost6: 4.295888e+10
+  - level: 102
+    income1: 54240
+    income2: 33900
+    income3: 84750
+    income4: 169500
+    income5: 1695000
+    income6: 4237500
+    cost1: 35966.02
+    cost2: 1392684.8
+    cost3: 14310677
+    cost4: 114485416
+    cost5: 4.456591e+9
+    cost6: 4.579417e+10
+  - level: 103
+    income1: 54720
+    income2: 34200
+    income3: 85500
+    income4: 171000
+    income5: 1710000
+    income6: 4275000
+    cost1: 38123.98
+    cost2: 1490172.6
+    cost3: 15255182
+    cost4: 122041460
+    cost5: 4.7685524e+9
+    cost6: 4.8816583e+10
+  - level: 104
+    income1: 55200
+    income2: 34500
+    income3: 86250
+    income4: 172500
+    income5: 1725000
+    income6: 4312500
+    cost1: 40411.42
+    cost2: 1594484.8
+    cost3: 16262024
+    cost4: 130096190
+    cost5: 5.102351e+9
+    cost6: 5.2038476e+10
+  - level: 105
+    income1: 55680
+    income2: 34800
+    income3: 87000
+    income4: 174000
+    income5: 1740000
+    income6: 4350000
+    cost1: 42836.105
+    cost2: 1706098.6
+    cost3: 17335318
+    cost4: 138682540
+    cost5: 5.459516e+9
+    cost6: 5.5473017e+10
+  - level: 106
+    income1: 56160
+    income2: 35100
+    income3: 87750
+    income4: 175500
+    income5: 1755000
+    income6: 4387500
+    cost1: 45406.273
+    cost2: 1825525.5
+    cost3: 18479448
+    cost4: 147835580
+    cost5: 5.841682e+9
+    cost6: 5.9134235e+10
+  - level: 107
+    income1: 56640
+    income2: 35400
+    income3: 88500
+    income4: 177000
+    income5: 1770000
+    income6: 4425000
+    cost1: 48130.65
+    cost2: 1953312.4
+    cost3: 19699092
+    cost4: 157592740
+    cost5: 6.2505994e+9
+    cost6: 6.3037096e+10
+  - level: 108
+    income1: 57120
+    income2: 35700
+    income3: 89250
+    income4: 178500
+    income5: 1785000
+    income6: 4462500
+    cost1: 51018.49
+    cost2: 2090044.2
+    cost3: 20999232
+    cost4: 167993860
+    cost5: 6.6881413e+9
+    cost6: 6.7197542e+10
+  - level: 109
+    income1: 57600
+    income2: 36000
+    income3: 90000
+    income4: 180000
+    income5: 1800000
+    income6: 4500000
+    cost1: 54079.598
+    cost2: 2236347.2
+    cost3: 22385182
+    cost4: 179081460
+    cost5: 7.1563116e+9
+    cost6: 7.1632585e+10
+  - level: 110
+    income1: 58080
+    income2: 36300
+    income3: 90750
+    income4: 181500
+    income5: 1815000
+    income6: 4537500
+    cost1: 57324.375
+    cost2: 2392891.5
+    cost3: 23862604
+    cost4: 190900830
+    cost5: 7.6572534e+9
+    cost6: 7.6360335e+10
+  - level: 111
+    income1: 58560
+    income2: 36600
+    income3: 91500
+    income4: 183000
+    income5: 1830000
+    income6: 4575000
+    cost1: 60763.836
+    cost2: 2560394
+    cost3: 25437536
+    cost4: 203500290
+    cost5: 8.193261e+9
+    cost6: 8.140011e+10
+  - level: 112
+    income1: 59040
+    income2: 36900
+    income3: 92250
+    income4: 184500
+    income5: 1845000
+    income6: 4612500
+    cost1: 64409.664
+    cost2: 2739621.5
+    cost3: 27116412
+    cost4: 216931300
+    cost5: 8.76679e+9
+    cost6: 8.677252e+10
+  - level: 113
+    income1: 59520
+    income2: 37200
+    income3: 93000
+    income4: 186000
+    income5: 1860000
+    income6: 4650000
+    cost1: 68274.24
+    cost2: 2931395
+    cost3: 28906096
+    cost4: 231248770
+    cost5: 9.380465e+9
+    cost6: 9.249951e+10
+  - level: 114
+    income1: 60000
+    income2: 37500
+    income3: 93750
+    income4: 187500
+    income5: 1875000
+    income6: 4687500
+    cost1: 72370.7
+    cost2: 3136592.8
+    cost3: 30813898
+    cost4: 246511180
+    cost5: 1.0037096e+10
+    cost6: 9.8604474e+10
+  - level: 115
+    income1: 60480
+    income2: 37800
+    income3: 94500
+    income4: 189000
+    income5: 1890000
+    income6: 4725000
+    cost1: 76712.945
+    cost2: 3356154.2
+    cost3: 32847616
+    cost4: 262780930
+    cost5: 1.0739694e+10
+    cost6: 1.0511237e+11
+  - level: 116
+    income1: 60960
+    income2: 38100
+    income3: 95250
+    income4: 190500
+    income5: 1905000
+    income6: 4762500
+    cost1: 81315.72
+    cost2: 3591085
+    cost3: 35015560
+    cost4: 280124480
+    cost5: 1.1491472e+10
+    cost6: 1.1204979e+11
+  - level: 117
+    income1: 61440
+    income2: 38400
+    income3: 96000
+    income4: 192000
+    income5: 1920000
+    income6: 4800000
+    cost1: 86194.664
+    cost2: 3842461
+    cost3: 37326584
+    cost4: 298612670
+    cost5: 1.2295876e+10
+    cost6: 1.1944507e+11
+  - level: 118
+    income1: 61920
+    income2: 38700
+    income3: 96750
+    income4: 193500
+    income5: 1935000
+    income6: 4837500
+    cost1: 91366.34
+    cost2: 4111433.2
+    cost3: 39790140
+    cost4: 318321120
+    cost5: 1.3156586e+10
+    cost6: 1.27328444e+11
+  - level: 119
+    income1: 62400
+    income2: 39000
+    income3: 97500
+    income4: 195000
+    income5: 1950000
+    income6: 4875000
+    cost1: 96848.32
+    cost2: 4399233.5
+    cost3: 42416290
+    cost4: 339330300
+    cost5: 1.4077548e+10
+    cost6: 1.35732126e+11
+  - level: 120
+    income1: 62880
+    income2: 39300
+    income3: 98250
+    income4: 196500
+    income5: 1965000
+    income6: 4912500
+    cost1: 102659.22
+    cost2: 4707180
+    cost3: 45215764
+    cost4: 361726100
+    cost5: 1.5062975e+10
+    cost6: 1.4469045e+11
+  - level: 121
+    income1: 63360
+    income2: 39600
+    income3: 99000
+    income4: 198000
+    income5: 1980000
+    income6: 4950000
+    cost1: 108818.77
+    cost2: 5036682.5
+    cost3: 48200004
+    cost4: 385600030
+    cost5: 1.6117384e+10
+    cost6: 1.5424001e+11
+  - level: 122
+    income1: 63840
+    income2: 39900
+    income3: 99750
+    income4: 199500
+    income5: 1995000
+    income6: 4987500
+    cost1: 115347.9
+    cost2: 5389250.5
+    cost3: 51381204
+    cost4: 411049630
+    cost5: 1.7245602e+10
+    cost6: 1.6441986e+11
+  - level: 123
+    income1: 64320
+    income2: 40200
+    income3: 100500
+    income4: 201000
+    income5: 2010000
+    income6: 5025000
+    cost1: 122268.77
+    cost2: 5766498
+    cost3: 54772364
+    cost4: 438178900
+    cost5: 1.8452793e+10
+    cost6: 1.7527156e+11
+  - level: 124
+    income1: 64800
+    income2: 40500
+    income3: 101250
+    income4: 202500
+    income5: 2025000
+    income6: 5062500
+    cost1: 129604.9
+    cost2: 6170152.5
+    cost3: 58387340
+    cost4: 467098720
+    cost5: 1.974449e+10
+    cost6: 1.8683948e+11
+  - level: 125
+    income1: 65280
+    income2: 40800
+    income3: 102000
+    income4: 204000
+    income5: 2040000
+    income6: 5100000
+    cost1: 137381.2
+    cost2: 6602063.5
+    cost3: 62240904
+    cost4: 497927230
+    cost5: 2.1126603e+10
+    cost6: 1.991709e+11
+  - level: 126
+    income1: 65760
+    income2: 41100
+    income3: 102750
+    income4: 205500
+    income5: 2055000
+    income6: 5137500
+    cost1: 145624.06
+    cost2: 7064208
+    cost3: 66348804
+    cost4: 530790430
+    cost5: 2.2605466e+10
+    cost6: 2.1231618e+11
+  - level: 127
+    income1: 66240
+    income2: 41400
+    income3: 103500
+    income4: 207000
+    income5: 2070000
+    income6: 5175000
+    cost1: 154361.52
+    cost2: 7558702.5
+    cost3: 70727820
+    cost4: 565822600
+    cost5: 2.4187849e+10
+    cost6: 2.2632905e+11
+  - level: 128
+    income1: 66720
+    income2: 41700
+    income3: 104250
+    income4: 208500
+    income5: 2085000
+    income6: 5212500
+    cost1: 163623.2
+    cost2: 8087811.5
+    cost3: 75395864
+    cost4: 603166900
+    cost5: 2.5880998e+10
+    cost6: 2.4126675e+11
+  - level: 129
+    income1: 67200
+    income2: 42000
+    income3: 105000
+    income4: 210000
+    income5: 2100000
+    income6: 5250000
+    cost1: 173440.6
+    cost2: 8653958
+    cost3: 80371990
+    cost4: 642975940
+    cost5: 2.7692667e+10
+    cost6: 2.5719036e+11
+  - level: 130
+    income1: 67680
+    income2: 42300
+    income3: 105750
+    income4: 211500
+    income5: 2115000
+    income6: 5287500
+    cost1: 183847.03
+    cost2: 9259735
+    cost3: 85676540
+    cost4: 685412350
+    cost5: 2.9631154e+10
+    cost6: 2.7416492e+11
+  - level: 131
+    income1: 68160
+    income2: 42600
+    income3: 106500
+    income4: 213000
+    income5: 2130000
+    income6: 5325000
+    cost1: 194877.86
+    cost2: 9907917
+    cost3: 91331190
+    cost4: 730649540
+    cost5: 3.1705334e+10
+    cost6: 2.9225982e+11
+  - level: 132
+    income1: 68640
+    income2: 42900
+    income3: 107250
+    income4: 214500
+    income5: 2145000
+    income6: 5362500
+    cost1: 206570.52
+    cost2: 10601471
+    cost3: 97359050
+    cost4: 778872400
+    cost5: 3.3924708e+10
+    cost6: 3.1154897e+11
+  - level: 133
+    income1: 69120
+    income2: 43200
+    income3: 108000
+    income4: 216000
+    income5: 2160000
+    income6: 5400000
+    cost1: 218964.75
+    cost2: 11343574
+    cost3: 103784750
+    cost4: 830278000
+    cost5: 3.6299436e+10
+    cost6: 3.321112e+11
+  - level: 134
+    income1: 69600
+    income2: 43500
+    income3: 108750
+    income4: 217500
+    income5: 2175000
+    income6: 5437500
+    cost1: 232102.64
+    cost2: 12137624
+    cost3: 110634540
+    cost4: 885076350
+    cost5: 3.8840398e+10
+    cost6: 3.5403052e+11
+  - level: 135
+    income1: 70080
+    income2: 43800
+    income3: 109500
+    income4: 219000
+    income5: 2190000
+    income6: 5475000
+    cost1: 246028.8
+    cost2: 12987258
+    cost3: 117936424
+    cost4: 943491400
+    cost5: 4.1559224e+10
+    cost6: 3.7739656e+11
+  - level: 136
+    income1: 70560
+    income2: 44100
+    income3: 110250
+    income4: 220500
+    income5: 2205000
+    income6: 5512500
+    cost1: 260790.53
+    cost2: 13896366
+    cost3: 125720220
+    cost4: 1.0057618e+9
+    cost5: 4.446837e+10
+    cost6: 4.0230473e+11
+  - level: 137
+    income1: 71040
+    income2: 44400
+    income3: 111000
+    income4: 222000
+    income5: 2220000
+    income6: 5550000
+    cost1: 276437.97
+    cost2: 14869112
+    cost3: 134017760
+    cost4: 1.0721421e+9
+    cost5: 4.758116e+10
+    cost6: 4.2885684e+11
+  - level: 138
+    income1: 71520
+    income2: 44700
+    income3: 111750
+    income4: 223500
+    income5: 2235000
+    income6: 5587500
+    cost1: 293024.25
+    cost2: 15909950
+    cost3: 142862930
+    cost4: 1.1429034e+9
+    cost5: 5.091184e+10
+    cost6: 4.5716138e+11
+  - level: 139
+    income1: 72000
+    income2: 45000
+    income3: 112500
+    income4: 225000
+    income5: 2250000
+    income6: 5625000
+    cost1: 310605.7
+    cost2: 17023646
+    cost3: 152291890
+    cost4: 1.2183351e+9
+    cost5: 5.4475665e+10
+    cost6: 4.8733405e+11
+  - level: 140
+    income1: 72480
+    income2: 45300
+    income3: 113250
+    income4: 226500
+    income5: 2265000
+    income6: 5662500
+    cost1: 329242.03
+    cost2: 18215302
+    cost3: 162343150
+    cost4: 1.2987452e+9
+    cost5: 5.8288964e+10
+    cost6: 5.1949807e+11
+  - level: 141
+    income1: 72960
+    income2: 45600
+    income3: 114000
+    income4: 228000
+    income5: 2280000
+    income6: 5700000
+    cost1: 348996.56
+    cost2: 19490372
+    cost3: 173057800
+    cost4: 1.3844623e+9
+    cost5: 6.236919e+10
+    cost6: 5.5378497e+11
+  - level: 142
+    income1: 73440
+    income2: 45900
+    income3: 114750
+    income4: 229500
+    income5: 2295000
+    income6: 5737500
+    cost1: 369936.34
+    cost2: 20854698
+    cost3: 184479620
+    cost4: 1.4758369e+9
+    cost5: 6.6735034e+10
+    cost6: 5.903348e+11
+  - level: 143
+    income1: 73920
+    income2: 46200
+    income3: 115500
+    income4: 231000
+    income5: 2310000
+    income6: 5775000
+    cost1: 392132.53
+    cost2: 22314528
+    cost3: 196655260
+    cost4: 1.5732421e+9
+    cost5: 7.1406486e+10
+    cost6: 6.2929686e+11
+  - level: 144
+    income1: 74400
+    income2: 46500
+    income3: 116250
+    income4: 232500
+    income5: 2325000
+    income6: 5812500
+    cost1: 415660.47
+    cost2: 23876544
+    cost3: 209634510
+    cost4: 1.6770761e+9
+    cost5: 7.640494e+10
+    cost6: 6.708304e+11
+  - level: 145
+    income1: 74880
+    income2: 46800
+    income3: 117000
+    income4: 234000
+    income5: 2340000
+    income6: 5850000
+    cost1: 440600.1
+    cost2: 25547902
+    cost3: 223470400
+    cost4: 1.7877632e+9
+    cost5: 8.1753285e+10
+    cost6: 7.1510524e+11
+  - level: 146
+    income1: 75360
+    income2: 47100
+    income3: 117750
+    income4: 235500
+    income5: 2355000
+    income6: 5887500
+    cost1: 467036.12
+    cost2: 27336256
+    cost3: 238219440
+    cost4: 1.9057555e+9
+    cost5: 8.747602e+10
+    cost6: 7.6230223e+11
+  - level: 147
+    income1: 75840
+    income2: 47400
+    income3: 118500
+    income4: 237000
+    income5: 2370000
+    income6: 5925000
+    cost1: 495058.28
+    cost2: 29249794
+    cost3: 253941920
+    cost4: 2.0315354e+9
+    cost5: 9.359934e+10
+    cost6: 8.1261416e+11
+  - level: 148
+    income1: 76320
+    income2: 47700
+    income3: 119250
+    income4: 238500
+    income5: 2385000
+    income6: 5962500
+    cost1: 524761.75
+    cost2: 31297278
+    cost3: 270702080
+    cost4: 2.1656166e+9
+    cost5: 1.001513e+11
+    cost6: 8.6624666e+11
+  - level: 149
+    income1: 76800
+    income2: 48000
+    income3: 120000
+    income4: 240000
+    income5: 2400000
+    income6: 6000000
+    cost1: 556247.5
+    cost2: 33488088
+    cost3: 288568420
+    cost4: 2.3085473e+9
+    cost5: 1.0716189e+11
+    cost6: 9.2341895e+11
+  - level: 150
+    income1: 77280
+    income2: 193200
+    income3: 120750
+    income4: 241500
+    income5: 9660000
+    income6: 6037500
+    cost1: 589622.3
+    cost2: 35832256
+    cost3: 307613950
+    cost4: 2.4609116e+9
+    cost5: 1.1466321e+11
+    cost6: 9.843646e+11
+  - level: 151
+    income1: 77760
+    income2: 194400
+    income3: 121500
+    income4: 243000
+    income5: 9720000
+    income6: 6075000
+    cost1: 624999.7
+    cost2: 38340510
+    cost3: 327916450
+    cost4: 2.6233316e+9
+    cost5: 1.2268964e+11
+    cost6: 1.0493327e+12
+  - level: 152
+    income1: 78240
+    income2: 195600
+    income3: 122250
+    income4: 244500
+    income5: 9780000
+    income6: 6112500
+    cost1: 662499.6
+    cost2: 41024348
+    cost3: 349558940
+    cost4: 2.7964716e+9
+    cost5: 1.31277914e+11
+    cost6: 1.1185886e+12
+  - level: 153
+    income1: 78720
+    income2: 196800
+    income3: 123000
+    income4: 246000
+    income5: 9840000
+    income6: 6150000
+    cost1: 702249.6
+    cost2: 43896052
+    cost3: 372629860
+    cost4: 2.9810388e+9
+    cost5: 1.4046737e+11
+    cost6: 1.1924155e+12
+  - level: 154
+    income1: 79200
+    income2: 198000
+    income3: 123750
+    income4: 247500
+    income5: 9900000
+    income6: 6187500
+    cost1: 744384.6
+    cost2: 46968776
+    cost3: 397223420
+    cost4: 3.1777874e+9
+    cost5: 1.5030008e+11
+    cost6: 1.2711149e+12
+  - level: 155
+    income1: 79680
+    income2: 199200
+    income3: 124500
+    income4: 249000
+    income5: 9960000
+    income6: 6225000
+    cost1: 789047.7
+    cost2: 50256590
+    cost3: 423440160
+    cost4: 3.3875213e+9
+    cost5: 1.6082108e+11
+    cost6: 1.3550084e+12
+  - level: 156
+    income1: 80160
+    income2: 200400
+    income3: 125250
+    income4: 250500
+    income5: 10020000
+    income6: 6262500
+    cost1: 836390.56
+    cost2: 53774550
+    cost3: 451387200
+    cost4: 3.6110976e+9
+    cost5: 1.7207856e+11
+    cost6: 1.444439e+12
+  - level: 157
+    income1: 80640
+    income2: 201600
+    income3: 126000
+    income4: 252000
+    income5: 10080000
+    income6: 6300000
+    cost1: 886574
+    cost2: 57538772
+    cost3: 481178750
+    cost4: 3.84943e+9
+    cost5: 1.8412406e+11
+    cost6: 1.539772e+12
+  - level: 158
+    income1: 81120
+    income2: 202800
+    income3: 126750
+    income4: 253500
+    income5: 10140000
+    income6: 6337500
+    cost1: 939768.44
+    cost2: 61566484
+    cost3: 512936540
+    cost4: 4.1034924e+9
+    cost5: 1.9701275e+11
+    cost6: 1.641397e+12
+  - level: 159
+    income1: 81600
+    income2: 204000
+    income3: 127500
+    income4: 255000
+    income5: 10200000
+    income6: 6375000
+    cost1: 996154.5
+    cost2: 65876140
+    cost3: 546790400
+    cost4: 4.374323e+9
+    cost5: 2.1080364e+11
+    cost6: 1.7497291e+12
+  - level: 160
+    income1: 82080
+    income2: 205200
+    income3: 128250
+    income4: 256500
+    income5: 10260000
+    income6: 6412500
+    cost1: 1055923.8
+    cost2: 70487470
+    cost3: 582878500
+    cost4: 4.663028e+9
+    cost5: 2.255599e+11
+    cost6: 1.8652113e+12
+  - level: 161
+    income1: 82560
+    income2: 206400
+    income3: 129000
+    income4: 258000
+    income5: 10320000
+    income6: 6450000
+    cost1: 1119279.2
+    cost2: 75421590
+    cost3: 621348540
+    cost4: 4.9707884e+9
+    cost5: 2.4134908e+11
+    cost6: 1.9883153e+12
+  - level: 162
+    income1: 83040
+    income2: 207600
+    income3: 129750
+    income4: 259500
+    income5: 10380000
+    income6: 6487500
+    cost1: 1186436
+    cost2: 80701100
+    cost3: 662357500
+    cost4: 5.29886e+9
+    cost5: 2.5824353e+11
+    cost6: 2.1195441e+12
+  - level: 163
+    income1: 83520
+    income2: 208800
+    income3: 130500
+    income4: 261000
+    income5: 10440000
+    income6: 6525000
+    cost1: 1257622.1
+    cost2: 86350180
+    cost3: 706073100
+    cost4: 5.6485847e+9
+    cost5: 2.763206e+11
+    cost6: 2.259434e+12
+  - level: 164
+    income1: 84000
+    income2: 210000
+    income3: 131250
+    income4: 262500
+    income5: 10500000
+    income6: 6562500
+    cost1: 1333079.5
+    cost2: 92394690
+    cost3: 752673900
+    cost4: 6.0213914e+9
+    cost5: 2.95663e+11
+    cost6: 2.4085565e+12
+  - level: 165
+    income1: 84480
+    income2: 211200
+    income3: 132000
+    income4: 264000
+    income5: 10560000
+    income6: 6600000
+    cost1: 1413064.2
+    cost2: 98862320
+    cost3: 802350400
+    cost4: 6.418803e+9
+    cost5: 3.163594e+11
+    cost6: 2.5675214e+12
+  - level: 166
+    income1: 84960
+    income2: 212400
+    income3: 132750
+    income4: 265500
+    income5: 10620000
+    income6: 6637500
+    cost1: 1497848.1
+    cost2: 105782680
+    cost3: 855305540
+    cost4: 6.8424443e+9
+    cost5: 3.3850458e+11
+    cost6: 2.736978e+12
+  - level: 167
+    income1: 85440
+    income2: 213600
+    income3: 133500
+    income4: 267000
+    income5: 10680000
+    income6: 6675000
+    cost1: 1587719
+    cost2: 113187470
+    cost3: 911755700
+    cost4: 7.2940457e+9
+    cost5: 3.621999e+11
+    cost6: 2.9176184e+12
+  - level: 168
+    income1: 85920
+    income2: 214800
+    income3: 134250
+    income4: 268500
+    income5: 10740000
+    income6: 6712500
+    cost1: 1682982.1
+    cost2: 121110590
+    cost3: 971931600
+    cost4: 7.7754527e+9
+    cost5: 3.875539e+11
+    cost6: 3.110181e+12
+  - level: 169
+    income1: 86400
+    income2: 216000
+    income3: 135000
+    income4: 270000
+    income5: 10800000
+    income6: 6750000
+    cost1: 1783961
+    cost2: 129588340
+    cost3: 1.0360791e+9
+    cost4: 8.288633e+9
+    cost5: 4.1468268e+11
+    cost6: 3.3154531e+12
+  - level: 170
+    income1: 86880
+    income2: 217200
+    income3: 135750
+    income4: 271500
+    income5: 10860000
+    income6: 6787500
+    cost1: 1890998.8
+    cost2: 138659520
+    cost3: 1.1044603e+9
+    cost4: 8.835682e+9
+    cost5: 4.4371047e+11
+    cost6: 3.5342729e+12
+  - level: 171
+    income1: 87360
+    income2: 218400
+    income3: 136500
+    income4: 273000
+    income5: 10920000
+    income6: 6825000
+    cost1: 2004458.6
+    cost2: 148365680
+    cost3: 1.1773546e+9
+    cost4: 9.418837e+9
+    cost5: 4.7477018e+11
+    cost6: 3.767535e+12
+  - level: 172
+    income1: 87840
+    income2: 219600
+    income3: 137250
+    income4: 274500
+    income5: 10980000
+    income6: 6862500
+    cost1: 2124726.2
+    cost2: 158751280
+    cost3: 1.2550601e+9
+    cost4: 1.0040481e+10
+    cost5: 5.080041e+11
+    cost6: 4.0161924e+12
+  - level: 173
+    income1: 88320
+    income2: 220800
+    income3: 138000
+    income4: 276000
+    income5: 11040000
+    income6: 6900000
+    cost1: 2252209.8
+    cost2: 169863870
+    cost3: 1.337894e+9
+    cost4: 1.0703152e+10
+    cost5: 5.435644e+11
+    cost6: 4.281261e+12
+  - level: 174
+    income1: 88800
+    income2: 222000
+    income3: 138750
+    income4: 277500
+    income5: 11100000
+    income6: 6937500
+    cost1: 2387342.2
+    cost2: 181754340
+    cost3: 1.4261951e+9
+    cost4: 1.1409561e+10
+    cost5: 5.816139e+11
+    cost6: 4.5638243e+12
+  - level: 175
+    income1: 89280
+    income2: 223200
+    income3: 139500
+    income4: 279000
+    income5: 11160000
+    income6: 6975000
+    cost1: 2530582.8
+    cost2: 194477150
+    cost3: 1.520324e+9
+    cost4: 1.2162592e+10
+    cost5: 6.2232684e+11
+    cost6: 4.8650366e+12
+  - level: 176
+    income1: 89760
+    income2: 224400
+    income3: 140250
+    income4: 280500
+    income5: 11220000
+    income6: 7012500
+    cost1: 2682417.8
+    cost2: 208090540
+    cost3: 1.6206653e+9
+    cost4: 1.2965323e+10
+    cost5: 6.6588973e+11
+    cost6: 5.186129e+12
+  - level: 177
+    income1: 90240
+    income2: 225600
+    income3: 141000
+    income4: 282000
+    income5: 11280000
+    income6: 7050000
+    cost1: 2843362.8
+    cost2: 222656880
+    cost3: 1.7276292e+9
+    cost4: 1.3821033e+10
+    cost5: 7.12502e+11
+    cost6: 5.5284135e+12
+  - level: 178
+    income1: 90720
+    income2: 226800
+    income3: 141750
+    income4: 283500
+    income5: 11340000
+    income6: 7087500
+    cost1: 3013964.8
+    cost2: 238242860
+    cost3: 1.8416527e+9
+    cost4: 1.4733222e+10
+    cost5: 7.623772e+11
+    cost6: 5.8932886e+12
+  - level: 179
+    income1: 91200
+    income2: 228000
+    income3: 142500
+    income4: 285000
+    income5: 11400000
+    income6: 7125000
+    cost1: 3194802.5
+    cost2: 254919870
+    cost3: 1.9632018e+9
+    cost4: 1.5705614e+10
+    cost5: 8.1574357e+11
+    cost6: 6.282246e+12
+  - level: 180
+    income1: 91680
+    income2: 229200
+    income3: 143250
+    income4: 286500
+    income5: 11460000
+    income6: 7162500
+    cost1: 3386490.8
+    cost2: 272764260
+    cost3: 2.0927731e+9
+    cost4: 1.6742185e+10
+    cost5: 8.728456e+11
+    cost6: 6.6968743e+12
+  - level: 181
+    income1: 92160
+    income2: 230400
+    income3: 144000
+    income4: 288000
+    income5: 11520000
+    income6: 7200000
+    cost1: 3589680
+    cost2: 291857760
+    cost3: 2.230896e+9
+    cost4: 1.784717e+10
+    cost5: 9.339448e+11
+    cost6: 7.138868e+12
+  - level: 182
+    income1: 92640
+    income2: 231600
+    income3: 144750
+    income4: 289500
+    income5: 11580000
+    income6: 7237500
+    cost1: 3805061
+    cost2: 312287800
+    cost3: 2.3781353e+9
+    cost4: 1.9025082e+10
+    cost5: 9.99321e+11
+    cost6: 7.610033e+12
+  - level: 183
+    income1: 93120
+    income2: 232800
+    income3: 145500
+    income4: 291000
+    income5: 11640000
+    income6: 7275000
+    cost1: 4033364.5
+    cost2: 334147940
+    cost3: 2.5350922e+9
+    cost4: 2.0280738e+10
+    cost5: 1.06927345e+12
+    cost6: 8.112295e+12
+  - level: 184
+    income1: 93600
+    income2: 234000
+    income3: 146250
+    income4: 292500
+    income5: 11700000
+    income6: 7312500
+    cost1: 4275366.5
+    cost2: 357538300
+    cost3: 2.7024084e+9
+    cost4: 2.1619268e+10
+    cost5: 1.1441225e+12
+    cost6: 8.647707e+12
+  - level: 185
+    income1: 94080
+    income2: 235200
+    income3: 147000
+    income4: 294000
+    income5: 11760000
+    income6: 7350000
+    cost1: 4531888.5
+    cost2: 382565980
+    cost3: 2.8807672e+9
+    cost4: 2.3046138e+10
+    cost5: 1.2242112e+12
+    cost6: 9.218455e+12
+  - level: 186
+    income1: 94560
+    income2: 236400
+    income3: 147750
+    income4: 295500
+    income5: 11820000
+    income6: 7387500
+    cost1: 4803801.5
+    cost2: 409345600
+    cost3: 3.070898e+9
+    cost4: 2.4567183e+10
+    cost5: 1.3099059e+12
+    cost6: 9.826874e+12
+  - level: 187
+    income1: 95040
+    income2: 237600
+    income3: 148500
+    income4: 297000
+    income5: 11880000
+    income6: 7425000
+    cost1: 5092030
+    cost2: 437999800
+    cost3: 3.2735772e+9
+    cost4: 2.6188618e+10
+    cost5: 1.4015993e+12
+    cost6: 1.0475447e+13
+  - level: 188
+    income1: 95520
+    income2: 238800
+    income3: 149250
+    income4: 298500
+    income5: 11940000
+    income6: 7462500
+    cost1: 5397551.5
+    cost2: 468659780
+    cost3: 3.4896333e+9
+    cost4: 2.7917066e+10
+    cost5: 1.4997113e+12
+    cost6: 1.1166827e+13
+  - level: 189
+    income1: 96000
+    income2: 240000
+    income3: 150000
+    income4: 300000
+    income5: 12000000
+    income6: 7500000
+    cost1: 5721404.5
+    cost2: 501465950
+    cost3: 3.719949e+9
+    cost4: 2.9759592e+10
+    cost5: 1.604691e+12
+    cost6: 1.1903837e+13
+  - level: 190
+    income1: 96480
+    income2: 241200
+    income3: 150750
+    income4: 301500
+    income5: 12060000
+    income6: 7537500
+    cost1: 6064689
+    cost2: 536568580
+    cost3: 3.9654659e+9
+    cost4: 3.1723727e+10
+    cost5: 1.7170195e+12
+    cost6: 1.268949e+13
+  - level: 191
+    income1: 96960
+    income2: 242400
+    income3: 151500
+    income4: 303000
+    income5: 12120000
+    income6: 7575000
+    cost1: 6428570.5
+    cost2: 574128400
+    cost3: 4.2271864e+9
+    cost4: 3.3817491e+10
+    cost5: 1.8372108e+12
+    cost6: 1.3526996e+13
+  - level: 192
+    income1: 97440
+    income2: 243600
+    income3: 152250
+    income4: 304500
+    income5: 12180000
+    income6: 7612500
+    cost1: 6814284.5
+    cost2: 614317400
+    cost3: 4.5061806e+9
+    cost4: 3.6049445e+10
+    cost5: 1.9658156e+12
+    cost6: 1.4419778e+13
+  - level: 193
+    income1: 97920
+    income2: 244800
+    income3: 153000
+    income4: 306000
+    income5: 12240000
+    income6: 7650000
+    cost1: 7223141.5
+    cost2: 657319600
+    cost3: 4.8035886e+9
+    cost4: 3.842871e+10
+    cost5: 2.1034227e+12
+    cost6: 1.5371483e+13
+  - level: 194
+    income1: 98400
+    income2: 246000
+    income3: 153750
+    income4: 307500
+    income5: 12300000
+    income6: 7687500
+    cost1: 7656530
+    cost2: 703332000
+    cost3: 5.1206257e+9
+    cost4: 4.0965005e+10
+    cost5: 2.2506622e+12
+    cost6: 1.6386002e+13
+  - level: 195
+    income1: 98880
+    income2: 247200
+    income3: 154500
+    income4: 309000
+    income5: 12360000
+    income6: 7725000
+    cost1: 8115922
+    cost2: 752565200
+    cost3: 5.458587e+9
+    cost4: 4.3668697e+10
+    cost5: 2.4082087e+12
+    cost6: 1.7467478e+13
+  - level: 196
+    income1: 99360
+    income2: 248400
+    income3: 155250
+    income4: 310500
+    income5: 12420000
+    income6: 7762500
+    cost1: 8602877
+    cost2: 805244740
+    cost3: 5.8188534e+9
+    cost4: 4.6550827e+10
+    cost5: 2.5767832e+12
+    cost6: 1.8620332e+13
+  - level: 197
+    income1: 99840
+    income2: 249600
+    income3: 156000
+    income4: 312000
+    income5: 12480000
+    income6: 7800000
+    cost1: 9119050
+    cost2: 861611900
+    cost3: 6.202898e+9
+    cost4: 4.9623183e+10
+    cost5: 2.757158e+12
+    cost6: 1.9849273e+13
+  - level: 198
+    income1: 100320
+    income2: 250800
+    income3: 156750
+    income4: 313500
+    income5: 12540000
+    income6: 7837500
+    cost1: 9666193
+    cost2: 921924740
+    cost3: 6.612289e+9
+    cost4: 5.2898312e+10
+    cost5: 2.9501591e+12
+    cost6: 2.1159326e+13
+  - level: 199
+    income1: 100800
+    income2: 252000
+    income3: 157500
+    income4: 315000
+    income5: 12600000
+    income6: 7875000
+    cost1: 10246164
+    cost2: 986459460
+    cost3: 7.0487004e+9
+    cost4: 5.6389603e+10
+    cost5: 3.1566702e+12
+    cost6: 2.255584e+13
+  - level: 200
+    income1: 101280
+    income2: 253200
+    income3: 158250
+    income4: 316500
+    income5: 12660000
+    income6: 7912500
+    cost1: 10860934
+    cost2: 1.0555116e+9
+    cost3: 7.5139144e+9
+    cost4: 6.0111315e+10
+    cost5: 3.377637e+12
+    cost6: 2.4044527e+13
+  Upgrade_Worker:
+  - level: 0
+    worker: 400
+    cost1: 0
+    cost2: 400
+    cost3: 0
+    cost4: 0
+    cost5: 0
+    cost6: 0
+  - level: 1
+    worker: 1
+    cost1: 0
+    cost2: 7500
+    cost3: 112500
+    cost4: 900000
+    cost5: 18000000
+    cost6: 360000000
+  - level: 2
+    worker: 1.19
+    cost1: 530
+    cost2: 8250
+    cost3: 120375
+    cost4: 963000
+    cost5: 19800000
+    cost6: 385200000
+  - level: 3
+    worker: 1.38
+    cost1: 561.8
+    cost2: 9075
+    cost3: 128801.25
+    cost4: 1030410
+    cost5: 21780000
+    cost6: 412164000
+  - level: 4
+    worker: 1.57
+    cost1: 595.508
+    cost2: 9982.5
+    cost3: 137817.34
+    cost4: 1102538.8
+    cost5: 23958000
+    cost6: 441015500
+  - level: 5
+    worker: 1.76
+    cost1: 631.23846
+    cost2: 10980.75
+    cost3: 147464.55
+    cost4: 1179716.4
+    cost5: 26353800
+    cost6: 471886560
+  - level: 6
+    worker: 1.95
+    cost1: 669.1128
+    cost2: 12078.825
+    cost3: 157787.06
+    cost4: 1262296.5
+    cost5: 28989180
+    cost6: 504918620
+  - level: 7
+    worker: 2.14
+    cost1: 709.2596
+    cost2: 13286.707
+    cost3: 168832.17
+    cost4: 1350657.4
+    cost5: 31888098
+    cost6: 540262900
+  - level: 8
+    worker: 2.33
+    cost1: 751.8151
+    cost2: 14615.378
+    cost3: 180650.42
+    cost4: 1445203.4
+    cost5: 35076908
+    cost6: 578081340
+  - level: 9
+    worker: 2.52
+    cost1: 796.924
+    cost2: 16076.916
+    cost3: 193295.94
+    cost4: 1546367.5
+    cost5: 38584600
+    cost6: 618547000
+  - level: 10
+    worker: 2.71
+    cost1: 844.7395
+    cost2: 17684.607
+    cost3: 206826.66
+    cost4: 1654613.2
+    cost5: 42443060
+    cost6: 661845300
+  - level: 11
+    worker: 2.9
+    cost1: 895.4238
+    cost2: 19453.068
+    cost3: 221304.53
+    cost4: 1770436.2
+    cost5: 46687364
+    cost6: 708174460
+  - level: 12
+    worker: 3.09
+    cost1: 949.1493
+    cost2: 21398.375
+    cost3: 236795.84
+    cost4: 1894366.8
+    cost5: 51356100
+    cost6: 757746700
+  - level: 13
+    worker: 3.28
+    cost1: 1006.0982
+    cost2: 23538.213
+    cost3: 253371.55
+    cost4: 2026972.4
+    cost5: 56491710
+    cost6: 810789000
+  - level: 14
+    worker: 3.47
+    cost1: 1066.4641
+    cost2: 25892.033
+    cost3: 271107.56
+    cost4: 2168860.5
+    cost5: 62140880
+    cost6: 867544200
+  - level: 15
+    worker: 3.66
+    cost1: 1130.452
+    cost2: 28481.238
+    cost3: 290085.1
+    cost4: 2320680.8
+    cost5: 68354970
+    cost6: 928272300
+  - level: 16
+    worker: 3.85
+    cost1: 1198.279
+    cost2: 31329.361
+    cost3: 310391.06
+    cost4: 2483128.5
+    cost5: 75190460
+    cost6: 993251300
+  - level: 17
+    worker: 4.04
+    cost1: 1270.1759
+    cost2: 34462.297
+    cost3: 332118.4
+    cost4: 2656947.2
+    cost5: 82709510
+    cost6: 1.06277894e+9
+  - level: 18
+    worker: 4.23
+    cost1: 1346.3864
+    cost2: 37908.527
+    cost3: 355366.72
+    cost4: 2842933.8
+    cost5: 90980460
+    cost6: 1.1371735e+9
+  - level: 19
+    worker: 4.42
+    cost1: 1427.1696
+    cost2: 41699.38
+    cost3: 380242.38
+    cost4: 3041939
+    cost5: 100078510
+    cost6: 1.2167757e+9
+  - level: 20
+    worker: 4.61
+    cost1: 1512.7998
+    cost2: 45869.316
+    cost3: 406859.34
+    cost4: 3254874.8
+    cost5: 110086360
+    cost6: 1.30195e+9
+  - level: 21
+    worker: 4.8
+    cost1: 1603.5677
+    cost2: 50456.25
+    cost3: 435339.5
+    cost4: 3482716
+    cost5: 121095000
+    cost6: 1.3930865e+9
+  - level: 22
+    worker: 4.99
+    cost1: 1699.7819
+    cost2: 55501.875
+    cost3: 465813.28
+    cost4: 3726506.2
+    cost5: 133204500
+    cost6: 1.4906025e+9
+  - level: 23
+    worker: 5.18
+    cost1: 1801.7687
+    cost2: 61052.062
+    cost3: 498420.2
+    cost4: 3987361.5
+    cost5: 146524940
+    cost6: 1.5949446e+9
+  - level: 24
+    worker: 5.37
+    cost1: 1909.8749
+    cost2: 67157.266
+    cost3: 533309.6
+    cost4: 4266477
+    cost5: 161177440
+    cost6: 1.7065907e+9
+  - level: 25
+    worker: 5.56
+    cost1: 2024.4673
+    cost2: 73872.99
+    cost3: 570641.3
+    cost4: 4565130.5
+    cost5: 177295180
+    cost6: 1.8260521e+9
+  - level: 26
+    worker: 5.75
+    cost1: 2145.9353
+    cost2: 81260.3
+    cost3: 610586.2
+    cost4: 4884689.5
+    cost5: 195024700
+    cost6: 1.9538757e+9
+  - level: 27
+    worker: 5.94
+    cost1: 2274.6914
+    cost2: 89386.32
+    cost3: 653327.2
+    cost4: 5226617.5
+    cost5: 214527180
+    cost6: 2.090647e+9
+  - level: 28
+    worker: 6.13
+    cost1: 2411.1729
+    cost2: 98324.95
+    cost3: 699060.1
+    cost4: 5592481
+    cost5: 235979890
+    cost6: 2.2369923e+9
+  - level: 29
+    worker: 6.32
+    cost1: 2555.8433
+    cost2: 108157.45
+    cost3: 747994.3
+    cost4: 5983954.5
+    cost5: 259577890
+    cost6: 2.3935818e+9
+  - level: 30
+    worker: 6.51
+    cost1: 2709.1938
+    cost2: 118973.195
+    cost3: 800353.94
+    cost4: 6402831.5
+    cost5: 285535680
+    cost6: 2.5611325e+9
+  - level: 31
+    worker: 6.7
+    cost1: 2871.7456
+    cost2: 130870.516
+    cost3: 856378.7
+    cost4: 6851029.5
+    cost5: 314089250
+    cost6: 2.740412e+9
+  - level: 32
+    worker: 6.89
+    cost1: 3044.0503
+    cost2: 143957.56
+    cost3: 916325.2
+    cost4: 7330601.5
+    cost5: 345498180
+    cost6: 2.9322406e+9
+  - level: 33
+    worker: 7.08
+    cost1: 3226.6934
+    cost2: 158353.33
+    cost3: 980467.94
+    cost4: 7843743.5
+    cost5: 380047970
+    cost6: 3.1374976e+9
+  - level: 34
+    worker: 7.27
+    cost1: 3420.295
+    cost2: 174188.66
+    cost3: 1049100.8
+    cost4: 8392806
+    cost5: 418052770
+    cost6: 3.3571223e+9
+  - level: 35
+    worker: 7.46
+    cost1: 3625.5127
+    cost2: 191607.53
+    cost3: 1122537.8
+    cost4: 8980302
+    cost5: 459858050
+    cost6: 3.5921208e+9
+  - level: 36
+    worker: 7.65
+    cost1: 3843.0435
+    cost2: 210768.28
+    cost3: 1201115.4
+    cost4: 9608923
+    cost5: 505843870
+    cost6: 3.8435694e+9
+  - level: 37
+    worker: 7.84
+    cost1: 4073.626
+    cost2: 231845.11
+    cost3: 1285193.5
+    cost4: 10281548
+    cost5: 556428200
+    cost6: 4.1126193e+9
+  - level: 38
+    worker: 8.03
+    cost1: 4318.0435
+    cost2: 255029.61
+    cost3: 1375157
+    cost4: 11001256
+    cost5: 612071100
+    cost6: 4.400503e+9
+  - level: 39
+    worker: 8.22
+    cost1: 4577.126
+    cost2: 280532.56
+    cost3: 1471418
+    cost4: 11771344
+    cost5: 673278200
+    cost6: 4.708538e+9
+  - level: 40
+    worker: 8.41
+    cost1: 4851.754
+    cost2: 308585.84
+    cost3: 1574417.2
+    cost4: 12595338
+    cost5: 740606000
+    cost6: 5.0381353e+9
+  - level: 41
+    worker: 8.6
+    cost1: 5142.859
+    cost2: 339444.4
+    cost3: 1684626.5
+    cost4: 13477012
+    cost5: 814666600
+    cost6: 5.390805e+9
+  - level: 42
+    worker: 8.79
+    cost1: 5451.4307
+    cost2: 373388.84
+    cost3: 1802550.4
+    cost4: 14420403
+    cost5: 896133250
+    cost6: 5.7681613e+9
+  - level: 43
+    worker: 8.98
+    cost1: 5778.516
+    cost2: 410727.75
+    cost3: 1928728.9
+    cost4: 15429831
+    cost5: 985746560
+    cost6: 6.1719327e+9
+  - level: 44
+    worker: 9.17
+    cost1: 6125.2275
+    cost2: 451800.53
+    cost3: 2063739.9
+    cost4: 16509919
+    cost5: 1.0843213e+9
+    cost6: 6.6039675e+9
+  - level: 45
+    worker: 9.36
+    cost1: 6492.7407
+    cost2: 496980.56
+    cost3: 2208201.8
+    cost4: 17665614
+    cost5: 1.1927534e+9
+    cost6: 7.0662456e+9
+  - level: 46
+    worker: 9.55
+    cost1: 6882.305
+    cost2: 546678.6
+    cost3: 2362775.8
+    cost4: 18902206
+    cost5: 1.3120287e+9
+    cost6: 7.5608827e+9
+  - level: 47
+    worker: 9.74
+    cost1: 7295.2437
+    cost2: 601346.5
+    cost3: 2528170.2
+    cost4: 20225362
+    cost5: 1.4432316e+9
+    cost6: 8.0901443e+9
+  - level: 48
+    worker: 9.93
+    cost1: 7732.9585
+    cost2: 661481.1
+    cost3: 2705142
+    cost4: 21641136
+    cost5: 1.5875547e+9
+    cost6: 8.656455e+9
+  - level: 49
+    worker: 10.12
+    cost1: 8196.936
+    cost2: 727629.25
+    cost3: 2894502
+    cost4: 23156016
+    cost5: 1.7463103e+9
+    cost6: 9.262407e+9
+  - level: 50
+    worker: 10.31
+    cost1: 8688.752
+    cost2: 800392.2
+    cost3: 3097117
+    cost4: 24776936
+    cost5: 1.9209412e+9
+    cost6: 9.910775e+9
+  - level: 51
+    worker: 10.5
+    cost1: 9210.077
+    cost2: 880431.4
+    cost3: 3313915.2
+    cost4: 26511322
+    cost5: 2.1130354e+9
+    cost6: 1.0604529e+10
+  - level: 52
+    worker: 10.69
+    cost1: 9762.682
+    cost2: 968474.56
+    cost3: 3545889.5
+    cost4: 28367116
+    cost5: 2.324339e+9
+    cost6: 1.1346846e+10
+  - level: 53
+    worker: 10.88
+    cost1: 10348.442
+    cost2: 1065322
+    cost3: 3794101.8
+    cost4: 30352814
+    cost5: 2.5567729e+9
+    cost6: 1.2141126e+10
+  - level: 54
+    worker: 11.07
+    cost1: 10969.35
+    cost2: 1171854.2
+    cost3: 4059688.8
+    cost4: 32477510
+    cost5: 2.81245e+9
+    cost6: 1.2991004e+10
+  - level: 55
+    worker: 11.26
+    cost1: 11627.51
+    cost2: 1289039.6
+    cost3: 4343867
+    cost4: 34750936
+    cost5: 3.093695e+9
+    cost6: 1.3900374e+10
+  - level: 56
+    worker: 11.45
+    cost1: 12325.161
+    cost2: 1417943.6
+    cost3: 4647937.5
+    cost4: 37183500
+    cost5: 3.4030646e+9
+    cost6: 1.48734e+10
+  - level: 57
+    worker: 11.64
+    cost1: 13064.671
+    cost2: 1559737.9
+    cost3: 4973293.5
+    cost4: 39786348
+    cost5: 3.743371e+9
+    cost6: 1.5914539e+10
+  - level: 58
+    worker: 11.83
+    cost1: 13848.551
+    cost2: 1715711.8
+    cost3: 5321424
+    cost4: 42571390
+    cost5: 4.117708e+9
+    cost6: 1.7028556e+10
+  - level: 59
+    worker: 12.02
+    cost1: 14679.464
+    cost2: 1887282.9
+    cost3: 5693923.5
+    cost4: 45551388
+    cost5: 4.529479e+9
+    cost6: 1.8220554e+10
+  - level: 60
+    worker: 12.21
+    cost1: 15560.231
+    cost2: 2076011.1
+    cost3: 6092498
+    cost4: 48739984
+    cost5: 4.9824266e+9
+    cost6: 1.9495993e+10
+  - level: 61
+    worker: 12.4
+    cost1: 16493.846
+    cost2: 2283612.2
+    cost3: 6518973
+    cost4: 52151784
+    cost5: 5.4806697e+9
+    cost6: 2.0860713e+10
+  - level: 62
+    worker: 12.59
+    cost1: 17483.477
+    cost2: 2511973.5
+    cost3: 6975301
+    cost4: 55802410
+    cost5: 6.0287365e+9
+    cost6: 2.2320964e+10
+  - level: 63
+    worker: 12.78
+    cost1: 18532.484
+    cost2: 2763171
+    cost3: 7463572
+    cost4: 59708576
+    cost5: 6.63161e+9
+    cost6: 2.3883432e+10
+  - level: 64
+    worker: 12.97
+    cost1: 19644.434
+    cost2: 3039488
+    cost3: 7986022.5
+    cost4: 63888180
+    cost5: 7.294771e+9
+    cost6: 2.5555272e+10
+  - level: 65
+    worker: 13.16
+    cost1: 20823.1
+    cost2: 3343436.8
+    cost3: 8545044
+    cost4: 68360350
+    cost5: 8.0242483e+9
+    cost6: 2.734414e+10
+  - level: 66
+    worker: 13.35
+    cost1: 22072.486
+    cost2: 3677780.5
+    cost3: 9143197
+    cost4: 73145576
+    cost5: 8.826673e+9
+    cost6: 2.925823e+10
+  - level: 67
+    worker: 13.54
+    cost1: 23396.836
+    cost2: 4045558.5
+    cost3: 9783221
+    cost4: 78265770
+    cost5: 9.709341e+9
+    cost6: 3.1306306e+10
+  - level: 68
+    worker: 13.73
+    cost1: 24800.645
+    cost2: 4450114.5
+    cost3: 10468046
+    cost4: 83744370
+    cost5: 1.0680274e+10
+    cost6: 3.3497747e+10
+  - level: 69
+    worker: 13.92
+    cost1: 26288.684
+    cost2: 4895126
+    cost3: 11200809
+    cost4: 89606470
+    cost5: 1.1748302e+10
+    cost6: 3.584259e+10
+  - level: 70
+    worker: 14.11
+    cost1: 27866.004
+    cost2: 5384638.5
+    cost3: 11984866
+    cost4: 95878930
+    cost5: 1.2923132e+10
+    cost6: 3.8351573e+10
+  - level: 71
+    worker: 14.3
+    cost1: 29537.965
+    cost2: 5923102
+    cost3: 12823807
+    cost4: 102590456
+    cost5: 1.4215446e+10
+    cost6: 4.103618e+10
+  - level: 72
+    worker: 14.49
+    cost1: 31310.242
+    cost2: 6515412.5
+    cost3: 13721473
+    cost4: 109771784
+    cost5: 1.563699e+10
+    cost6: 4.3908714e+10
+  - level: 73
+    worker: 14.68
+    cost1: 33188.86
+    cost2: 7166953.5
+    cost3: 14681976
+    cost4: 117455810
+    cost5: 1.720069e+10
+    cost6: 4.6982324e+10
+  - level: 74
+    worker: 14.87
+    cost1: 35180.188
+    cost2: 7883649
+    cost3: 15709715
+    cost4: 125677720
+    cost5: 1.8920757e+10
+    cost6: 5.0271085e+10
+  - level: 75
+    worker: 15.06
+    cost1: 37291
+    cost2: 8672014
+    cost3: 16809394
+    cost4: 134475150
+    cost5: 2.0812833e+10
+    cost6: 5.379006e+10
+  - level: 76
+    worker: 15.25
+    cost1: 39528.46
+    cost2: 9539215
+    cost3: 17986052
+    cost4: 143888420
+    cost5: 2.2894117e+10
+    cost6: 5.7555366e+10
+  - level: 77
+    worker: 15.44
+    cost1: 41900.168
+    cost2: 10493137
+    cost3: 19245076
+    cost4: 153960600
+    cost5: 2.5183529e+10
+    cost6: 6.158424e+10
+  - level: 78
+    worker: 15.63
+    cost1: 44414.18
+    cost2: 11542450
+    cost3: 20592232
+    cost4: 164737860
+    cost5: 2.770188e+10
+    cost6: 6.589514e+10
+  - level: 79
+    worker: 15.82
+    cost1: 47079.027
+    cost2: 12696696
+    cost3: 22033688
+    cost4: 176269500
+    cost5: 3.047207e+10
+    cost6: 7.05078e+10
+  - level: 80
+    worker: 16.01
+    cost1: 49903.77
+    cost2: 13966365
+    cost3: 23576046
+    cost4: 188608370
+    cost5: 3.3519276e+10
+    cost6: 7.544335e+10
+  - level: 81
+    worker: 16.2
+    cost1: 52897.996
+    cost2: 15363002
+    cost3: 25226368
+    cost4: 201810940
+    cost5: 3.6871205e+10
+    cost6: 8.072438e+10
+  - level: 82
+    worker: 16.39
+    cost1: 56071.875
+    cost2: 16899302
+    cost3: 26992214
+    cost4: 215937710
+    cost5: 4.0558326e+10
+    cost6: 8.637509e+10
+  - level: 83
+    worker: 16.58
+    cost1: 59436.188
+    cost2: 18589232
+    cost3: 28881670
+    cost4: 231053360
+    cost5: 4.4614156e+10
+    cost6: 9.242134e+10
+  - level: 84
+    worker: 16.77
+    cost1: 63002.36
+    cost2: 20448156
+    cost3: 30903386
+    cost4: 247227090
+    cost5: 4.9075573e+10
+    cost6: 9.889083e+10
+  - level: 85
+    worker: 16.96
+    cost1: 66782.5
+    cost2: 22492970
+    cost3: 33066624
+    cost4: 264533000
+    cost5: 5.398313e+10
+    cost6: 1.058132e+11
+  - level: 86
+    worker: 17.15
+    cost1: 70789.45
+    cost2: 24742268
+    cost3: 35381290
+    cost4: 283050300
+    cost5: 5.938144e+10
+    cost6: 1.1322012e+11
+  - level: 87
+    worker: 17.34
+    cost1: 75036.82
+    cost2: 27216494
+    cost3: 37857976
+    cost4: 302863800
+    cost5: 6.5319588e+10
+    cost6: 1.21145524e+11
+  - level: 88
+    worker: 17.53
+    cost1: 79539.03
+    cost2: 29938144
+    cost3: 40508036
+    cost4: 324064300
+    cost5: 7.185155e+10
+    cost6: 1.2962571e+11
+  - level: 89
+    worker: 17.72
+    cost1: 84311.37
+    cost2: 32931958
+    cost3: 43343596
+    cost4: 346748770
+    cost5: 7.90367e+10
+    cost6: 1.386995e+11
+  - level: 90
+    worker: 17.91
+    cost1: 89370.055
+    cost2: 36225156
+    cost3: 46377650
+    cost4: 371021200
+    cost5: 8.694037e+10
+    cost6: 1.4840848e+11
+  - level: 91
+    worker: 18.1
+    cost1: 94732.26
+    cost2: 39847668
+    cost3: 49624084
+    cost4: 396992670
+    cost5: 9.563441e+10
+    cost6: 1.5879707e+11
+  - level: 92
+    worker: 18.29
+    cost1: 100416.19
+    cost2: 43832436
+    cost3: 53097772
+    cost4: 424782180
+    cost5: 1.0519785e+11
+    cost6: 1.6991286e+11
+  - level: 93
+    worker: 18.48
+    cost1: 106441.164
+    cost2: 48215680
+    cost3: 56814616
+    cost4: 454516930
+    cost5: 1.1571764e+11
+    cost6: 1.8180678e+11
+  - level: 94
+    worker: 18.67
+    cost1: 112827.63
+    cost2: 53037250
+    cost3: 60791640
+    cost4: 486333120
+    cost5: 1.2728939e+11
+    cost6: 1.9453324e+11
+  - level: 95
+    worker: 18.86
+    cost1: 119597.29
+    cost2: 58340972
+    cost3: 65047052
+    cost4: 520376420
+    cost5: 1.4001834e+11
+    cost6: 2.0815058e+11
+  - level: 96
+    worker: 19.05
+    cost1: 126773.125
+    cost2: 64175070
+    cost3: 69600344
+    cost4: 556802750
+    cost5: 1.5402017e+11
+    cost6: 2.2272111e+11
+  - level: 97
+    worker: 19.24
+    cost1: 134379.52
+    cost2: 70592580
+    cost3: 74472370
+    cost4: 595778940
+    cost5: 1.694222e+11
+    cost6: 2.3831159e+11
+  - level: 98
+    worker: 19.43
+    cost1: 142442.28
+    cost2: 77651830
+    cost3: 79685440
+    cost4: 637483500
+    cost5: 1.8636441e+11
+    cost6: 2.549934e+11
+  - level: 99
+    worker: 19.62
+    cost1: 150988.83
+    cost2: 85417016
+    cost3: 85263416
+    cost4: 682107300
+    cost5: 2.0500085e+11
+    cost6: 2.7284293e+11
+  - level: 100
+    worker: 19.81
+    cost1: 160048.16
+    cost2: 93958720
+    cost3: 91231860
+    cost4: 729854850
+    cost5: 2.2550092e+11
+    cost6: 2.9194194e+11
+  - level: 101
+    worker: 20
+    cost1: 169651.05
+    cost2: 103354590
+    cost3: 97618090
+    cost4: 780944700
+    cost5: 2.4805102e+11
+    cost6: 3.1237787e+11
+  Upgrade_Slot:
+  - level: 0
+    slot: 0
+    cost: 0
+  - level: 1
+    slot: 1
+    cost: 10000
+  - level: 2
+    slot: 1.2
+    cost: 25000
+  - level: 3
+    slot: 1.4
+    cost: 60000
+  - level: 4
+    slot: 1.6
+    cost: 200000
+  - level: 5
+    slot: 1.8
+    cost: 900000
+  - level: 6
+    slot: 2
+    cost: 3000000
+  - level: 7
+    slot: 2.2
+    cost: 5000000
+  - level: 8
+    slot: 2.4
+    cost: 10000000
+  - level: 9
+    slot: 2.6
+    cost: 20000000
+  - level: 10
+    slot: 2.8
+    cost: 50000000
+  - level: 11
+    slot: 3
+    cost: 100000000
+  Upgrade_Speed_Test:
+  - level: 0
+    speed: 1
+    cost1: 0
+    cost2: 0
+  - level: 1
+    speed: 1
+    cost1: 1500
+    cost2: 75000
+  - level: 2
+    speed: 1.0043042
+    cost1: 1608
+    cost2: 80400
+  - level: 3
+    speed: 1.0086455
+    cost1: 1723.776
+    cost2: 86188.8
+  - level: 4
+    speed: 1.0130246
+    cost1: 1847.8878
+    cost2: 92394.39
+  - level: 5
+    speed: 1.0174419
+    cost1: 1980.9358
+    cost2: 99046.79
+  - level: 6
+    speed: 1.0218978
+    cost1: 2123.5632
+    cost2: 106178.16
+  - level: 7
+    speed: 1.0263929
+    cost1: 2276.4597
+    cost2: 113822.984
+  - level: 8
+    speed: 1.0309278
+    cost1: 2440.3647
+    cost2: 122018.24
+  - level: 9
+    speed: 1.0355029
+    cost1: 2616.071
+    cost2: 130803.555
+  - level: 10
+    speed: 1.0401188
+    cost1: 2804.4282
+    cost2: 140221.4
+  - level: 11
+    speed: 1.0447761
+    cost1: 3006.347
+    cost2: 150317.36
+  - level: 12
+    speed: 1.0494753
+    cost1: 3222.804
+    cost2: 161140.2
+  - level: 13
+    speed: 1.0542169
+    cost1: 3454.846
+    cost2: 172742.3
+  - level: 14
+    speed: 1.0590016
+    cost1: 3703.5947
+    cost2: 185179.73
+  - level: 15
+    speed: 1.0638298
+    cost1: 3970.2537
+    cost2: 198512.69
+  - level: 16
+    speed: 1.0687023
+    cost1: 4256.112
+    cost2: 212805.6
+  - level: 17
+    speed: 1.0736196
+    cost1: 4562.552
+    cost2: 228127.6
+  - level: 18
+    speed: 1.0785824
+    cost1: 4891.0557
+    cost2: 244552.78
+  - level: 19
+    speed: 1.0835913
+    cost1: 5243.212
+    cost2: 262160.6
+  - level: 20
+    speed: 1.088647
+    cost1: 5620.723
+    cost2: 281036.16
+  - level: 21
+    speed: 1.09375
+    cost1: 6025.415
+    cost2: 301270.75
+  - level: 22
+    speed: 1.0989012
+    cost1: 6459.245
+    cost2: 322962.25
+  - level: 23
+    speed: 1.104101
+    cost1: 6924.3105
+    cost2: 346215.53
+  - level: 24
+    speed: 1.1093502
+    cost1: 7422.861
+    cost2: 371143.03
+  - level: 25
+    speed: 1.1146497
+    cost1: 7957.307
+    cost2: 397865.34
+  - level: 26
+    speed: 1.12
+    cost1: 8530.233
+    cost2: 426511.66
+  - level: 27
+    speed: 1.125402
+    cost1: 9144.41
+    cost2: 457220.5
+  - level: 28
+    speed: 1.1308563
+    cost1: 9802.808
+    cost2: 490140.38
+  - level: 29
+    speed: 1.1363636
+    cost1: 10508.609
+    cost2: 525430.5
+  - level: 30
+    speed: 1.141925
+    cost1: 11265.2295
+    cost2: 563261.44
+  - level: 31
+    speed: 1.1475409
+    cost1: 12076.326
+    cost2: 603816.3
+  - level: 32
+    speed: 1.1532125
+    cost1: 12945.821
+    cost2: 647291.06
+  - level: 33
+    speed: 1.1589404
+    cost1: 13877.92
+    cost2: 693896
+  - level: 34
+    speed: 1.1647254
+    cost1: 14877.131
+    cost2: 743856.5
+  - level: 35
+    speed: 1.1705686
+    cost1: 15948.284
+    cost2: 797414.2
+  - level: 36
+    speed: 1.1764706
+    cost1: 17096.56
+    cost2: 854828
+  - level: 37
+    speed: 1.1824324
+    cost1: 18327.514
+    cost2: 916375.6
+  - level: 38
+    speed: 1.188455
+    cost1: 19647.094
+    cost2: 982354.7
+  - level: 39
+    speed: 1.1945393
+    cost1: 21061.684
+    cost2: 1053084.2
+  - level: 40
+    speed: 1.2006861
+    cost1: 22578.125
+    cost2: 1128906.2
+  - level: 41
+    speed: 1.2068965
+    cost1: 24203.75
+    cost2: 1210187.5
+  - level: 42
+    speed: 1.2131716
+    cost1: 25946.42
+    cost2: 1297321
+  - level: 43
+    speed: 1.2195122
+    cost1: 27814.562
+    cost2: 1390728.1
+  - level: 44
+    speed: 1.2259195
+    cost1: 29817.21
+    cost2: 1490860.6
+  - level: 45
+    speed: 1.2323943
+    cost1: 31964.05
+    cost2: 1598202.5
+  - level: 46
+    speed: 1.2389381
+    cost1: 34265.46
+    cost2: 1713273.1
+  - level: 47
+    speed: 1.2455516
+    cost1: 36732.574
+    cost2: 1836628.8
+  - level: 48
+    speed: 1.2522361
+    cost1: 39377.32
+    cost2: 1968866.1
+  - level: 49
+    speed: 1.2589928
+    cost1: 42212.49
+    cost2: 2110624.5
+  - level: 50
+    speed: 1.2658228
+    cost1: 45251.79
+    cost2: 2262589.5
+  - level: 51
+    speed: 1.2727273
+    cost1: 48509.918
+    cost2: 2425495.8
+  - level: 52
+    speed: 1.2797076
+    cost1: 52002.63
+    cost2: 2600131.5
+  - level: 53
+    speed: 1.2867647
+    cost1: 55746.82
+    cost2: 2787341
+  - level: 54
+    speed: 1.2939001
+    cost1: 59760.59
+    cost2: 2988029.5
+  - level: 55
+    speed: 1.3011153
+    cost1: 64063.35
+    cost2: 3203167.8
+  - level: 56
+    speed: 1.3084112
+    cost1: 68675.914
+    cost2: 3433795.8
+  - level: 57
+    speed: 1.3157895
+    cost1: 73620.58
+    cost2: 3681029
+  - level: 58
+    speed: 1.3232514
+    cost1: 78921.266
+    cost2: 3946063.2
+  - level: 59
+    speed: 1.3307985
+    cost1: 84603.59
+    cost2: 4230179.5
+  - level: 60
+    speed: 1.3384321
+    cost1: 90695.055
+    cost2: 4534752.5
+  - level: 61
+    speed: 1.3461539
+    cost1: 97225.09
+    cost2: 4861255
+  - level: 62
+    speed: 1.3539652
+    cost1: 104225.305
+    cost2: 5211265
+  - level: 63
+    speed: 1.3618677
+    cost1: 111729.52
+    cost2: 5586476
+  - level: 64
+    speed: 1.369863
+    cost1: 119774.05
+    cost2: 5988702.5
+  - level: 65
+    speed: 1.3779528
+    cost1: 128397.78
+    cost2: 6419889
+  - level: 66
+    speed: 1.3861386
+    cost1: 137642.42
+    cost2: 6882121
+  - level: 67
+    speed: 1.3944223
+    cost1: 147552.67
+    cost2: 7377634
+  - level: 68
+    speed: 1.4028056
+    cost1: 158176.47
+    cost2: 7908823.5
+  - level: 69
+    speed: 1.4112903
+    cost1: 169565.17
+    cost2: 8478259
+  - level: 70
+    speed: 1.4198782
+    cost1: 181773.88
+    cost2: 9088693
+  - level: 71
+    speed: 1.4285715
+    cost1: 194861.6
+    cost2: 9743079
+  - level: 72
+    speed: 1.4373716
+    cost1: 208891.62
+    cost2: 10444581
+  - level: 73
+    speed: 1.446281
+    cost1: 223931.81
+    cost2: 11196591
+  - level: 74
+    speed: 1.4553014
+    cost1: 240054.9
+    cost2: 12002745
+  - level: 75
+    speed: 1.4644351
+    cost1: 257338.86
+    cost2: 12866943
+  - level: 76
+    speed: 1.4736842
+    cost1: 275867.25
+    cost2: 13793363
+  - level: 77
+    speed: 1.4830508
+    cost1: 295729.7
+    cost2: 14786485
+  - level: 78
+    speed: 1.4925373
+    cost1: 317022.25
+    cost2: 15851112
+  - level: 79
+    speed: 1.5021459
+    cost1: 339847.84
+    cost2: 16992392
+  - level: 80
+    speed: 1.5118791
+    cost1: 364316.88
+    cost2: 18215844
+  - level: 81
+    speed: 1.5217391
+    cost1: 390547.7
+    cost2: 19527386
+  - level: 82
+    speed: 1.5317286
+    cost1: 418667.12
+    cost2: 20933356
+  - level: 83
+    speed: 1.5418502
+    cost1: 448811.16
+    cost2: 22440558
+  - level: 84
+    speed: 1.5521064
+    cost1: 481125.56
+    cost2: 24056278
+  - level: 85
+    speed: 1.5625
+    cost1: 515766.62
+    cost2: 25788330
+  - level: 86
+    speed: 1.5730337
+    cost1: 552901.8
+    cost2: 27645090
+  - level: 87
+    speed: 1.5837104
+    cost1: 592710.75
+    cost2: 29635538
+  - level: 88
+    speed: 1.5945331
+    cost1: 635385.94
+    cost2: 31769296
+  - level: 89
+    speed: 1.6055046
+    cost1: 681133.7
+    cost2: 34056684
+  - level: 90
+    speed: 1.6166282
+    cost1: 730175.3
+    cost2: 36508770
+  - level: 91
+    speed: 1.6279069
+    cost1: 782747.94
+    cost2: 39137396
+  - level: 92
+    speed: 1.6393442
+    cost1: 839105.8
+    cost2: 41955292
+  - level: 93
+    speed: 1.6509434
+    cost1: 899521.44
+    cost2: 44976070
+  - level: 94
+    speed: 1.6627078
+    cost1: 964286.94
+    cost2: 48214348
+  - level: 95
+    speed: 1.6746411
+    cost1: 1033715.6
+    cost2: 51685780
+  - level: 96
+    speed: 1.686747
+    cost1: 1108143.1
+    cost2: 55407156
+  - level: 97
+    speed: 1.6990291
+    cost1: 1187929.5
+    cost2: 59396470
+  - level: 98
+    speed: 1.7114915
+    cost1: 1273460.4
+    cost2: 63673020
+  - level: 99
+    speed: 1.7241379
+    cost1: 1365149.5
+    cost2: 68257480
+  - level: 100
+    speed: 1.7369727
+    cost1: 1463440.2
+    cost2: 73172020
+  - level: 101
+    speed: 1.75
+    cost1: 1568808
+    cost2: 78440400
+  - level: 102
+    speed: 1.7632241
+    cost1: 1681762.1
+    cost2: 84088110
+  - level: 103
+    speed: 1.7766497
+    cost1: 1802849
+    cost2: 90142456
+  - level: 104
+    speed: 1.7902813
+    cost1: 1932654.1
+    cost2: 96632710
+  - level: 105
+    speed: 1.8041238
+    cost1: 2071805.2
+    cost2: 103590264
+  - level: 106
+    speed: 1.8181819
+    cost1: 2220975.2
+    cost2: 111048760
+  - level: 107
+    speed: 1.8324608
+    cost1: 2380885.5
+    cost2: 119044270
+  - level: 108
+    speed: 1.8469657
+    cost1: 2552309.2
+    cost2: 127615464
+  - level: 109
+    speed: 1.8617021
+    cost1: 2736075.5
+    cost2: 136803780
+  - level: 110
+    speed: 1.8766756
+    cost1: 2933073
+    cost2: 146653650
+  - level: 111
+    speed: 1.8918918
+    cost1: 3144254.2
+    cost2: 157212700
+  - level: 112
+    speed: 1.907357
+    cost1: 3370640.5
+    cost2: 168532030
+  - level: 113
+    speed: 1.9230769
+    cost1: 3613326.5
+    cost2: 180666340
+  - level: 114
+    speed: 1.9390582
+    cost1: 3873486
+    cost2: 193674300
+  - level: 115
+    speed: 1.9553072
+    cost1: 4152377
+    cost2: 207618860
+  - level: 116
+    speed: 1.971831
+    cost1: 4451348.5
+    cost2: 222567410
+  - level: 117
+    speed: 1.9886364
+    cost1: 4771845.5
+    cost2: 238592270
+  - level: 118
+    speed: 2.0057306
+    cost1: 5115418
+    cost2: 255770910
+  - level: 119
+    speed: 2.0231214
+    cost1: 5483728.5
+    cost2: 274186430
+  - level: 120
+    speed: 2.0408163
+    cost1: 5878557
+    cost2: 293927840
+  - level: 121
+    speed: 2.0588236
+    cost1: 6301813
+    cost2: 315090660
+  - level: 122
+    speed: 2.0771513
+    cost1: 6755543.5
+    cost2: 337777180
+  - level: 123
+    speed: 2.0958083
+    cost1: 7241942.5
+    cost2: 362097120
+  - level: 124
+    speed: 2.1148036
+    cost1: 7763362.5
+    cost2: 388168130
+  - level: 125
+    speed: 2.1341465
+    cost1: 8322324.5
+    cost2: 416116220
+  - level: 126
+    speed: 2.1538463
+    cost1: 8921532
+    cost2: 446076580
+  - level: 127
+    speed: 2.173913
+    cost1: 9563882
+    cost2: 478194100
+  - level: 128
+    speed: 2.1943574
+    cost1: 10252482
+    cost2: 512624100
+  - level: 129
+    speed: 2.21519
+    cost1: 10990660
+    cost2: 549533000
+  - level: 130
+    speed: 2.2364218
+    cost1: 11781988
+    cost2: 589099400
+  - level: 131
+    speed: 2.2580645
+    cost1: 12630291
+    cost2: 631514560
+  - level: 132
+    speed: 2.2801304
+    cost1: 13539672
+    cost2: 676983600
+  - level: 133
+    speed: 2.3026316
+    cost1: 14514528
+    cost2: 725726400
+  - level: 134
+    speed: 2.3255813
+    cost1: 15559574
+    cost2: 777978700
+  - level: 135
+    speed: 2.3489933
+    cost1: 16679864
+    cost2: 833993150
+  - level: 136
+    speed: 2.3728814
+    cost1: 17880814
+    cost2: 894040700
+  - level: 137
+    speed: 2.3972602
+    cost1: 19168232
+    cost2: 958411650
+  - level: 138
+    speed: 2.4221454
+    cost1: 20548346
+    cost2: 1.0274173e+9
+  - level: 139
+    speed: 2.4475524
+    cost1: 22027826
+    cost2: 1.1013914e+9
+  - level: 140
+    speed: 2.4734983
+    cost1: 23613830
+    cost2: 1.1806915e+9
+  - level: 141
+    speed: 2.5
+    cost1: 25314026
+    cost2: 1.2657012e+9
+  - level: 142
+    speed: 2.5270758
+    cost1: 27136636
+    cost2: 1.3568317e+9
+  - level: 143
+    speed: 2.5547445
+    cost1: 29090472
+    cost2: 1.4545236e+9
+  - level: 144
+    speed: 2.583026
+    cost1: 31184986
+    cost2: 1.5592493e+9
+  - level: 145
+    speed: 2.6119404
+    cost1: 33430306
+    cost2: 1.6715153e+9
+  - level: 146
+    speed: 2.6415095
+    cost1: 35837290
+    cost2: 1.7918644e+9
+  - level: 147
+    speed: 2.6717558
+    cost1: 38417572
+    cost2: 1.9208786e+9
+  - level: 148
+    speed: 2.7027028
+    cost1: 41183636
+    cost2: 2.059182e+9
+  - level: 149
+    speed: 2.734375
+    cost1: 44148860
+    cost2: 2.207443e+9
+  - level: 150
+    speed: 2.7667985
+    cost1: 47327576
+    cost2: 2.366379e+9
+  - level: 151
+    speed: 2.8
+    cost1: 50735164
+    cost2: 2.5367583e+9
+  - level: 152
+    speed: 2.834008
+    cost1: 54388096
+    cost2: 2.7194048e+9
+  - level: 153
+    speed: 2.8688524
+    cost1: 58304036
+    cost2: 2.9152018e+9
+  - level: 154
+    speed: 2.9045644
+    cost1: 62501930
+    cost2: 3.1250964e+9
+  - level: 155
+    speed: 2.9411764
+    cost1: 67002068
+    cost2: 3.3501033e+9
+  - level: 156
+    speed: 2.9787233
+    cost1: 71826216
+    cost2: 3.5913108e+9
+  - level: 157
+    speed: 3.0172415
+    cost1: 76997704
+    cost2: 3.8498852e+9
+  - level: 158
+    speed: 3.0567687
+    cost1: 82541540
+    cost2: 4.1270769e+9
+  - level: 159
+    speed: 3.097345
+    cost1: 88484530
+    cost2: 4.4242263e+9
+  - level: 160
+    speed: 3.1390135
+    cost1: 94855416
+    cost2: 4.7427707e+9
+  - level: 161
+    speed: 3.1818182
+    cost1: 101685010
+    cost2: 5.08425e+9
+  - level: 162
+    speed: 3.2258065
+    cost1: 109006330
+    cost2: 5.4503163e+9
+  - level: 163
+    speed: 3.271028
+    cost1: 116854780
+    cost2: 5.842739e+9
+  - level: 164
+    speed: 3.3175356
+    cost1: 125268330
+    cost2: 6.2634163e+9
+  - level: 165
+    speed: 3.3653846
+    cost1: 134287650
+    cost2: 6.7143823e+9
+  - level: 166
+    speed: 3.4146342
+    cost1: 143956350
+    cost2: 7.197818e+9
+  - level: 167
+    speed: 3.4653466
+    cost1: 154321220
+    cost2: 7.7160607e+9
+  - level: 168
+    speed: 3.517588
+    cost1: 165432340
+    cost2: 8.271617e+9
+  - level: 169
+    speed: 3.5714285
+    cost1: 177343470
+    cost2: 8.867173e+9
+  - level: 170
+    speed: 3.626943
+    cost1: 190112200
+    cost2: 9.50561e+9
+  - level: 171
+    speed: 3.6842105
+    cost1: 203800270
+    cost2: 1.0190013e+10
+  - level: 172
+    speed: 3.7433155
+    cost1: 218473900
+    cost2: 1.0923695e+10
+  - level: 173
+    speed: 3.8043478
+    cost1: 234204020
+    cost2: 1.1710201e+10
+  - level: 174
+    speed: 3.8674033
+    cost1: 251066700
+    cost2: 1.2553336e+10
+  - level: 175
+    speed: 3.9325843
+    cost1: 269143520
+    cost2: 1.3457176e+10
+  - level: 176
+    speed: 4
+    cost1: 288521860
+    cost2: 1.4426093e+10
+  - level: 177
+    speed: 4.0697675
+    cost1: 309295420
+    cost2: 1.5464771e+10
+  - level: 178
+    speed: 4.1420116
+    cost1: 331564670
+    cost2: 1.6578234e+10
+  - level: 179
+    speed: 4.2168674
+    cost1: 355437340
+    cost2: 1.7771866e+10
+  - level: 180
+    speed: 4.2944784
+    cost1: 381028830
+    cost2: 1.9051442e+10
+  - level: 181
+    speed: 4.375
+    cost1: 408462900
+    cost2: 2.0423145e+10
+  - level: 182
+    speed: 4.4585986
+    cost1: 437872220
+    cost2: 2.1893612e+10
+  - level: 183
+    speed: 4.5454545
+    cost1: 469399040
+    cost2: 2.346995e+10
+  - level: 184
+    speed: 4.6357617
+    cost1: 503195780
+    cost2: 2.5159789e+10
+  - level: 185
+    speed: 4.7297297
+    cost1: 539425860
+    cost2: 2.6971294e+10
+  - level: 186
+    speed: 4.827586
+    cost1: 578264500
+    cost2: 2.8913226e+10
+  - level: 187
+    speed: 4.9295774
+    cost1: 619899600
+    cost2: 3.0994979e+10
+  - level: 188
+    speed: 5.035971
+    cost1: 664532350
+    cost2: 3.3226617e+10
+  - level: 189
+    speed: 5.147059
+    cost1: 712378700
+    cost2: 3.5618935e+10
+  - level: 190
+    speed: 5.263158
+    cost1: 763669950
+    cost2: 3.8183498e+10
+  - level: 191
+    speed: 5.3846154
+    cost1: 818654140
+    cost2: 4.093271e+10
+  - level: 192
+    speed: 5.5118113
+    cost1: 877597250
+    cost2: 4.3879862e+10
+  - level: 193
+    speed: 5.645161
+    cost1: 940784260
+    cost2: 4.7039214e+10
+  - level: 194
+    speed: 5.785124
+    cost1: 1.00852077e+9
+    cost2: 5.0426036e+10
+  - level: 195
+    speed: 5.9322033
+    cost1: 1.0811342e+9
+    cost2: 5.405671e+10
+  - level: 196
+    speed: 6.0869565
+    cost1: 1.1589759e+9
+    cost2: 5.7948795e+10
+  - level: 197
+    speed: 6.25
+    cost1: 1.2424221e+9
+    cost2: 6.2121107e+10
+  - level: 198
+    speed: 6.4220185
+    cost1: 1.3318766e+9
+    cost2: 6.659383e+10
+  - level: 199
+    speed: 6.6037736
+    cost1: 1.4277716e+9
+    cost2: 7.138859e+10
+  - level: 200
+    speed: 6.7961164
+    cost1: 1.5305713e+9
+    cost2: 7.652856e+10
+  Upgrade_Income_Test:
+  - level: 0
+    income1: 400
+    cost1: 0
+    income2: 400
+    cost2: 0
+  - level: 1
+    income1: 20000
+    cost1: 7500
+    income2: 920000
+    cost2: 375000
+  - level: 2
+    income1: 20100
+    cost1: 8100
+    income2: 924600
+    cost2: 405000
+  - level: 3
+    income1: 20200
+    cost1: 8748
+    income2: 929200
+    cost2: 437400
+  - level: 4
+    income1: 20300
+    cost1: 9447.84
+    income2: 933800
+    cost2: 472392
+  - level: 5
+    income1: 20400
+    cost1: 10203.667
+    income2: 938400
+    cost2: 510183.38
+  - level: 6
+    income1: 20500
+    cost1: 11019.961
+    income2: 943000
+    cost2: 550998
+  - level: 7
+    income1: 20600
+    cost1: 11901.558
+    income2: 947600
+    cost2: 595077.9
+  - level: 8
+    income1: 20700
+    cost1: 12853.682
+    income2: 952200
+    cost2: 642684.1
+  - level: 9
+    income1: 20800
+    cost1: 13881.977
+    income2: 956800
+    cost2: 694098.8
+  - level: 10
+    income1: 20900
+    cost1: 14992.535
+    income2: 961400
+    cost2: 749626.75
+  - level: 11
+    income1: 21000
+    cost1: 16191.9375
+    income2: 966000
+    cost2: 809596.9
+  - level: 12
+    income1: 21100
+    cost1: 17487.293
+    income2: 970600
+    cost2: 874364.6
+  - level: 13
+    income1: 21200
+    cost1: 18886.275
+    income2: 975200
+    cost2: 944313.8
+  - level: 14
+    income1: 21300
+    cost1: 20397.178
+    income2: 979800
+    cost2: 1019858.9
+  - level: 15
+    income1: 21400
+    cost1: 22028.953
+    income2: 984400
+    cost2: 1101447.6
+  - level: 16
+    income1: 21500
+    cost1: 23791.268
+    income2: 989000
+    cost2: 1189563.4
+  - level: 17
+    income1: 21600
+    cost1: 25694.57
+    income2: 993600
+    cost2: 1284728.5
+  - level: 18
+    income1: 21700
+    cost1: 27750.135
+    income2: 998200
+    cost2: 1387506.8
+  - level: 19
+    income1: 21800
+    cost1: 29970.146
+    income2: 1002800
+    cost2: 1498507.2
+  - level: 20
+    income1: 21900
+    cost1: 32367.758
+    income2: 1007400
+    cost2: 1618387.9
+  - level: 21
+    income1: 22000
+    cost1: 34957.18
+    income2: 1012000
+    cost2: 1747858.9
+  - level: 22
+    income1: 22100
+    cost1: 37753.754
+    income2: 1016600
+    cost2: 1887687.6
+  - level: 23
+    income1: 22200
+    cost1: 40774.055
+    income2: 1021200
+    cost2: 2038702.6
+  - level: 24
+    income1: 22300
+    cost1: 44035.977
+    income2: 1025800
+    cost2: 2201798.8
+  - level: 25
+    income1: 44800
+    cost1: 47558.855
+    income2: 2060800
+    cost2: 2377942.8
+  - level: 26
+    income1: 45000
+    cost1: 51363.562
+    income2: 2070000
+    cost2: 2568178.2
+  - level: 27
+    income1: 45200
+    cost1: 55472.65
+    income2: 2079200
+    cost2: 2773632.5
+  - level: 28
+    income1: 45400
+    cost1: 59910.46
+    income2: 2088400
+    cost2: 2995523
+  - level: 29
+    income1: 45600
+    cost1: 64703.297
+    income2: 2097600
+    cost2: 3235165
+  - level: 30
+    income1: 45800
+    cost1: 69879.56
+    income2: 2106800
+    cost2: 3493978
+  - level: 31
+    income1: 46000
+    cost1: 75469.93
+    income2: 2116000
+    cost2: 3773496.2
+  - level: 32
+    income1: 46200
+    cost1: 81507.52
+    income2: 2125200
+    cost2: 4075376
+  - level: 33
+    income1: 46400
+    cost1: 88028.125
+    income2: 2134400
+    cost2: 4401406
+  - level: 34
+    income1: 46600
+    cost1: 95070.375
+    income2: 2143600
+    cost2: 4753518.5
+  - level: 35
+    income1: 46800
+    cost1: 102676
+    income2: 2152800
+    cost2: 5133800
+  - level: 36
+    income1: 47000
+    cost1: 110890.086
+    income2: 2162000
+    cost2: 5544504
+  - level: 37
+    income1: 47200
+    cost1: 119761.29
+    income2: 2171200
+    cost2: 5988064.5
+  - level: 38
+    income1: 47400
+    cost1: 129342.195
+    income2: 2180400
+    cost2: 6467109.5
+  - level: 39
+    income1: 47600
+    cost1: 139689.56
+    income2: 2189600
+    cost2: 6984478.5
+  - level: 40
+    income1: 47800
+    cost1: 150864.73
+    income2: 2198800
+    cost2: 7543236.5
+  - level: 41
+    income1: 48000
+    cost1: 162933.9
+    income2: 2208000
+    cost2: 8146695.5
+  - level: 42
+    income1: 48200
+    cost1: 175968.62
+    income2: 2217200
+    cost2: 8798431
+  - level: 43
+    income1: 48400
+    cost1: 190046.11
+    income2: 2226400
+    cost2: 9502306
+  - level: 44
+    income1: 48600
+    cost1: 205249.8
+    income2: 2235600
+    cost2: 10262490
+  - level: 45
+    income1: 48800
+    cost1: 221669.78
+    income2: 2244800
+    cost2: 11083489
+  - level: 46
+    income1: 49000
+    cost1: 239403.38
+    income2: 2254000
+    cost2: 11970169
+  - level: 47
+    income1: 49200
+    cost1: 258555.64
+    income2: 2263200
+    cost2: 12927782
+  - level: 48
+    income1: 49400
+    cost1: 279240.1
+    income2: 2272400
+    cost2: 13962005
+  - level: 49
+    income1: 49600
+    cost1: 301579.3
+    income2: 2281600
+    cost2: 15078965
+  - level: 50
+    income1: 99600
+    cost1: 325705.66
+    income2: 4581600
+    cost2: 16285282
+  - level: 51
+    income1: 100000
+    cost1: 351762.1
+    income2: 4600000
+    cost2: 17588104
+  - level: 52
+    income1: 100400
+    cost1: 379903.06
+    income2: 4618400
+    cost2: 18995154
+  - level: 53
+    income1: 100800
+    cost1: 410295.3
+    income2: 4636800
+    cost2: 20514766
+  - level: 54
+    income1: 101200
+    cost1: 443118.94
+    income2: 4655200
+    cost2: 22155946
+  - level: 55
+    income1: 101600
+    cost1: 478568.44
+    income2: 4673600
+    cost2: 23928422
+  - level: 56
+    income1: 102000
+    cost1: 516853.9
+    income2: 4692000
+    cost2: 25842696
+  - level: 57
+    income1: 102400
+    cost1: 558202.25
+    income2: 4710400
+    cost2: 27910112
+  - level: 58
+    income1: 102800
+    cost1: 602858.44
+    income2: 4728800
+    cost2: 30142920
+  - level: 59
+    income1: 103200
+    cost1: 651087.06
+    income2: 4747200
+    cost2: 32554354
+  - level: 60
+    income1: 103600
+    cost1: 703174.06
+    income2: 4765600
+    cost2: 35158704
+  - level: 61
+    income1: 104000
+    cost1: 759428
+    income2: 4784000
+    cost2: 37971400
+  - level: 62
+    income1: 104400
+    cost1: 820182.2
+    income2: 4802400
+    cost2: 41009110
+  - level: 63
+    income1: 104800
+    cost1: 885796.8
+    income2: 4820800
+    cost2: 44289840
+  - level: 64
+    income1: 105200
+    cost1: 956660.56
+    income2: 4839200
+    cost2: 47833028
+  - level: 65
+    income1: 105600
+    cost1: 1033193.4
+    income2: 4857600
+    cost2: 51659668
+  - level: 66
+    income1: 106000
+    cost1: 1115848.9
+    income2: 4876000
+    cost2: 55792444
+  - level: 67
+    income1: 106400
+    cost1: 1205116.8
+    income2: 4894400
+    cost2: 60255836
+  - level: 68
+    income1: 106800
+    cost1: 1301526.1
+    income2: 4912800
+    cost2: 65076304
+  - level: 69
+    income1: 107200
+    cost1: 1405648.1
+    income2: 4931200
+    cost2: 70282410
+  - level: 70
+    income1: 107600
+    cost1: 1518100
+    income2: 4949600
+    cost2: 75905000
+  - level: 71
+    income1: 108000
+    cost1: 1639548
+    income2: 4968000
+    cost2: 81977400
+  - level: 72
+    income1: 108400
+    cost1: 1770711.9
+    income2: 4986400
+    cost2: 88535590
+  - level: 73
+    income1: 108800
+    cost1: 1912368.9
+    income2: 5004800
+    cost2: 95618440
+  - level: 74
+    income1: 109200
+    cost1: 2065358.4
+    income2: 5023200
+    cost2: 103267920
+  - level: 75
+    income1: 109600
+    cost1: 2230587
+    income2: 5041600
+    cost2: 111529350
+  - level: 76
+    income1: 110000
+    cost1: 2409034
+    income2: 5060000
+    cost2: 120451700
+  - level: 77
+    income1: 110400
+    cost1: 2601756.8
+    income2: 5078400
+    cost2: 130087830
+  - level: 78
+    income1: 110800
+    cost1: 2809897.2
+    income2: 5096800
+    cost2: 140494860
+  - level: 79
+    income1: 111200
+    cost1: 3034689
+    income2: 5115200
+    cost2: 151734450
+  - level: 80
+    income1: 111600
+    cost1: 3277464.2
+    income2: 5133600
+    cost2: 163873200
+  - level: 81
+    income1: 112000
+    cost1: 3539661.2
+    income2: 5152000
+    cost2: 176983060
+  - level: 82
+    income1: 112400
+    cost1: 3822834.2
+    income2: 5170400
+    cost2: 191141710
+  - level: 83
+    income1: 112800
+    cost1: 4128661
+    income2: 5188800
+    cost2: 206433040
+  - level: 84
+    income1: 113200
+    cost1: 4458954
+    income2: 5207200
+    cost2: 222947700
+  - level: 85
+    income1: 113600
+    cost1: 4815670
+    income2: 5225600
+    cost2: 240783500
+  - level: 86
+    income1: 114000
+    cost1: 5200923.5
+    income2: 5244000
+    cost2: 260046180
+  - level: 87
+    income1: 114400
+    cost1: 5616997.5
+    income2: 5262400
+    cost2: 280849900
+  - level: 88
+    income1: 114800
+    cost1: 6066357.5
+    income2: 5280800
+    cost2: 303317860
+  - level: 89
+    income1: 115200
+    cost1: 6551666
+    income2: 5299200
+    cost2: 327583300
+  - level: 90
+    income1: 115600
+    cost1: 7075799
+    income2: 5317600
+    cost2: 353789950
+  - level: 91
+    income1: 116000
+    cost1: 7641863
+    income2: 5336000
+    cost2: 382093150
+  - level: 92
+    income1: 116400
+    cost1: 8253212
+    income2: 5354400
+    cost2: 412660600
+  - level: 93
+    income1: 116800
+    cost1: 8913469
+    income2: 5372800
+    cost2: 445673470
+  - level: 94
+    income1: 117200
+    cost1: 9626547
+    income2: 5391200
+    cost2: 481327330
+  - level: 95
+    income1: 117600
+    cost1: 10396670
+    income2: 5409600
+    cost2: 519833540
+  - level: 96
+    income1: 118000
+    cost1: 11228404
+    income2: 5428000
+    cost2: 561420200
+  - level: 97
+    income1: 118400
+    cost1: 12126676
+    income2: 5446400
+    cost2: 606333800
+  - level: 98
+    income1: 118800
+    cost1: 13096811
+    income2: 5464800
+    cost2: 654840500
+  - level: 99
+    income1: 119200
+    cost1: 14144555
+    income2: 5483200
+    cost2: 707227800
+  - level: 100
+    income1: 239200
+    cost1: 15276120
+    income2: 11003200
+    cost2: 763806000
+  - level: 101
+    income1: 240000
+    cost1: 16498209
+    income2: 11040000
+    cost2: 824910460
+  - level: 102
+    income1: 240800
+    cost1: 17818066
+    income2: 11076800
+    cost2: 890903300
+  - level: 103
+    income1: 241600
+    cost1: 19243512
+    income2: 11113600
+    cost2: 962175550
+  - level: 104
+    income1: 242400
+    cost1: 20782992
+    income2: 11150400
+    cost2: 1.03914963e+9
+  - level: 105
+    income1: 243200
+    cost1: 22445632
+    income2: 11187200
+    cost2: 1.1222816e+9
+  - level: 106
+    income1: 244000
+    cost1: 24241282
+    income2: 11224000
+    cost2: 1.2120641e+9
+  - level: 107
+    income1: 244800
+    cost1: 26180584
+    income2: 11260800
+    cost2: 1.3090292e+9
+  - level: 108
+    income1: 245600
+    cost1: 28275032
+    income2: 11297600
+    cost2: 1.4137516e+9
+  - level: 109
+    income1: 246400
+    cost1: 30537034
+    income2: 11334400
+    cost2: 1.5268517e+9
+  - level: 110
+    income1: 247200
+    cost1: 32979996
+    income2: 11371200
+    cost2: 1.6489998e+9
+  - level: 111
+    income1: 248000
+    cost1: 35618396
+    income2: 11408000
+    cost2: 1.7809198e+9
+  - level: 112
+    income1: 248800
+    cost1: 38467868
+    income2: 11444800
+    cost2: 1.9233934e+9
+  - level: 113
+    income1: 249600
+    cost1: 41545296
+    income2: 11481600
+    cost2: 2.0772649e+9
+  - level: 114
+    income1: 250400
+    cost1: 44868920
+    income2: 11518400
+    cost2: 2.243446e+9
+  - level: 115
+    income1: 251200
+    cost1: 48458436
+    income2: 11555200
+    cost2: 2.4229217e+9
+  - level: 116
+    income1: 252000
+    cost1: 52335110
+    income2: 11592000
+    cost2: 2.6167555e+9
+  - level: 117
+    income1: 252800
+    cost1: 56521920
+    income2: 11628800
+    cost2: 2.8260959e+9
+  - level: 118
+    income1: 253600
+    cost1: 61043670
+    income2: 11665600
+    cost2: 3.0521836e+9
+  - level: 119
+    income1: 254400
+    cost1: 65927170
+    income2: 11702400
+    cost2: 3.2963584e+9
+  - level: 120
+    income1: 255200
+    cost1: 71201336
+    income2: 11739200
+    cost2: 3.560067e+9
+  - level: 121
+    income1: 256000
+    cost1: 76897450
+    income2: 11776000
+    cost2: 3.8448724e+9
+  - level: 122
+    income1: 256800
+    cost1: 83049240
+    income2: 11812800
+    cost2: 4.152462e+9
+  - level: 123
+    income1: 257600
+    cost1: 89693180
+    income2: 11849600
+    cost2: 4.484659e+9
+  - level: 124
+    income1: 258400
+    cost1: 96868640
+    income2: 11886400
+    cost2: 4.843432e+9
+  - level: 125
+    income1: 259200
+    cost1: 104618130
+    income2: 11923200
+    cost2: 5.2309064e+9
+  - level: 126
+    income1: 260000
+    cost1: 112987576
+    income2: 11960000
+    cost2: 5.649379e+9
+  - level: 127
+    income1: 260800
+    cost1: 122026584
+    income2: 11996800
+    cost2: 6.1013294e+9
+  - level: 128
+    income1: 261600
+    cost1: 131788710
+    income2: 12033600
+    cost2: 6.5894354e+9
+  - level: 129
+    income1: 262400
+    cost1: 142331800
+    income2: 12070400
+    cost2: 7.1165906e+9
+  - level: 130
+    income1: 263200
+    cost1: 153718350
+    income2: 12107200
+    cost2: 7.6859177e+9
+  - level: 131
+    income1: 264000
+    cost1: 166015820
+    income2: 12144000
+    cost2: 8.300791e+9
+  - level: 132
+    income1: 264800
+    cost1: 179297090
+    income2: 12180800
+    cost2: 8.964855e+9
+  - level: 133
+    income1: 265600
+    cost1: 193640850
+    income2: 12217600
+    cost2: 9.682043e+9
+  - level: 134
+    income1: 266400
+    cost1: 209132130
+    income2: 12254400
+    cost2: 1.0456606e+10
+  - level: 135
+    income1: 267200
+    cost1: 225862690
+    income2: 12291200
+    cost2: 1.1293135e+10
+  - level: 136
+    income1: 268000
+    cost1: 243931710
+    income2: 12328000
+    cost2: 1.2196585e+10
+  - level: 137
+    income1: 268800
+    cost1: 263446240
+    income2: 12364800
+    cost2: 1.3172312e+10
+  - level: 138
+    income1: 269600
+    cost1: 284521950
+    income2: 12401600
+    cost2: 1.4226097e+10
+  - level: 139
+    income1: 270400
+    cost1: 307283700
+    income2: 12438400
+    cost2: 1.5364185e+10
+  - level: 140
+    income1: 271200
+    cost1: 331866400
+    income2: 12475200
+    cost2: 1.659332e+10
+  - level: 141
+    income1: 272000
+    cost1: 358415700
+    income2: 12512000
+    cost2: 1.7920784e+10
+  - level: 142
+    income1: 272800
+    cost1: 387088960
+    income2: 12548800
+    cost2: 1.9354448e+10
+  - level: 143
+    income1: 273600
+    cost1: 418056060
+    income2: 12585600
+    cost2: 2.0902803e+10
+  - level: 144
+    income1: 274400
+    cost1: 451500580
+    income2: 12622400
+    cost2: 2.2575028e+10
+  - level: 145
+    income1: 275200
+    cost1: 487620600
+    income2: 12659200
+    cost2: 2.438103e+10
+  - level: 146
+    income1: 276000
+    cost1: 526630270
+    income2: 12696000
+    cost2: 2.6331513e+10
+  - level: 147
+    income1: 276800
+    cost1: 568760700
+    income2: 12732800
+    cost2: 2.8438034e+10
+  - level: 148
+    income1: 277600
+    cost1: 614261500
+    income2: 12769600
+    cost2: 3.0713076e+10
+  - level: 149
+    income1: 278400
+    cost1: 663402430
+    income2: 12806400
+    cost2: 3.3170123e+10
+  - level: 150
+    income1: 558400
+    cost1: 716474600
+    income2: 25686400
+    cost2: 3.582373e+10
+  - level: 151
+    income1: 560000
+    cost1: 773792640
+    income2: 25760000
+    cost2: 3.8689632e+10
+  - level: 152
+    income1: 561600
+    cost1: 835696060
+    income2: 25833600
+    cost2: 4.1784803e+10
+  - level: 153
+    income1: 563200
+    cost1: 902551740
+    income2: 25907200
+    cost2: 4.5127586e+10
+  - level: 154
+    income1: 564800
+    cost1: 974755840
+    income2: 25980800
+    cost2: 4.873779e+10
+  - level: 155
+    income1: 566400
+    cost1: 1.0527363e+9
+    income2: 26054400
+    cost2: 5.2636815e+10
+  - level: 156
+    income1: 568000
+    cost1: 1.1369553e+9
+    income2: 26128000
+    cost2: 5.684776e+10
+  - level: 157
+    income1: 569600
+    cost1: 1.2279117e+9
+    income2: 26201600
+    cost2: 6.1395583e+10
+  - level: 158
+    income1: 571200
+    cost1: 1.3261446e+9
+    income2: 26275200
+    cost2: 6.6307228e+10
+  - level: 159
+    income1: 572800
+    cost1: 1.4322362e+9
+    income2: 26348800
+    cost2: 7.161181e+10
+  - level: 160
+    income1: 574400
+    cost1: 1.546815e+9
+    income2: 26422400
+    cost2: 7.734075e+10
+  - level: 161
+    income1: 576000
+    cost1: 1.6705603e+9
+    income2: 26496000
+    cost2: 8.3528016e+10
+  - level: 162
+    income1: 577600
+    cost1: 1.804205e+9
+    income2: 26569600
+    cost2: 9.0210255e+10
+  - level: 163
+    income1: 579200
+    cost1: 1.9485414e+9
+    income2: 26643200
+    cost2: 9.742707e+10
+  - level: 164
+    income1: 580800
+    cost1: 2.1044248e+9
+    income2: 26716800
+    cost2: 1.0522124e+11
+  - level: 165
+    income1: 582400
+    cost1: 2.2727788e+9
+    income2: 26790400
+    cost2: 1.1363894e+11
+  - level: 166
+    income1: 584000
+    cost1: 2.454601e+9
+    income2: 26864000
+    cost2: 1.2273005e+11
+  - level: 167
+    income1: 585600
+    cost1: 2.650969e+9
+    income2: 26937600
+    cost2: 1.3254846e+11
+  - level: 168
+    income1: 587200
+    cost1: 2.8630467e+9
+    income2: 27011200
+    cost2: 1.4315233e+11
+  - level: 169
+    income1: 588800
+    cost1: 3.0920904e+9
+    income2: 27084800
+    cost2: 1.5460452e+11
+  - level: 170
+    income1: 590400
+    cost1: 3.3394575e+9
+    income2: 27158400
+    cost2: 1.6697288e+11
+  - level: 171
+    income1: 592000
+    cost1: 3.6066143e+9
+    income2: 27232000
+    cost2: 1.8033071e+11
+  - level: 172
+    income1: 593600
+    cost1: 3.8951434e+9
+    income2: 27305600
+    cost2: 1.9475717e+11
+  - level: 173
+    income1: 595200
+    cost1: 4.2067548e+9
+    income2: 27379200
+    cost2: 2.1033774e+11
+  - level: 174
+    income1: 596800
+    cost1: 4.5432955e+9
+    income2: 27452800
+    cost2: 2.2716477e+11
+  - level: 175
+    income1: 598400
+    cost1: 4.9067587e+9
+    income2: 27526400
+    cost2: 2.4533795e+11
+  - level: 176
+    income1: 600000
+    cost1: 5.2993e+9
+    income2: 27600000
+    cost2: 2.6496498e+11
+  - level: 177
+    income1: 601600
+    cost1: 5.7232435e+9
+    income2: 27673600
+    cost2: 2.861622e+11
+  - level: 178
+    income1: 603200
+    cost1: 6.181103e+9
+    income2: 27747200
+    cost2: 3.0905516e+11
+  - level: 179
+    income1: 604800
+    cost1: 6.675591e+9
+    income2: 27820800
+    cost2: 3.3377957e+11
+  - level: 180
+    income1: 606400
+    cost1: 7.2096384e+9
+    income2: 27894400
+    cost2: 3.604819e+11
+  - level: 181
+    income1: 608000
+    cost1: 7.7864095e+9
+    income2: 27968000
+    cost2: 3.8932047e+11
+  - level: 182
+    income1: 609600
+    cost1: 8.4093225e+9
+    income2: 28041600
+    cost2: 4.2046613e+11
+  - level: 183
+    income1: 611200
+    cost1: 9.082068e+9
+    income2: 28115200
+    cost2: 4.541034e+11
+  - level: 184
+    income1: 612800
+    cost1: 9.808634e+9
+    income2: 28188800
+    cost2: 4.9043168e+11
+  - level: 185
+    income1: 614400
+    cost1: 1.0593324e+10
+    income2: 28262400
+    cost2: 5.296662e+11
+  - level: 186
+    income1: 616000
+    cost1: 1.1440791e+10
+    income2: 28336000
+    cost2: 5.720395e+11
+  - level: 187
+    income1: 617600
+    cost1: 1.2356054e+10
+    income2: 28409600
+    cost2: 6.178027e+11
+  - level: 188
+    income1: 619200
+    cost1: 1.3344538e+10
+    income2: 28483200
+    cost2: 6.6722687e+11
+  - level: 189
+    income1: 620800
+    cost1: 1.4412101e+10
+    income2: 28556800
+    cost2: 7.20605e+11
+  - level: 190
+    income1: 622400
+    cost1: 1.5565069e+10
+    income2: 28630400
+    cost2: 7.7825343e+11
+  - level: 191
+    income1: 624000
+    cost1: 1.6810275e+10
+    income2: 28704000
+    cost2: 8.4051375e+11
+  - level: 192
+    income1: 625600
+    cost1: 1.8155096e+10
+    income2: 28777600
+    cost2: 9.077548e+11
+  - level: 193
+    income1: 627200
+    cost1: 1.9607505e+10
+    income2: 28851200
+    cost2: 9.8037524e+11
+  - level: 194
+    income1: 628800
+    cost1: 2.1176105e+10
+    income2: 28924800
+    cost2: 1.05880525e+12
+  - level: 195
+    income1: 630400
+    cost1: 2.2870192e+10
+    income2: 28998400
+    cost2: 1.1435096e+12
+  - level: 196
+    income1: 632000
+    cost1: 2.4699808e+10
+    income2: 29072000
+    cost2: 1.2349904e+12
+  - level: 197
+    income1: 633600
+    cost1: 2.6675794e+10
+    income2: 29145600
+    cost2: 1.3337896e+12
+  - level: 198
+    income1: 635200
+    cost1: 2.8809857e+10
+    income2: 29219200
+    cost2: 1.4404928e+12
+  - level: 199
+    income1: 636800
+    cost1: 3.1114646e+10
+    income2: 29292800
+    cost2: 1.5557322e+12
+  - level: 200
+    income1: 1276800
+    cost1: 3.3603817e+10
+    income2: 58732800
+    cost2: 1.6801909e+12
+  Captain_Data:
+  - id: 1
+    type: 0
+    name: Joe
+    boost: 5
+  - id: 2
+    type: 1
+    name: Donald
+    boost: 5
+  - id: 3
+    type: 0
+    name: Varonis
+    boost: 10
+  - id: 4
+    type: 1
+    name: Bruno
+    boost: 10
+  - id: 5
+    type: 0
+    name: Cris
+    boost: 7
+  - id: 6
+    type: 1
+    name: Lionel
+    boost: 7
+  - id: 7
+    type: 0
+    name: David
+    boost: 6
+  - id: 8
+    type: 1
+    name: Mike
+    boost: 6
+  - id: 9
+    type: 0
+    name: Henry
+    boost: 8
+  - id: 10
+    type: 1
+    name: Nick
+    boost: 8
+  Unlock_Data:
+  - zone: 1
+    cost: 0
+  - zone: 2
+    cost: 6000000
+  - zone: 3
+    cost: 48000000
+  - zone: 4
+    cost: 0
+  - zone: 5
+    cost: 960000000
+  - zone: 6
+    cost: 1.92e+10
+  Unlock_Map:
+  - map: 1
+    cost: 0
+    time_unlock: 0
+    time_ads: 0
+  - map: 2
+    cost: 160000000
+    time_unlock: 2160
+    time_ads: 1800
+  - map: 3
+    cost: 1.12e+9
+    time_unlock: 4860
+    time_ads: 1800
+  Session_Reward:
+  - time: 60
+    reward: 20000
+  - time: 300
+    reward: 100000
+  - time: 900
+    reward: 2000000
+  Constant:
+  - testing_time: 280

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: a92d5aa9658afec43b90d7d65937a895
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Acumin Pro
+  fontNames:
+  - Acumin Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a8303a47b68d6f44184eb57ef859c480, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

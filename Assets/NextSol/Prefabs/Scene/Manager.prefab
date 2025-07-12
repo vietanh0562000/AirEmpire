@@ -1,0 +1,904 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5987206459050667982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8642211485847764046}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8642211485847764046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987206459050667982}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8315927306600864272}
+  - {fileID: 8315927305764372315}
+  - {fileID: 8315927306823728625}
+  - {fileID: 8315927305872394376}
+  - {fileID: 8315927305597366039}
+  - {fileID: 8315927305276807367}
+  - {fileID: 8315927306186210979}
+  - {fileID: 8315927306018193095}
+  - {fileID: 8315927306855601027}
+  - {fileID: 8315927305913941310}
+  - {fileID: 8315927307043724198}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8315927305276807366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8315927305276807367}
+  - component: {fileID: 8315927305276807360}
+  m_Layer: 0
+  m_Name: Operator Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8315927305276807367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927305276807366}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8642211485847764046}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8315927305276807360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927305276807366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dbece9325e980c46b846b7ed5124faf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabCaptain: {fileID: 1070311999215770149, guid: 21f0f8ec686da054da764e543bf8c669,
+    type: 3}
+  prefabHireCaptain: {fileID: 6785108668751365713, guid: 4677efbdb83441344b18e20ef6c05202,
+    type: 3}
+  listParentCaptain:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listCaptainPos:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listCaptains: []
+  listOperators:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listZone:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listBoostNames:
+  - speed
+  - income
+  listRandomCaptainID: 
+  listCaptainIDHired: 
+--- !u!1 &8315927305764372314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8315927305764372315}
+  - component: {fileID: 8315927305764372292}
+  m_Layer: 0
+  m_Name: Pool Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8315927305764372315
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927305764372314}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8642211485847764046}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8315927305764372292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927305764372314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea5cf647df65d7e4388f9670d6212597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listPoolItem:
+  - tagOfObject: money
+    mainObjectPreb:
+    - {fileID: 5074052114032983038, guid: 6fe8c9cbc3646e945abae274f92add0d, type: 3}
+    parent: {fileID: 0}
+    count: 10
+    isExtend: 1
+  - tagOfObject: eff_blast
+    mainObjectPreb:
+    - {fileID: 9197779741681195795, guid: 8850765fdb2dbf44180a54efe7861e99, type: 3}
+    parent: {fileID: 0}
+    count: 10
+    isExtend: 1
+  listEffectItem: []
+  listPoolObject: []
+  listPoolEffect: []
+--- !u!1 &8315927305872394382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8315927305872394376}
+  - component: {fileID: 8315927305872394383}
+  m_Layer: 0
+  m_Name: GameUIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8315927305872394376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927305872394382}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8642211485847764046}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8315927305872394383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927305872394382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e848d11d3b10b42beadb9f90c82df2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraObject: {fileID: 0}
+  dataManager: {fileID: 8315927306823728624}
+  formulaData: {fileID: 11400000, guid: 9a36e4a8ac55c554cb882b81361bd487, type: 2}
+  textMoneyTotal: {fileID: 0}
+  timex2goldcount: {fileID: 0}
+  timex3goldcount: {fileID: 0}
+  timex2speedcount: {fileID: 0}
+  moneyTotal: 0
+  moneyPerPart: 0
+  listIncome: []
+  listUpgradeZone1: []
+  listUpgradeZone2: []
+  listUpgradeZone3: []
+  panelUpgrade: {fileID: 0}
+  prefabUpgrade: {fileID: 8067352026177676727, guid: b14705e594f7d634cb7c771aa8bb2d07,
+    type: 3}
+  bttx2speed: {fileID: 0}
+  bttx3gold: {fileID: 0}
+  bttUnlockNewShip: {fileID: 0}
+  canvasUI: {fileID: 0}
+  bttx2gold5min: {fileID: 0}
+  objcouttimex3: {fileID: 0}
+  objcouttimex2: {fileID: 0}
+  effTimex2Active: {fileID: 0}
+  objcoutspeedx2: {fileID: 0}
+  listSpriteIcon:
+  - {fileID: 21300000, guid: 574860c786fa3d7449e5403baa653578, type: 3}
+  - {fileID: 21300000, guid: bb8dc95d03963e7459fbde1a9d263098, type: 3}
+  - {fileID: 21300000, guid: 72323d353d1fa5f4e9d38cf709617b59, type: 3}
+  listSpritebackground:
+  - {fileID: 21300000, guid: b4cb1f795e8583441a6e939dd6ae72dd, type: 3}
+  - {fileID: 21300000, guid: b4cb1f795e8583441a6e939dd6ae72dd, type: 3}
+  - {fileID: 21300000, guid: b4cb1f795e8583441a6e939dd6ae72dd, type: 3}
+  listTitle:
+  - EARNING
+  - SPEED
+  - WORKERS
+  listUpgradeLevel: 
+  popupSetting: {fileID: 0}
+  popupLevelUp: {fileID: 0}
+  popupNoads: {fileID: 0}
+  popupEarning: {fileID: 0}
+  popupCaptain: {fileID: 0}
+  popupUpgrade: {fileID: 0}
+  popupSessionReward: {fileID: 0}
+  popupExit: {fileID: 0}
+  popupMap: {fileID: 0}
+  popupShop: {fileID: 0}
+  popupSaleUpgrade: {fileID: 0}
+  popupManager: {fileID: 0}
+  popupAds: {fileID: 0}
+  timeCounter: 0
+  timeLevelUp: 20
+  imageLevelBar: {fileID: 0}
+  buttonLevelUp: {fileID: 0}
+  effectmoney: {fileID: 0}
+  textLevel: {fileID: 0}
+  textLevelReward: {fileID: 0}
+  offlineIncome: {fileID: 0}
+  listMenuChosenObject:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listMenuIconChosen:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  panelEffect: {fileID: 0}
+  listUpgradeEffects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listCameraZonePos:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  effCoinUI: {fileID: 0}
+  effMoneyUI: {fileID: 0}
+  effGiftBlastUI: {fileID: 0}
+  listUpgradeSpeedCost: []
+  listUpgradeIncomeCost: []
+  listUpgradeWorkerCost: []
+--- !u!1 &8315927305913941309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8315927305913941310}
+  - component: {fileID: 8315927305913941311}
+  m_Layer: 0
+  m_Name: Tutorial Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8315927305913941310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927305913941309}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8642211485847764046}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8315927305913941311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927305913941309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54322806302c4d7448012ef65133a134, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listPanelTutorial:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listPanelTutorialUpgrade:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listPanelTutorialCaptain:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  panelBooster: {fileID: 0}
+  listTutorialCameraPos:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  effPointerHouse: {fileID: 0}
+  effPointerCaptain: {fileID: 0}
+  effPointerUI: {fileID: 0}
+  effPointerUI2: {fileID: 0}
+  effHandPointer: {fileID: 0}
+--- !u!1 &8315927306018193094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8315927306018193095}
+  - component: {fileID: 8315927306018193088}
+  m_Layer: 0
+  m_Name: Sale Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8315927306018193095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927306018193094}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8642211485847764046}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8315927306018193088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927306018193094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61a13ef316143d34ca24bf59d73f6156, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saleHouseObject: {fileID: 0}
+  prefabUpgrade: {fileID: 6083278374204579240, guid: 84c8f33aea3197e4c81571d0c24aa954,
+    type: 3}
+  panelUpgrade: {fileID: 0}
+  listSpriteIcon:
+  - {fileID: 21300000, guid: 9f5c9fbcbe005734fae9840277c456c9, type: 3}
+  - {fileID: 21300000, guid: 3d8a3a66c6407b947aaee09d63d3d59c, type: 3}
+  - {fileID: 21300000, guid: 72323d353d1fa5f4e9d38cf709617b59, type: 3}
+  listSpritebackground: []
+  listTitle:
+  - Price
+  - Speed
+  - Slot
+  listUpgradeLevel: 
+  isOpen: 0
+  buttonClose: {fileID: 0}
+  listUpgrade: []
+  listPosFirstZone:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listPosParking:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listPosSail:
+  - {fileID: 0}
+  - {fileID: 0}
+  listPosTester:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  numParking: 0
+  totalParkingOpen: 1
+  listShipComPrefab:
+  - {fileID: 2153528556970497780, guid: c8fd0936ac4c8ac4fb4684bde70ca788, type: 3}
+  - {fileID: 5661512316529014378, guid: 8b4447da5b21233408f94fec675604c6, type: 3}
+  - {fileID: 328130863711309057, guid: 987a105525739984ab24a967e4d7080b, type: 3}
+  shipParent: {fileID: 0}
+  listLaunchShipObject:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listGateAnim:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  prefabPushShip: {fileID: 1584773987786698580, guid: 87c375d83a3e0c4448b29e570b71411c,
+    type: 3}
+  panelEffect: {fileID: 0}
+  prefabWorkerCeleb: {fileID: 9034616459035473275, guid: 75847e92700d04547890d274bb18f72d,
+    type: 3}
+  prefabTester: {fileID: 4061843731105732746, guid: 5fcd3e25da145e24f8411d1a7d31e097,
+    type: 3}
+  prefabCustomer: {fileID: 4533404334716942178, guid: 74695d9ed24b05a40aa6555a092a8a85,
+    type: 3}
+  listCustomerPathPos:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listTester: []
+  listTestShipEffect:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listBarrierProgress:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  isParkingAvailable: 1
+  effectUpgrade: {fileID: 0}
+--- !u!1 &8315927306186210978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8315927306186210979}
+  - component: {fileID: 8315927306186210988}
+  m_Layer: 0
+  m_Name: Map Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8315927306186210979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927306186210978}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8642211485847764046}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8315927306186210988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927306186210978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f13b3d7e04293b4bb68b0350ee36d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelDatas: {fileID: 11400000, guid: f379dc56e6a5d3a42bbcdab4b8a6c01a, type: 2}
+  prefabLevel: {fileID: 5422792119225822135, guid: 7de5edcf78a9d2a46862311766e42127,
+    type: 3}
+  panelLevel: {fileID: 0}
+  scrollRect: {fileID: 0}
+  listLevel: []
+--- !u!1 &8315927306600864279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8315927306600864272}
+  - component: {fileID: 8315927306600864273}
+  m_Layer: 0
+  m_Name: Truck Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8315927306600864272
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927306600864279}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8642211485847764046}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8315927306600864273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927306600864279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d962a3ca0fbdcd4a8880dd087b12d08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listCraneObject:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listPickObject:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listIsFinishLoop: 
+  isfinishloop: 0
+  listTruckObject:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listFirstDecor:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listWorkerDecor:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  truckObject: {fileID: 0}
+  listTruckPos:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listTruckPos2:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listTruckPos3:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listTruckPath: []
+  listTruckReturnPath: []
+--- !u!1 &8315927306823728631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8315927306823728625}
+  - component: {fileID: 8315927306823728624}
+  m_Layer: 0
+  m_Name: DataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8315927306823728625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927306823728631}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8642211485847764046}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8315927306823728624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927306823728631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f14337cd23b76e447b14ca5684668be0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgradeDatas: {fileID: 11400000, guid: 713485e8bb45cb0438c94216bc448df8, type: 2}
+  numLevel: 0
+  statusLevelUp: 0
+  currentExp: 0
+  isScene1: 0
+  numUpgrade: 0
+  musicStatus: 0
+  soundStatus: 0
+  notiStatus: 0
+  timeOnlineString: 
+  timeOnline: 0
+  isOnline: 0
+  year: 0
+  month: 0
+  day: 0
+  timeexit: 
+  numSessionRewardClaimed: 0
+  isSessionRewardClaimed: 0
+  listSessionClaim: 
+  numTutorialStep: 0
+  numStep1: 0
+  numStep2: 0
+  totalMap: 2
+  currentMap: 0
+  listLevelEarning: 
+  listLevelSpeed: 
+  listLevelWorker: 
+  listNumPartCompleted: 
+  listNumPartDecorTransported: 
+  listOperatorUnlock: 
+  listHireCaptain: 
+  listCaptainID: 
+  listParkingData: 
+  levelSaleSlot: 0
+  levelSaleSpeed: 0
+  levelSalePrice: 0
+--- !u!1 &8315927306855601026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8315927306855601027}
+  - component: {fileID: 8315927306855601036}
+  m_Layer: 0
+  m_Name: Decor Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8315927306855601027
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927306855601026}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8642211485847764046}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8315927306855601036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927306855601026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65ed8ad392f1fab428245027adcb4e9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelDecor: {fileID: 0}
+  prefabTruck: {fileID: 4091054503938244097, guid: d9937c47fdee07a4d80e9070a4569575,
+    type: 3}
+  truck1: {fileID: 0}
+  listTruck1Pos: []
+  truck2: {fileID: 0}
+  listTruck2Pos: []
+  truck3: {fileID: 0}
+  listTruck3Pos:
+  - {fileID: 0}
+  - {fileID: 0}
+  truck4: {fileID: 0}
+  listTruck4Pos:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!1 &8315927307043724197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8315927307043724198}
+  - component: {fileID: 8315927307043724199}
+  m_Layer: 0
+  m_Name: Ads Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8315927307043724198
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927307043724197}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8642211485847764046}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8315927307043724199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315927307043724197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f3f11825a59814793873f93356b052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedBoosterObject: {fileID: 0}
+  isSpeedAppear: 0
+  timeSpeedBoosterWait: 0
+  timeSpeedBoosterApeear: 0
+  timeSpeedActivated: 0
+  isBoosterSpeedActivated: 0
+  timeSpeedActivatedObject: {fileID: 0}
+  textTimeSpeedCount: {fileID: 0}
+  incomeBoosterObject: {fileID: 0}
+  textIncomeTime: {fileID: 0}
+  isIncomeAppear: 0
+  timeIncomeBoosterWait: 0
+  timeIncomeBoosterAppear: 0
+  timeIncomeActivated: 0
+  isBoosterIncome5mActivated: 0
+  isBoosterIncome15mActivated: 0
+  isBoosterIncome60mActivated: 0
+  isBoosterIncomeActivated: 0
+  timeIncomeActivatedObject: {fileID: 0}
+  textTimeIncomeCount: {fileID: 0}
+  numBoosterIncomeActive: 0
+  investorAdsObject: {fileID: 0}
+  listPos:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  listPath: []
+  isInvestorAppear: 0
+  timeInvestorWait: 0
+--- !u!1001 &4326677996717685903
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8642211485847764046}
+    m_Modifications:
+    - target: {fileID: 5720531838494118808, guid: d57d237bb49b2cb44beb62c0153ef2e7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720531838494118808, guid: d57d237bb49b2cb44beb62c0153ef2e7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720531838494118808, guid: d57d237bb49b2cb44beb62c0153ef2e7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720531838494118808, guid: d57d237bb49b2cb44beb62c0153ef2e7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720531838494118808, guid: d57d237bb49b2cb44beb62c0153ef2e7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720531838494118808, guid: d57d237bb49b2cb44beb62c0153ef2e7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720531838494118808, guid: d57d237bb49b2cb44beb62c0153ef2e7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720531838494118808, guid: d57d237bb49b2cb44beb62c0153ef2e7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720531838494118808, guid: d57d237bb49b2cb44beb62c0153ef2e7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720531838494118808, guid: d57d237bb49b2cb44beb62c0153ef2e7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720531838494118808, guid: d57d237bb49b2cb44beb62c0153ef2e7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720531838494118809, guid: d57d237bb49b2cb44beb62c0153ef2e7,
+        type: 3}
+      propertyPath: m_Name
+      value: Popup Manager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d57d237bb49b2cb44beb62c0153ef2e7, type: 3}
+--- !u!4 &8315927305597366039 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5720531838494118808, guid: d57d237bb49b2cb44beb62c0153ef2e7,
+    type: 3}
+  m_PrefabInstance: {fileID: 4326677996717685903}
+  m_PrefabAsset: {fileID: 0}

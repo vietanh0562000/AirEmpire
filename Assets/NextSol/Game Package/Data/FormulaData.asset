@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864308241d3c13f4480fb799aec9b1b3, type: 3}
+  m_Name: FormulaData
+  m_EditorClassIdentifier: 
+  formula:
+  - BaseEarningShip: 200
+    BaseEarningUpgradeShip: 4000
+    BaseSpeedUpgradeShip: 5000
+    BaseWorkerUpgradeShip: 10000
+    LevelLimitBES: 60
+    LevelLimitBSU: 40
+    LevelLimitBWU: 20
+  - BaseEarningShip: 5000
+    BaseEarningUpgradeShip: 10000
+    BaseSpeedUpgradeShip: 12000
+    BaseWorkerUpgradeShip: 100000
+    LevelLimitBES: 160
+    LevelLimitBSU: 80
+    LevelLimitBWU: 20
